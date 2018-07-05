@@ -1,15 +1,14 @@
 <!-- begin post -->
 {% assign author = site.authors[post.author] %}
 
-<div class="col-md-6 grid-item">
+<div class="col-md-4 grid-item">
 <div class="card">
     <a href="{{ post.url | absolute_url }}">
-        {% if post.image %} <img class="img-fluid" src="{{ site.baseurl }}/{{ post.image }}" alt="{{ post.title }}"> {% endif %}
-    </a>
     <div class="card-block">
         <h2 class="card-title"><a href="{{ post.url | absolute_url }}">{{ post.title }}</a></h2>
         <h4 class="card-text">{{ post.excerpt | strip_html | truncatewords:30 }}</h4>
         <div class="metafooter">
+<!-- KIWI Turn off Author and Share Links
             <div class="wrapfooter">
                 {% if post.author %}
                 <span class="meta-footer-thumb">
@@ -23,8 +22,10 @@
                 <span class="post-read-more"><a href="{{ post.url | absolute_url }}" title="Read Story"><i class="fa fa-link"></i></a></span>
                 <div class="clearfix"></div>
             </div>
+-->
         </div>
     </div>
+    </a>
 </div>
 </div>
 <!-- end post -->

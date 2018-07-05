@@ -41,10 +41,15 @@ pre {
 }
 .nav-up {box-shadow:none;}
 
+.site-content-homepage {
+    padding-top: 0rem;
+    margin-top: 0px;
+    transition: all 0.1s;
+}
 .site-content {
-    padding-top: 3.5rem;
-    margin-top: 57px;
-    transition: all 0.4s;
+    padding-top: 0rem;
+    margin-top: 0px;
+    transition: all 0.1s;
 }
 section {
 	margin-bottom:20px;
@@ -130,8 +135,6 @@ section.recent-posts {
 .navbar-toggler {
     z-index:9999;
 }
-
-
 
 .navbar-toggleable-md .navbar-nav .nav-link {
     margin-left: 1rem;
@@ -328,13 +331,14 @@ span.post-name a,span.post-read-more a:hover {
 	margin-bottom:1rem;
 }
 .intro {
-    background-image:url(../images/head.jpg);
-    background-size:cover;
-    padding: 9rem 0;
-    margin-top:-87px;
-    margin-bottom:3.5rem;
+    padding-top: 0rem !important;
+    margin-top: 0px !important;
     z-index: 1;
     position: relative;
+    height: 540px;
+    background: rgba(255,126,95,0.5);  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, rgba(254,180,123,0.7), rgba(255,126,95,0.7));  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, rgba(254,180,123,0.5), rgba(255,126,95,0.5)); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 .intro .btn {
     background: #fff100;
@@ -769,10 +773,15 @@ background-color: #fff;
     -moz-box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.30);
     box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.30);
 }
-img {max-width:100%;height: auto;}
+
+img {
+    max-width:100%;height: auto;
+}
+
 .bottompagination span.navigation {
 
 }
+
 .bottompagination span.navigation a {
 	background: #fff100;
     color: #333;
