@@ -1,102 +1,57 @@
 ---
 layout: page
 title: Vudu
-comments: true
+comments: false
 ---
 
-This website is built with Jekyll and "Affiliates" (a Jekyll Template designed & developed by WowThemes.net). It is meant for demonstration purposes, so you can have an idea of how this theme looks in action so no real content can be found. Affiliates template for Jekyll is compatible with Github pages, in fact even this demo is created with Github Pages and hosted with Github. This page in example shows a page layout.
+Today’s entertainment world is scattered in so many directions that it can be challenging for anyone to keep up with the content that matters to them.  Add to the fact that we all have busy schedules and consume media with second screens in our face.
 
-**License & Download**
+This was a problem that I had for myself as I tried to raise a family, maintain a career with emails coming 24/7, and take graduate courses.  I grew up in love with my stories as it added cultural relevance and entertainment to my life.  On top of this, I would have conversations with others and we would get into talking about movies and TV shows and books and music and it always left me with the desire to catch up intriguing content.  It’s not like the old days where everyone consumed content in the same place through their local broadcast network or radio station or library.
 
-"Affiliates" for Jekyll is designed and developed by WowThemes.net and it is *free* for personal use.
+Life in general is too splintered and there has to be a more interesting way to manage this stuff.  Yes, its not critical to one’s life but when you include the arts, doesn’t it make life more fulfilling?
 
-<a href="https://gum.co/affiliates-jekyll-template" target="_blank">Download - Affiliates Jekyll Theme</a>
+![jekyll template mediumish]({{site.baseurl}}/assets/images/1.jpg)
 
-![jekyll template mediumish]({{site.baseurl}}/assets/images/theme1.jpg)
+I consider this a unique problem but went into various app stores to find tools online or on mobile platforms.  I largely came up empty as what I basically found was similar to something like GoWatchIt.  I did sign up for a couple of them but each was a glorified queue and they simply didn’t have integration with as many products as I would like.
 
-![jekyll template mediumish]({{site.baseurl}}/assets/images/theme2.jpg)
+Most queue products don’t actually take into account the various situations in which I could consume media and treats it all the same.  In addition, I did not find anything that could incorporate additional media types such as books and music.
 
-![jekyll template mediumish]({{site.baseurl}}/assets/images/theme3.jpg)
+![jekyll template mediumish]({{site.baseurl}}/assets/images/2.jpg)
 
-![jekyll template mediumish]({{site.baseurl}}/assets/images/theme4.jpg)
+Is there a reason that there isn’t a service that bundles all kinds of media together?  I did a search to see if services across platforms provided APIs and for the most part everything I looked up did provide the relevant data feeds.
 
-#### Features
+There might be some technical concerns about what data would get pulled from these APIs but I didn’t focus too much on that for this initial prototype.  As long as some data could be pulled, there should be enough to incorporate it into the design.
 
-- Built for Jekyll
-- Compatible with Github pages
-- Featured Posts
-- Index Pagination
-- Post Categories
-- Prev/Next Link
-- Category Archives (this is not yet compatible with github pages though)
-- Integrations:
-    - Disqus Comments
-    - Google Analaytics
-    - Mailchimp Integration
-    - Sharethis Integration
-    - Formspree.io Contact
-- Design Features:
-    - Bootstrap v4.0.0-alpha.6
-    - Font Awesome
-    - Masonry
-- Layouts:
-    - Default
-    - Post left sidebar
-    - Post right sidebar
-    - Page
-    - Archive
+![jekyll template mediumish]({{site.baseurl}}/assets/images/2.jpg)
+
+#### ANOTHER QUEUE IS NOT ENOUGH
+So there can be a logical means to build a queue around multiple media types.  That’s great and could be a valuable add into the marketplace but it’s not really enough.  I mean, how is this different from just keeping a Google Sheet with links?  The design problem here needed to be solved with a more advanced solution.  Thus I wanted to take into account key factors that limit someone’s ability to make a choice about how to consume media.
     
-#### How to Use
+![jekyll template mediumish]({{site.baseurl}}/assets/images/3.jpg)
 
-If you aren't familiar with Jekyll yet, you should know that it is a static site generator. It will transform your plain text into static websites and blogs. If you are a beginner we recommend you start with [Jekyll's Docs](https://jekyllrb.com/docs/installation/){:target="_blank"}. Now if you know how to use Jekyll, let's move on to using Affiliates template in Jekyll:
+I thought through this interactive experience.  With the onset of conversational UIs spreading the marketplace, I figured this would be a great way to make finding media less burdensome.  I took some of the variables that could impact the what to consume and when and presented a branching diagram to make sure I covered all my bases.  I was just focusing on this portion of my product as it was the most abstract and queue management can be leveraged on best practices that already existed.
 
-[Download](https://gum.co/affiliates-jekyll-template){:target="_blank"} or Fork *Affiliates for Jekyll*. 
-- In your local project, open <code>_config.yml</code>. If your site is in root, for <code>baseurl</code>, make sure this is set to <code>baseurl: /</code>. Also, change your Google Analytics code, Disqus username, Authors, Mailchimp, ShareThis code (https://www.sharethis.com/) etc.
-- Affiliates requires 2 plugins: 
-    - <code>$ gem install jekyll-paginate</code>
-    - <code>$ gem install jekyll-archives</code>.
-- Locate the files and customize:
-    - header & footer in <code>default.html</code>. 
-    - homepage in <code>index.html</code>
-    - contact form in <code>contact.html</code> (https://formspree.io/)
-    - post sidebar in <code>includes/sidebar.html</code>
-    - sign up form in <code>includes/newsletter.html</code>
-- Start blogging by adding your .md files in <code>_posts</code>. You will see in examples in the download.
-- YAML front matter
-    - post featured - <code>featured:true</code>
-    - post featured image - <code>image: assets/images/mypic.jpg</code>
-    - page comments - <code>comments:true</code>
-    - meta description (optional) - <code>description: "this is my meta description"</code>
-    
-YAML Post Example:
-<pre class="highlight">
----
-layout: post
-title:  "We all wait for summer"
-author: john
-categories: [ Jekyll, tutorial ]
-image: assets/images/5.jpg
-featured: true
----
-</pre>
+![jekyll template mediumish]({{site.baseurl}}/assets/images/4.jpg)
 
-YAML Post Sidebar Right Example:
-<pre class="highlight">
----
-layout: post-sidebar-right
-title:  "We all wait for summer"
-author: john
-categories: [ Jekyll, tutorial ]
-image: assets/images/5.jpg
-featured: true
----
-</pre>
+Using my own family as users for this project, I mapped out user flows that would potentially take place.  Sketching this by hand gives me immediate feedback and a sense of being actively engaged in my work.
 
-YAML Page Example
-<pre class="highlight">
----
-layout: page
-title: Affiliates Template for Jekyll
-comments: true
----
-</pre>
+![jekyll template mediumish]({{site.baseurl}}/assets/images/5.jpg)
+
+I needed to take this concept to a traditional wireframe to see if it all worked together.  I shared this with a couple of friends to get the feeling of whether it worked or not and got positive feedback, which inspired me to create the mockups.
+
+I ventured into taking the initial wireframe concepts and created visual mockups in Sketch, starting first with the onboarding experience.  My expectation was that these screens would serve as a book cover before getting into the app so it would be overall a darker and bolder visual design.
+
+![jekyll template mediumish]({{site.baseurl}}/assets/images/6.jpg)
+
+I crafted a default list for an active user and put together key elements that I felt would be of most importance.  There obviously had to be references to the order and metadata about the medium itself.  In addition, the key element of time was included as well as indicators showing if the item was instantly accessible or not.
+
+Empty screens are usually areas for designers to skimp on but is something I always want to consider.  I created a few screens with flow directions below of a user who has nothing in their queue and wants to search to add something.
+
+![jekyll template mediumish]({{site.baseurl}}/assets/images/1.jpg)
+
+Finally the most unique aspect of this application is the conversation flow I wireframed earlier.  Sadly as I was wireframing all of this, I realized the actual steps for interaction adds unnecessary burden on the user to interact.  So I used the conversation form factor but provided all of the choices the user makes in cards subsequent to the questions above.  I think this is more easily interactive and efficient overall for this particular use case.
+
+![jekyll template mediumish]({{site.baseurl}}/assets/images/2.jpg)
+
+#### WHAT’S NEXT?
+Now that I have a concept in place, as time progresses, I’d love to actually use this project to practice building out a mobile application.  In the meantime, I will also test with more users to see if the concept overall has some merit.  Who knows it may be an app that eventually hits the app store.
