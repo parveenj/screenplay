@@ -36,7 +36,7 @@ pre {
 .mediumnavigation {
 	background: #fff;
         transition: top 0.5s ease-in-out;
-        padding: 1.5rem 1rem;
+        /*padding: 1.5rem 1rem;*/
         box-shadow: 0px 10px 40px 0px rgba( 0, 0, 0, 0.05 );
 }
 .nav-up {box-shadow:none;}
@@ -331,14 +331,14 @@ span.post-name a,span.post-read-more a:hover {
 	margin-bottom:1rem;
 }
 .intro {
-    padding-top: 0rem !important;
+    padding: 6rem !important;
     margin-top: 0px !important;
     z-index: 1;
     position: relative;
-    height: 540px;
-    background: rgba(255,126,95,0.5);  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, rgba(254,180,123,0.7), rgba(255,126,95,0.7));  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, rgba(254,180,123,0.5), rgba(255,126,95,0.5)); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    height: 600px;
+    background: #fc4a1a;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #f7b73390, #fc4a1a90);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #f7b73390, #fc4a1a90); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 .intro .btn {
     background: #fff100;
@@ -355,11 +355,24 @@ span.post-name a,span.post-read-more a:hover {
 .intro h1 {
     font-weight:700;
 }
-.intro h2 {
+.intro-side h2 {
     margin-top: 2rem;
-    margin-bottom: 2rem;
-    color: #888;
+    color: #FFF;
     line-height: 1.6;
+}
+.intro-side p {
+    color: #FFF;
+    line-height: 1.6;
+}
+.intro-side {
+    background-color: #01244D;
+    padding: 4rem;
+    height: 600px;
+}
+.intro-side img {
+    display: block;
+    max-width: 50%;
+    margin: auto;
 }
 .wrapintro {
     background: #fff;
