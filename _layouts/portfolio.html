@@ -1,87 +1,62 @@
----
-layout: default
----
 
+    
+{% include header.html %}
+    
+{% capture layout %}{% if page.layout %}layout-{{ page.layout }}{% endif %}{% endcapture %}
+<body class="{{ layout }}">
 
-<section>
-    <div class="section-title">
-        <h2><span>{{ page.title }}</span></h2>
+    
+<!-- Begin Menu Navigation
+================================================== -->
+
+{% include navigation.html %}
+
+    
+<!-- End Menu Navigation
+================================================== -->
+    
+<div class="site-content">
+    
+    <div class="container container-portfolio">
+
+    <!-- Site Title
+    ================================================== -->
+
+    <div class="mainheading" style="display:none;">
+        <h1 class="sitetitle">{{ site.name }}</h1>
+        <p class="lead">
+             {{ site.description }}
+        </p>
     </div>
+
+
+    <!-- Content
+    ================================================== --> 
+    <div class="main-content">
+        {{ content }}
+    </div>
+
+    </div><!-- /.container --> 
+
+{% include footer.html %}
     
-    <section class="mbr-slider mbr-section mbr-section--no-padding carousel slide" data-ride="carousel" data-wrap="true" data-interval="5000" id="slider-5" style="background-color: #4c6972;">
-        <div class="mbr-section__container">
-            <div>
-                <ol class="carousel-indicators">
-                    <li data-app-prevent-settings="" data-target="#slider-5" data-slide-to="0" class="active"></li><li data-app-prevent-settings="" data-target="#slider-5" data-slide-to="1"></li><li data-app-prevent-settings="" data-target="#slider-5" class="" data-slide-to="2"></li>
-                </ol>
-                <div class="carousel-inner" role="listbox">
-                    <div class="mbr-box mbr-section mbr-section--relative mbr-section--fixed-size mbr-section--bg-adapted item dark center mbr-section--full-height active" style="background-image: url(https://images.unsplash.com/photo-1433264058539-880eb8412c9d);">
-                        <div class="mbr-box__magnet mbr-box__magnet--center-right mbr-box__magnet--sm-padding">
-                                                
-                            <div class=" container">
-                                
-                                <div class="row">
-                                    <div class=" col-md-6 col-md-offset-5">  
-      
-                                    <div class="mbr-hero">
-                                        <h1 class="mbr-hero__text">Bootstrap Carousel</h1>
-      
-                                        <p class="mbr-hero__subtext">Slide 1. Content aligned to left</p>
-                                    </div>
-                                    <div class="mbr-buttons btn-inverse mbr-buttons--left mbr-buttons--right"><a class="mbr-buttons__btn btn btn-lg btn-danger" href="#">FREE DOWNLOAD</a> <a class="mbr-buttons__btn btn btn-lg btn-default" href="#">VIEW DEMO</a></div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div><div class="mbr-box mbr-section mbr-section--relative mbr-section--fixed-size mbr-section--bg-adapted item dark center mbr-section--full-height" style="background-image: url(https://images.unsplash.com/photo-1429655353447-d030683895ad);">
-                        <div class="mbr-box__magnet mbr-box__magnet--center-center mbr-box__magnet--sm-padding">
-                                                
-                            <div class=" container">
-                                
-                                <div class="row">
-                                    <div class=" col-md-8 col-md-offset-2">  
-      
-                                    <div class="mbr-hero">
-                                        <h1 class="mbr-hero__text">Full-Screen Bootstrap Carousel</h1>
-      
-                                        <p class="mbr-hero__subtext">Slide 2. Centered content</p>
-                                    </div>
-                                    <div class="mbr-buttons btn-inverse mbr-buttons--center"><a class="mbr-buttons__btn btn btn-lg btn-danger" href="#">FREE DOWNLOAD</a> <a class="mbr-buttons__btn btn btn-lg btn-default" href="#">VIEW DEMO</a></div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div><div class="mbr-box mbr-section mbr-section--relative mbr-section--fixed-size mbr-section--bg-adapted item dark center mbr-section--full-height" style="background-image: url(https://images.unsplash.com/uploads/1412017894428ae87a2ba/d8b14e97);">
-                        <div class="mbr-box__magnet mbr-box__magnet--center-left mbr-box__magnet--sm-padding">
-                                                
-                            <div class=" container">
-                                
-                                <div class="row">
-                                    <div class=" col-md-6 col-md-offset-1">  
-      
-                                    <div class="mbr-hero">
-                                        <h1 class="mbr-hero__text">Full-Width Bootstrap Carousel</h1>
-      
-                                        <p class="mbr-hero__subtext">Slide 3. Content aligned to right </p>
-                                    </div>
-                                    <div class="mbr-buttons btn-inverse mbr-buttons--left"><a class="mbr-buttons__btn btn btn-lg btn-danger" href="#">FREE DOWNLOAD</a> <a class="mbr-buttons__btn btn btn-lg btn-default" href="#">VIEW DEMO</a></div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                
-                <a data-app-prevent-settings="" class="left carousel-control" role="button" data-slide="prev" href="#slider-5">
-                    <span aria-hidden="true">&lt;</span>
-                    <span class="sr-only">Previous</span>
-                </a>
-                <a data-app-prevent-settings="" class="right carousel-control" role="button" data-slide="next" href="#slider-5">
-                    <span aria-hidden="true">&gt;</span>
-                    <span class="sr-only">Next</span>
-                </a>
-            </div>
-        </div>
-      </section>
+</div> <!-- /.site-content>
+dfc
+<!-- JavaScript
+================================================== -->
     
-</section>
+<script src="{{ site.baseurl }}/assets/js/jquery.min.js"></script>
+    
+<script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
+    
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
+    
+<script src="{{ site.baseurl }}/assets/js/ie10-viewport-bug-workaround.js"></script>
+    
+<script type='text/javascript' src='{{ site.baseurl }}/assets/js/masonry.pkgd.min.js'></script>
+    
+<script src="{{ site.baseurl }}/assets/js/theme.js"></script>    
+    
+</body>
+    
+</html>
