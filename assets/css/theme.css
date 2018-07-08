@@ -876,3 +876,21 @@ iframe {
 .container-portfolio {
     width: 100%;
 }
+
+/*--OVERRIDES--*/
+
+.carousel-control-prev {
+    width: initial;
+}
+
+.carousel-control-next {
+    width: initial;
+}
+
+.carousel-control-next-icon {
+    background-image: url("../images/arrow-right.svg")
+}
+
+.carousel-control-prev-icon {
+    background-image: url("../images/arrow-left.svg")
+}
