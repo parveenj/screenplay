@@ -873,6 +873,10 @@ iframe {
     
 }
 
+.carousel {
+    height: 80%;
+}
+
 .container-portfolio {
     width: 100%;
 }
@@ -893,4 +897,28 @@ iframe {
 
 .carousel-control-prev-icon {
     background-image: url("../images/arrow-left.svg")
+}
+
+.carousel-indicators {
+    bottom: 0;
+    padding: 16px 0px 0px 0px;
+    margin: 0px 0px -24px 0px;
+}
+
+.carousel-indicators li {
+    border-radius: 50%;
+    width: 24px;
+    height: 24px;
+    background-color: #22288850;
+}
+
+.carousel-indicators .active {
+    border-radius: 50%;
+    width: 24px;
+    height: 24px;
+    background-color: #222888;
+}
+
+.carousel-inner {
+    height: 60vh;
 }
