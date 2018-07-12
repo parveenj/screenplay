@@ -255,7 +255,7 @@ span.post-date,span.post-read {
 
 span.post-read-more a {
 	color:rgba(0,0,0,.44);
-     align-items: center;
+    align-items: center;
     display: inline-block;
     float: right;
      width: 30px;
@@ -785,10 +785,6 @@ img {
     max-width:100%;height: auto;
 }
 
-.bottompagination span.navigation {
-
-}
-
 .bottompagination span.navigation a {
 	background: #fff100;
     color: #333;
@@ -885,10 +881,12 @@ iframe {
 
 .carousel-control-prev {
     width: initial;
+    top: initial;
 }
 
 .carousel-control-next {
     width: initial;
+    top: initial;    
 }
 
 .carousel-control-next-icon {
@@ -902,23 +900,33 @@ iframe {
 .carousel-indicators {
     bottom: 0;
     padding: 16px 0px 0px 0px;
-    margin: 0px 0px -24px 0px;
 }
 
 .carousel-indicators li {
     border-radius: 50%;
-    width: 24px;
-    height: 24px;
+    width: 2px;
+    height: 8px;
     background-color: #22288850;
+    max-width: 8px;
+    margin: 4px;
 }
 
 .carousel-indicators .active {
     border-radius: 50%;
-    width: 24px;
-    height: 24px;
+    width: 2px;
+    height: 8px;
     background-color: #222888;
+    max-width: 8px;
+    margin: 4px;
 }
 
 .carousel-inner {
-    height: 60vh;
+    height: 72vh;
+    border-width: 2px;
+    border-style: solid;
+    border-color: #111111;
+}
+
+.carousel-item {
+    padding: 16px;
 }
