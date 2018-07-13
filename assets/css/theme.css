@@ -330,9 +330,9 @@ span.post-name a,span.post-read-more a:hover {
     z-index: 1;
     position: relative;
     height: 600px;
-    background: #fc4a1a;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #f7b73390, #fc4a1a90);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #f7b73390, #fc4a1a90); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: #FF8008;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #FFC83790, #FF800890);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #FFC83790, #FF800890); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */    
 }
 .intro .btn {
     background: #fff100;
@@ -879,22 +879,20 @@ iframe {
 
 /*--OVERRIDES--*/
 
-.carousel-control-prev {
+.carousel-control-prev, .carousel-control-next {
     width: initial;
-    top: initial;
-}
-
-.carousel-control-next {
-    width: initial;
-    top: initial;    
+    top: initial; 
+    padding: 16px;
 }
 
 .carousel-control-next-icon {
-    background-image: url("../images/arrow-right.svg")
+    background-image: url("../images/arrow-right.svg");
+    bottom: 0;
 }
 
 .carousel-control-prev-icon {
-    background-image: url("../images/arrow-left.svg")
+    background-image: url("../images/arrow-left.svg");
+    bottom: 0;
 }
 
 .carousel-indicators {
@@ -922,11 +920,17 @@ iframe {
 
 .carousel-inner {
     height: 72vh;
-    border-width: 2px;
+    border-width: 1px;
     border-style: solid;
     border-color: #111111;
+    border-radius: 4px;
+}
+
+.carousel-multi-item .carousel-inner {
+    border-width: 0px;
 }
 
 .carousel-item {
     padding: 16px;
+    height: 100%;
 }
