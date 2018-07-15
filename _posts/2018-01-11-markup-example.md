@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post-left
 title:  "Markdown Example"
 author: pj
 categories: [ Jekyll, tutorial ]

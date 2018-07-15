@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post-left
 title:  "Is Intelligence Enough"
 author: pj
 categories: [ Jekyll, tutorial ]

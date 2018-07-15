@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post-left
 title:  "Moving From Wordpress"
 author: pj
 categories: [ Jekyll, tutorial ]

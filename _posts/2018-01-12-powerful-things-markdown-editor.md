@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post-left
 title:  "Powerful things you can do with the Markdown editor"
 author: pj
 categories: [ Jekyll, tutorial ]

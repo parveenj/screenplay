@@ -1,5 +1,5 @@
 ---
-layout: post-right-sidebar
+layout: post-left
 title:  "Design Management 101"
 author: pj
 categories: [ Jekyll, tutorial ]
