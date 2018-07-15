@@ -3,18 +3,42 @@ layout: page
 title: Blog
 ---
 
-This website is built with Jekyll and "Affiliates" (a Jekyll Template designed & developed by WowThemes.net). It is meant for demonstration purposes, so you can have an idea of how this theme looks in action so no real content can be found. Affiliates template for Jekyll is compatible with Github pages, in fact even this demo is created with Github Pages and hosted with Github. This page in example shows a page layout.
+I enjoy writing but I don't have time to really work on the craft. So instead of blogging, I call this rambling but love the chance to share it with you regardless. Please check out some of these articles and ping me to let me know what you think. 
 
-<div class="masonrygrid row listrecent">
+<section class="recent-posts row">
 
-        {% for post in paginator.posts %}
+    <div class="col-sm-12">
 
-        {% unless post.featured == true %}
+        <div class="section-title">
+            <h2><span>Ramblings on tech and life</span></h2>    
+        </div>
 
-            {% include postbox.html %}
+        <div class="masonrygrid row">
 
-        {% endunless %}
+            {% for post in site.posts %} 
 
-        {% endfor %}
+            {% include postbox.html %} 
 
-    </div> 
+            {% endfor %}
+            {% if paginator.previous_page %} 
+            {% if paginator.previous_page > 0 %}
+            {% endif %}
+            {% endif %}
+
+        </div> 
+
+<!-- KIWI Turn off Pagination 
+        <div class="bottompagination">
+
+            <span class="navigation" role="navigation">
+
+                {% include pagination.html %}
+
+            </span>
+
+        </div>
+-->
+
+    </div>
+
+</section>

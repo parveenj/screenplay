@@ -70,7 +70,7 @@ title: Home
 
                     {% for post in paginator.posts %}
 
-                    {% unless post.featured == true %}
+                    {% unless post.featured == false %}
 
                         {% include postbox.html %}
 

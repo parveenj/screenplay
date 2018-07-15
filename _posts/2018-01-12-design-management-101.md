@@ -1,6 +1,6 @@
 ---
 layout: post-right-sidebar
-title:  "Red Riding Hood"
+title:  "Design Management 101"
 author: pj
 categories: [ Jekyll, tutorial ]
 image: assets/images/3.jpg
