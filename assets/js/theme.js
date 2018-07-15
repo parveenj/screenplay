@@ -131,10 +131,7 @@ jQuery(document).ready(function($){
         lastScrollTop = st;
     }
     
-    
-    $('.site-content').css('margin-top', $('header').outerHeight() + 'px');
-    
-    
+//    $('.site-content').css('margin-top', $('header').outerHeight() + 'px');  
     
     // to top
     $("a.sscroll[href='#totop']").click(function() {

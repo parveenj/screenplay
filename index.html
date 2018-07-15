@@ -42,55 +42,12 @@ title: Home
 <div class="container">
     
     <div class="main-content">
-        
-
-        <!-- Posts Index
-        ================================================== -->
-         {% if paginator.previous_page %}
-                {% if paginator.previous_page > 0 %}
-                 <div id="jumptopageof"></div>
-        {% endif %}
-        {% endif %}    
 
         <div class="section-title">
                 <h2><span>Stories about my work</span></h2>    
         </div>
 
         {% include carousel-portfolio.html %}
-
-        <section class="recent-posts row">
-
-            <div class="col-sm-12">
-
-                <div class="section-title">
-                    <h2><span>Ramblings on tech and life</span></h2>    
-                </div>
-
-                <div class="masonrygrid row listrecent">
-
-                    {% for post in paginator.posts %}
-
-                    {% unless post.featured == false %}
-
-                        {% include postbox.html %}
-
-                    {% endunless %}
-
-                    {% endfor %}
-
-                </div> 
-
-<!-- KIWI Turn off Pagination 
-                <div class="bottompagination">
-
-                    <span class="navigation" role="navigation">
-
-                        {% include pagination.html %}
-
-                    </span>
-
-                </div>
--->
 
             </div>
 
