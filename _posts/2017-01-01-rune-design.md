@@ -1,6 +1,6 @@
 ---
 layout: post-left
-title:  "Markdown Example"
+title:  "Leading Design at Rune"
 author: pj
 categories: [ Jekyll, tutorial ]
 image: assets/images/6.jpg

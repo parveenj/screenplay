@@ -1,6 +1,6 @@
 ---
 layout: post-left
-title:  "Design Management 101"
+title:  "Design Management Thoughts"
 author: pj
 categories: [ Jekyll, tutorial ]
 image: assets/images/3.jpg

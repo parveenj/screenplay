@@ -1,6 +1,6 @@
 ---
 layout: post-left
-title:  "Is Intelligence Enough"
+title:  "Invision Screening"
 author: pj
 categories: [ Jekyll, tutorial ]
 image: assets/images/5.jpg
