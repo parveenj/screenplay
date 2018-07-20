@@ -73,7 +73,6 @@ section.recent-posts {
 }
 
 .section-title span {
-    background-color: #fff;
     position: relative;
     z-index: 2;
     display: inline-block;
@@ -257,7 +256,6 @@ span.post-read-more a {
 	color:rgba(0,0,0,.44);
     align-items: center;
     display: inline-block;
-    float: right;
      width: 30px;
     height: 30px;
     line-height: 30px;
@@ -545,6 +543,17 @@ ul.tags li a {
     font-size: 0.93em;
     text-transform: capitalize;    
     box-shadow: 0 6px 10px 0 rgba(169, 169, 169, 0.1);
+}
+ul.tags li span {
+    background: #fff100;
+    color: #333;
+    padding: 2px 6px;
+    border-radius: 2px;
+    font-weight: 300;
+    font-size: 0.8em;
+    text-transform: capitalize;    
+    box-shadow: 0 2px 6px 0 rgba(169, 169, 169, 0.1);
+    margin: 4px;
 }
 ul.tags li a:hover {
 	background:rgba(0,0,0,.07);
@@ -878,6 +887,45 @@ iframe {
 
 /*--OVERRIDES--*/
 
+.portfolio-title {
+    width: 100vw;
+    margin: 0px -16px 0px -16px !important;
+    height: 100%;
+    margin: auto;
+    overflow: hidden;
+    background: #171e27;
+    color: #FFFFFF;
+}
+
+.portfolio-title li {
+    display: inline-block;
+    padding: 24px;
+}
+
+.portfolio-title h3 span {
+    margin: auto;
+    height: 80px;
+}
+
+.portfolio-title .col-6 {
+    margin: 20px 0px 0px 0px;
+}
+
+.portfolio-indicators {
+    padding: 20px;
+    background: #171e27;
+}
+
+.section-title {
+    background: #000000;
+    color: #FFFFFF;
+}
+
+.section-title h2 {
+    background: #000000;
+    color: #FFFFFF;
+}
+
 .main-content {
     padding-top: 4rem;
 }
@@ -895,11 +943,13 @@ iframe {
 .carousel-control-next-icon {
     background-image: url("../images/arrow-right.svg");
     bottom: 0;
+    fill: #FFFFFF;
 }
 
 .carousel-control-prev-icon {
     background-image: url("../images/arrow-left.svg");
     bottom: 0;
+    fill: #FFFFFF;
 }
 
 .carousel-indicators {
@@ -911,7 +961,7 @@ iframe {
     border-radius: 50%;
     width: 2px;
     height: 8px;
-    background-color: #22288850;
+    background-color: #FFFFFF40;
     max-width: 8px;
     margin: 4px;
 }
@@ -920,17 +970,13 @@ iframe {
     border-radius: 50%;
     width: 2px;
     height: 8px;
-    background-color: #222888;
+    background-color: #FFFFFF;
     max-width: 8px;
     margin: 4px;
 }
 
 .carousel-inner {
     height: 72vh;
-    border-width: 1px;
-    border-style: solid;
-    border-color: #111111;
-    border-radius: 4px;
 }
 
 .carousel-multi-item .carousel-inner {
