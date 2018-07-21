@@ -889,9 +889,9 @@ iframe {
 
 .portfolio-title {
     width: 100vw;
-    margin: 0px -16px 0px -16px !important;
-    height: 100%;
-    margin: auto;
+    padding: 0px 24px 0px 24px;
+    height: 120px;
+    margin: 0px 0px 0px -20px;
     overflow: hidden;
     background: #171e27;
     color: #FFFFFF;
@@ -912,8 +912,9 @@ iframe {
 }
 
 .portfolio-indicators {
-    padding: 20px;
+    padding: 24px 16px 0px 16px;
     background: #171e27;
+    width: 100vw;
 }
 
 .section-title {
@@ -928,10 +929,6 @@ iframe {
 
 .main-content {
     padding-top: 4rem;
-}
-
-.main-content > section {
-    margin-top: 2rem;
 }
 
 .carousel-control-prev, .carousel-control-next {
