@@ -1,5 +1,5 @@
 ---
-layout: post-left
+layout: post-full
 title:  "Sketch Dreams"
 author: pj
 categories: [ Jekyll, tutorial ]

@@ -1,5 +1,5 @@
 ---
-layout: post-left
+layout: post-full
 title:  "Design Management Thoughts"
 author: pj
 categories: [ Jekyll, tutorial ]

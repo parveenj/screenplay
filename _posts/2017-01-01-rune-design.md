@@ -1,5 +1,5 @@
 ---
-layout: post-left
+layout: post-full
 title:  "Leading Design at Rune"
 author: pj
 categories: [ Jekyll, tutorial ]

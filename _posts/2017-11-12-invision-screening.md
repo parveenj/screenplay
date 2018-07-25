@@ -1,5 +1,5 @@
 ---
-layout: post-left
+layout: post-full
 title:  "Invision Screening"
 author: pj
 categories: [ Jekyll, tutorial ]
