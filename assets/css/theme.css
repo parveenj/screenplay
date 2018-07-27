@@ -1009,3 +1009,16 @@ iframe {
     padding: 16px;
     height: 100%;
 }
+
+.portfolio-img-solo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+.portfolio-img-solo img {
+    flex-shrink: 0;
+    min-width: 100%;
+    min-height: 100%;
+    padding: 16px;
+}
