@@ -1,18 +1,17 @@
 --- 
 layout: portfolio 
-title: Bigger Needles, Smaller Haystacks 
+title: Bigger Needles, Smaller Haystacks
 comments: false 
 ---
 
 
 <section>
 
-
   <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel" data-interval="false">
 
     <!-- LARGE ONLY -->
     <div class="row portfolio-indicators align-items-center justify-content-center">
-        <div class="col-sm-4 justify-content-center d-none d-lg-block">
+      <div class="col-4 justify-content-center d-none d-lg-block">
         <div>
           <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
             <span class="carousel-control-prev-icon" aria-hidden="true"></span>
@@ -35,7 +34,6 @@ comments: false
             <li data-target="#carouselExampleIndicators" data-slide-to="11"></li>
             <li data-target="#carouselExampleIndicators" data-slide-to="12"></li>
             <li data-target="#carouselExampleIndicators" data-slide-to="13"></li>
-            <li data-target="#carouselExampleIndicators" data-slide-to="14"></li>
           </ol>
         </div>
         <div>
@@ -49,7 +47,7 @@ comments: false
 
     <!-- SMALLER THAN LARGE ONLY -->
     <div class="row justify-content-center portfolio-indicators align-items-center d-lg-none">
-        <div class="col-12">
+      <div class="col-8 align-items-center">
         <div>
           <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
             <span class="carousel-control-prev-icon" aria-hidden="true"></span>
@@ -72,7 +70,6 @@ comments: false
             <li data-target="#carouselExampleIndicators" data-slide-to="11"></li>
             <li data-target="#carouselExampleIndicators" data-slide-to="12"></li>
             <li data-target="#carouselExampleIndicators" data-slide-to="13"></li>
-            <li data-target="#carouselExampleIndicators" data-slide-to="14"></li>
           </ol>
         </div>
         <div>
@@ -84,12 +81,12 @@ comments: false
       </div>
     </div>
     <div class="portfolio-title d-none d-lg-block">
-        <div class="row">
-          <div class="col-4 justify-content-end">
+      <div class="row">
+        <div class="col-4 justify-content-end">
           <span>{{ page.title }}</span>
         </div>
         <div class="col-4 offset-4">
-          <span class="float-right">Client: FireEye&nbsp;&nbsp;&nbsp;&nbsp;Role: Design Manager
+          <span class="float-right">Client: Apple&nbsp;&nbsp;&nbsp;&nbsp;Role: Design Manager
         </div>
       </div>
     </div>
@@ -101,12 +98,12 @@ comments: false
         <div class="container">
           <div class="row">
             <div class="col-sm-4 portfolio-img-solo">
-              <img src="{{site.baseurl}}/assets/images/portfolio-apple-cover.png">
+              <img class="portfolio-slide-image" src="{{site.baseurl}}/assets/images/portfolio-fireeye-cover.png">
             </div>
-            <div class="col-sm-8">
-              <h2>Helping Those Who Help Others </h2>
-              <p>hool</p>
-              <button data-target="#carouselExampleIndicators" data-slide-to="1">Begin</button>
+            <div class="col-sm-8 align-self-center">
+              <h2>{{ page.title }}</h2>
+              <p>As a manager of design, I redesigned FireEye's network security products so that their global customer base became more adept at handling threats to their infrastructure.</p>
+              <button data-target="#carouselExampleIndicators" data-slide-to="1">Start the story</button>
             </div>
           </div>
         </div>
@@ -114,224 +111,231 @@ comments: false
       <div class="carousel-item">
           <div class="container">
             <div class="row">
+              <div class="col-sm-3 align-self-center">
+                  <p>
+                      FireEye is a top contender in the new wave of cybersecurity upstarts who are changing how enterprise companies think of protecting
+                      their most important assets. I joined the small team of designers as the lead during a tumultous time when
+                      the product roadmap was about to go through some major changes.
+                    </p>
+                    <p>
+                      FireEye’s main front end framework had not changed since the company’s inception 10 years ago and in order to keep up with
+                      the competition and meet customer requests, a new refresh on a new platform had to be built.
+                    </p>
+                </div>
+                <div class="col-sm-9">
+                  <img class="portfolio-slide-image" src="{{site.baseurl}}/assets/images/story-fireeye-2.png">
+                </div>
+            </div>
+          </div>
+        </div>
+      <div class="carousel-item">
+        <div class="container">
+          <div class="row">
             <div class="col-sm-9">
-              <p>
-                FireEye is a top contender in the new wave of cybersecurity upstarts who are changing how enterprise companies think of protecting
-                their most important assets. I joined the small team of designers as the lead during a tumultous time when
-                the product roadmap was about to go through some major changes.
-              </p>
-              <p>
-                FireEye’s main front end framework had not changed since the company’s inception 10 years ago and in order to keep up with
-                the competition and meet customer requests, a new refresh on a new platform had to be built.
-              </p>
+              <img class="portfolio-slide-image" src="{{site.baseurl}}/assets/images/story-fireeye-3.png">
+            </div>
+            <div class="col-sm-3 align-self-center">
+                <h3>WHAT’S UNDER THE HOOD?</h3>
+                <p>
+                  Even though it was antiquated, I performed an audit on all of the current interfaces to understand what was and was not working
+                  well from a usability standpoint. I took notes as I went along since the interfaces are deep and complicated.
+                </p>
             </div>
           </div>
         </div>
       </div>
       <div class="carousel-item">
-        <div class="container-fluid">
+        <div class="container">
           <div class="row">
-            <div class="col-sm-3">
-              <h3>WHAT’S UNDER THE HOOD?</h3>
-              <p>
-                Even though it was antiquated, I performed an audit on all of the current interfaces to understand what was and was not working
-                well from a usability standpoint. I took notes as I went along since the interfaces are deep and complicated.
-              </p>
+            <div class="col-sm-3 align-self-center">
+                <h3>WHAT DO SECURITY ANALYSTS DO?</h3>
+                <p>
+                  I needed to better understand how users interacted with our product in their day to day jobs yet it was hard to lock down
+                  a lot of past research on the matter. To help my brain explore this narrative, I storyboarded a typical day
+                  based on what I could dig up.
+                </p>
             </div>
             <div class="col-sm-9">
-              <img src="{{site.baseurl}}/assets/images/story-fireeye-2.png">
+              <img class="portfolio-slide-image" src="{{site.baseurl}}/assets/images/story-fireeye-4.png">
             </div>
           </div>
         </div>
       </div>
       <div class="carousel-item">
-        <div class="container-fluid">
+        <div class="container">
           <div class="row">
-            <div class="col-sm-9">
-              <img src="{{site.baseurl}}/assets/images/story-fireeye-3.png">
+            <div class="col-sm-6">
+              <img class="portfolio-slide-image" src="{{site.baseurl}}/assets/images/story-fireeye-5.jpg">
             </div>
-            <div class="col-sm-3">
-              <h3>WHAT DO SECURITY ANALYSTS DO?</h3>
-              <p>
-                I needed to better understand how users interacted with our product in their day to day jobs yet it was hard to lock down
-                a lot of past research on the matter. To help my brain explore this narrative, I storyboarded a typical day
-                based on what I could dig up.
-              </p>
+            <div class="col-sm-6 align-self-center">
+                <h3>FROM THE USERS MOUTH</h3>
+                <p>
+                  Nothing is more raw than actually talking to users so I fought to get in front of them and have them walk me through how
+                  they use FireEye’s products. Although this was a process I had to define from scratch, I was able to speak
+                  to 5 customers and help put together a presentation for the entire department to review.
+                </p>
             </div>
           </div>
         </div>
       </div>
       <div class="carousel-item">
-        <div class="container-fluid">
+        <div class="container">
           <div class="row">
-            <div class="col-sm-3">
-              <h3>FROM THE USERS MOUTH</h3>
-              <p>
-                Nothing is more raw than actually talking to users so I fought to get in front of them and have them walk me through how
-                they use FireEye’s products. Although this was a process I had to define from scratch, I was able to speak
-                to 5 customers and help put together a presentation for the entire department to review.
-              </p>
+            <div class="col-sm-6 align-self-center">
+                <h3>WHAT DO OUR USERS THINK ABOUT?</h3>
+                <p>
+                  Through what has been collected thus far, I put together the key insights I wanted to address for a redesign.
+                </p>
             </div>
-            <div class="col-sm-9">
-              <img src="{{site.baseurl}}/assets/images/story-fireeye-4.png">
+            <div class="col-sm-6">
+              <img class="portfolio-slide-image" src="{{site.baseurl}}/assets/images/story-fireeye-6.png">
             </div>
           </div>
         </div>
       </div>
       <div class="carousel-item">
-        <div class="container-fluid">
-          <div class="row">
-            <div class="col-sm-9">
-              <img src="{{site.baseurl}}/assets/images/story-fireeye-5.png">
+        <div class="container">
+          <div class="row align-self-center">
+            <div class="col-sm-6">
+
+                    <img src="{{site.baseurl}}/assets/images/story-fireeye-7a.png">
+
             </div>
-            <div class="col-sm-3">
-              <h3>WHAT DO OUR USERS THINK ABOUT?</h3>
-              <p>
-                Through what has been collected thus far, I put together the key insights I wanted to address for a redesign.
-              </p>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="carousel-item">
-        <div class="container-fluid">
-          <div class="row">
-            <div class="col-sm-9">
-              <img src="{{site.baseurl}}/assets/images/story-fireeye-6.png">
-            </div>
-            <div class="col-sm-3">
-              <h3>A NEW CONCEPT IS BORN</h3>
-              <p>
-                Our design team brainstormed a few concepts that needed to be evaluated such as giving users better insight and control over
-                their security landscape. We came up with new features that would help in these regards. The features were
-                introduced as a container for multiple alerts called Investigations.
-              </p>
+            <div class="col-sm-6 align-self-center">
+                <h3>A NEW CONCEPT IS BORN</h3>
+                <p>
+                  Our design team brainstormed a few concepts that needed to be evaluated such as giving users better insight and control over
+                  their security landscape. We came up with new features that would help in these regards. The features were
+                  introduced as a container for multiple alerts called Investigations.
+                </p>
             </div>
           </div>
         </div>
       </div>
       <div class="carousel-item">
-        <div class="container-fluid">
+        <div class="container">
           <div class="row">
-            <div class="col-sm-3">
-              <h3>LEAD IDEATION EFFORTS WITH THE TEAM</h3>
-              <p>
-                With new concepts come new problems as we had to identify how the new features for Investigations would integrate with how
-                alerts were already being presented to users. The full design team worked through ideas via paper, whiteboards,
-                and sticky notes.
-              </p>
-            </div>
-            <div class="col-sm-9">
-              <img src="{{site.baseurl}}/assets/images/story-fireeye-7a.png">
-              <img src="{{site.baseurl}}/assets/images/story-fireeye-7b.png">
-              <img src="{{site.baseurl}}/assets/images/story-fireeye-7c.png">
+            <div>
+                <h3>LEAD IDEATION EFFORTS WITH THE TEAM</h3>
+                <p>
+                  With new concepts come new problems as we had to identify how the new features for Investigations would integrate with how
+                  alerts were already being presented to users. The full design team worked through ideas via paper, whiteboards,
+                  and sticky notes.
+                </p>
             </div>
           </div>
         </div>
       </div>
       <div class="carousel-item">
-        <div class="container-fluid">
+        <div class="container">
           <div class="row">
-            <div class="col-sm-9">
-              <img src="{{site.baseurl}}/assets/images/story-fireeye-8.png">
+            <div class="col-sm-8">
+
+                <img src="{{site.baseurl}}/assets/images/story-fireeye-8.png">
+
             </div>
-            <div class="col-sm-3">
-              <h3>INVESTIGATIONS COME ALIVE</h3>
-              <p>
-                It was time to put together a few wireframes so that we could collaborate with the broader Engineering team. Our concepts
-                required a few iterations and we had ended up creating over 100 wireframes including the features we wanted
-                to incorporate.
-              </p>
+            <div class="col-sm-4 align-self-center">
+                <h3>INVESTIGATIONS COME ALIVE</h3>
+                <p>
+                  It was time to put together a few wireframes so that we could collaborate with the broader Engineering team. Our concepts
+                  required a few iterations and we had ended up creating over 100 wireframes including the features we wanted
+                  to incorporate.
+                </p>
             </div>
           </div>
         </div>
       </div>
       <div class="carousel-item">
-        <div class="container-fluid">
+        <div class="container">
           <div class="row">
-            <div class="col-sm-3">
-              <h3>GETTING OTHERS IN THE GAME</h3>
-              <p>
-                Investigations resulted in over 50 unique screens that strung together into a cohesive flow which took our entire team weeks
-                upon weeks to get right. We would iterate with the rest of the Engineering and Product teams through collection
-                of feedback via sticky notes. Sometimes there wouldn’t be enough table space to review it all!
-              </p>
+            <div class="col-sm-5 align-self-center">
+                <h3>GETTING OTHERS IN THE GAME</h3>
+                <p>
+                  Investigations resulted in over 50 unique screens that strung together into a cohesive flow which took our entire team weeks
+                  upon weeks to get right. We would iterate with the rest of the Engineering and Product teams through collection
+                  of feedback via sticky notes. Sometimes there wouldn’t be enough table space to review it all!
+                </p>
             </div>
-            <div class="col-sm-9">
-              <img src="{{site.baseurl}}/assets/images/story-fireeye-9.png">
+            <div class="col-sm-7">
+
+                <img src="{{site.baseurl}}/assets/images/story-fireeye-9.png">
+
             </div>
           </div>
         </div>
       </div>
       <div class="carousel-item">
-        <div class="container-fluid">
+        <div class="container">
           <div class="row">
-            <div class="col-sm-9">
-              <h3>A PROBLEM SURFACES</h3>
-              <p>
-                I shared our designs with the users I researched earlier via an interactive prototype in Axure. It was discovered that there
-                were problems with the Investigations concept. Each user was hesitant to abandon the existing Alerts experience
-                for fear of missing anything important due to transitioning to something new.
-              </p>
+            <div class="col align-self-center">
+                <h3>A PROBLEM SURFACES</h3>
+                <p>
+                  I shared our designs with the users I researched earlier via an interactive prototype in Axure. It was discovered that there
+                  were problems with the Investigations concept. Each user was hesitant to abandon the existing Alerts experience
+                  for fear of missing anything important due to transitioning to something new.
+                </p>
             </div>
           </div>
         </div>
       </div>
       <div class="carousel-item">
-        <div class="container-fluid">
+        <div class="container">
           <div class="row">
-            <div class="col-sm-9">
-              <img src="{{site.baseurl}}/assets/images/story-fireeye-11a.png">
-              <img src="{{site.baseurl}}/assets/images/story-fireeye-11b.png">
-              <img src="{{site.baseurl}}/assets/images/story-fireeye-11c.mp4">
+            <div class="col-sm-8">
+              <img class="portfolio-slide-image" src="{{site.baseurl}}/assets/images/story-fireeye-11a.png">
             </div>
-            <div class="col-sm-3">
-              <h3>A SMOOTHER INTRODUCTION TO INVESTIGATIONS</h3>
-              <p>
-                After reviewing feedback internally, we decided to not pivot users into the Investigations experience but start to bleed
-                some much needed features into the existing Alerts experience. You can think of the new approach based on
-                this modified graphic.
-              </p>
-              <p>
-                The new alerts experience was introduced with some of the features of Investigations without making users learn a new experience.
-                Giving users better insight was a key focus on features that were prioritized into this earlier release.
-              </p>
+            <div class="col-sm-4 align-self-center">
+                <h3>A SMOOTHER INTRODUCTION TO INVESTIGATIONS</h3>
+                <p>
+                  After reviewing feedback internally, we decided to not pivot users into the Investigations experience but start to bleed
+                  some much needed features into the existing Alerts experience. You can think of the new approach based on
+                  this modified graphic.
+                </p>
+                <p>
+                  The new alerts experience was introduced with some of the features of Investigations without making users learn a new experience.
+                  Giving users better insight was a key focus on features that were prioritized into this earlier release.
+                </p>
             </div>
           </div>
         </div>
       </div>
       <div class="carousel-item">
-        <div class="container-fluid">
-          <div class="row">
-            <div class="col-sm-3">
-              <h3>GOING ATOMIC</h3>
-              <p>
-                When we had motion to move forward with development, we had to create a better system of documenting features. I had been
-                introduced to Brad Frost’s Atomic Design concept and felt it was the perfect model to follow in terms of
-                production. This especially worked for me as I have a life science degree!
-                <img src="{{site.baseurl}}/assets/images/story-fireeye-12a.png">
-              </p>
-              <p>
-                Our team went through all existing interfaces to label patterns that were Atoms, Molecules, and Organisms. We documented
-                the components on internal wiki pages and flushed it out with some additional documentation such as microinteractions.
-              </p>
-            </div>
-            <div class="col-sm-9">
-              <img src="{{site.baseurl}}/assets/images/story-fireeye-12b.png">
+          <div class="container">
+            <div class="row">
+              <div class="col-sm-6">
+                <img class="portfolio-slide-image" src="{{site.baseurl}}/assets/images/story-fireeye-12b.png">
+              </div>
+              <div class="col-sm-6 align-self-center">
+                  <h3>GOING ATOMIC</h3>
+                  <p>
+                    When we had motion to move forward with development, we had to create a better system of documenting features. I had been
+                    introduced to Brad Frost’s Atomic Design concept and felt it was the perfect model to follow in terms of
+                    production. This especially worked for me as I have a life science degree!
+                    <img src="{{site.baseurl}}/assets/images/story-fireeye-12a.png">
+                  </p>
+                  <p>
+                    Our team went through all existing interfaces to label patterns that were Atoms, Molecules, and Organisms. We documented
+                    the components on internal wiki pages and flushed it out with some additional documentation such as microinteractions.
+                  </p>
+              </div>
             </div>
           </div>
         </div>
-      </div>
       <div class="carousel-item">
-        <div class="container-fluid">
+        <div class="container">
           <div class="row">
-            <div class="col-sm-9">
-              <h3>Was it worth it?</h3>
-              <p>
-                There were two major successes: 1) FireEye approved the first updated Alerts experience since the company’s inception and
-                2) FireEye established an improved design culture involving user research as well as the company’s first
-                design system that will help it iterate faster on products in the future.
-              </p>
+            <div class="col">
+              <span class="layout-valign">
+                  <h3>Was it worth it?</h3>
+                <h4>
+                    There were two major successes: 
+                      <ol>
+                        <li>FireEye approved the first updated Alerts experience since the company’s inception.</li>
+                        <li>FireEye established an improved design culture involving user research as well as the company’s first
+                            design system that will help it iterate faster on products in the future.</li>
+                      </ol>
+                </h4>
+              </span>
             </div>
           </div>
         </div>
