@@ -1075,6 +1075,13 @@ button {
     padding: 40px;
 }
 
+.sp-col-cover-fireeye {
+    background-color: #B2282D;
+    height: 100%;
+    width: 100%;
+    padding: 40px;
+}
+
 .sp-slide-cover-apple row {
     height: 100%;
     width: 100%;
