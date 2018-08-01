@@ -1419,3 +1419,34 @@ h4 {
         display: none;
     }
 }
+
+.row-aftercarousel {
+    margin-top: -80px;
+}
+
+.text-overimage{
+    background: rgba(255, 255, 255, 0.7);
+    padding: 10px 15px;
+    margin-bottom: -80px;
+    z-index: 1000;
+    position: absolute;
+    top: 40px;
+    left: 16px;
+    width: 300px;
+    color: #000000;
+}
+
+.header-about {
+    position: relative;
+    text-align: center;
+    color: white;
+    width: 100%;
+}
+
+.header-about img {
+    height: auto;
+    max-width: 100%;
+    padding: 0px !important;
+    margin-top: -24px;
+    
+}
