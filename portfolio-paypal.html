@@ -1,67 +1,134 @@
 --- 
 layout: portfolio 
-title: More Unified Pals 
+title: Bigger Needles, Smaller Haystacks
 comments: false 
 ---
 
 
-<section style="margin-top: 54px">
-
+<section>
 
   <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel" data-interval="false">
 
-    <div class="portfolio-title d-none d-lg-block">
-      <div class="row">
-        <div class="col-4 justify-content-end">
-          <span>{{ page.title }}</span>
+    <!-- LARGE ONLY -->
+    <div class="row portfolio-indicators align-items-center justify-content-center">
+      <div class="col-4 justify-content-center d-none d-lg-block">
+        <div>
+          <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+          </a>
         </div>
-        <div class="col-4 offset-4">
-          <span class="float-right">Client: PayPal&nbsp;&nbsp;&nbsp;&nbsp;Role: Design Manager
+        <div>
+          <ol class="carousel-indicators">
+            <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="4"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="5"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="6"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="7"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="8"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="9"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="10"></li>
+          </ol>
+        </div>
+        <div>
+          <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+          </a>
         </div>
       </div>
     </div>
+
+    <!-- SMALLER THAN LARGE ONLY -->
+    <div class="row justify-content-center portfolio-indicators align-items-center d-lg-none">
+      <div class="col-8 align-items-center">
+        <div>
+          <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+          </a>
+        </div>
+        <div>
+          <ol class="carousel-indicators">
+            <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="4"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="5"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="6"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="7"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="8"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="9"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="10"></li>
+          </ol>
+        </div>
+        <div>
+          <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+          </a>
+        </div>
+      </div>
+    </div>
+    <div class="portfolio-title d-none d-lg-block">
+        <div class="row">
+          <div class="col-4 justify-content-end">
+            <span>{{ page.title }}</span>
+          </div>
+          <div class="col-4 offset-4">
+            <span class="float-right">Client: FireEye&nbsp;&nbsp;&nbsp;&nbsp;Role: Design Manager
+          </div>
+        </div>
+      </div>
 
 
     <div class="carousel-inner">
 
       <div class="carousel-item active">
-        <div class="container">
-          <div class="row">
-            <div class="col-sm-4 portfolio-img-solo">
-              <img src="{{site.baseurl}}/assets/images/portfolio-apple-cover.png">
+        <div class="container sp-slide-cover-apple">
+          <div class="row sp-row-cover-apple">
+            <div class="col-sm-4 sp-col-cover-paypal">
+                <img class="portfolio-slide-image" src="{{site.baseurl}}/assets/images/portfolio-paypal-cover.png">
             </div>
-            <div class="col-sm-8">
-              <h2>{{ page.title }}</h2>
-              <p>I worked with the PayPal CIO Office in researching the lack of collaboration around the tools employees utilized across the company. I communicated my findings through data analysis, a narrative presentation, personas, a journey map, and a branded experience. This led to a campaign company wide.</p>
-              <p><b>Unfortunately, I have not yet migrated this story over from my previous site. Please revisit soon!</b></p>
+            <div class="col-sm-8 align-self-center">
+                <h2>{{ page.title }}</h2>
+                <p>I worked with the PayPal CIO Office in researching the lack of collaboration around the tools employees utilized across the company. I communicated my findings through data analysis, a narrative presentation, personas, a journey map, and a branded experience. This led to a campaign company wide.</p>
+                <button data-target="#carouselExampleIndicators" data-slide-to="1">Start the story</button>
             </div>
           </div>
         </div>
       </div>
       <div class="carousel-item">
           <div class="container">
-            <div class="row">
-            <div>
-              <p>Even though PayPal has grown a lot over the years, it has always maintained a very agile culture. This has
-                given different teams the freedom to have different workflows that suits their needs. Although its great
-                at the team level, it means that there is not standard process for collaborating across the company. The
-                OCIO has a need to streamline these tools and processes as a means to make the company leaner and more cost
-                efficient.
-              </p>
-              <img src="{{site.baseurl}}/assets/images/story-paypal-1.png">
-              <p>
-                PayPal has an organization called the Office of the CIO (OCIO) and it is involved in shaping the culture of tools and technology
-                across the entire company. This internal team listens to PayPal employees and their needs and implements
-                solutions that benefit their work so that they can keep the company running in its best shape.
-              </p>
+            <div class="row sp-slider-row">
+              <div class="col align-self-center">
+                  <p>Even though PayPal has grown a lot over the years, it has always maintained a very agile culture. This has
+                    given different teams the freedom to have different workflows that suits their needs. Although its great
+                    at the team level, it means that there is not standard process for collaborating across the company. The
+                    OCIO has a need to streamline these tools and processes as a means to make the company leaner and more cost
+                    efficient.
+                  </p>
+                  <img src="{{site.baseurl}}/assets/images/story-paypal-1.png">
+                  <p>
+                    PayPal has an organization called the Office of the CIO (OCIO) and it is involved in shaping the culture of tools and technology
+                    across the entire company. This internal team listens to PayPal employees and their needs and implements
+                    solutions that benefit their work so that they can keep the company running in its best shape.
+                  </p>
+                </div>
             </div>
           </div>
         </div>
-      </div>
       <div class="carousel-item">
-        <div class="container-fluid">
+        <div class="container">
           <div class="row">
-            <div class="col-sm-3">
+            <div class="col-sm-7">
+              <img class="sp-slider-image-solo" src="{{site.baseurl}}/assets/images/story-paypal-2.png">
+            </div>
+            <div class="col-sm-5 align-self-center">
               <h3>WHO WORKS AT PAYPAL?</h3>
               <p>
                 In order to better help the OCIO talk to their users, we had to get to know them better. Through the internal team collaboration,
@@ -69,51 +136,46 @@ comments: false
                 flow better.
               </p>
             </div>
-            <div class="col-sm-9">
-              <img src="{{site.baseurl}}/assets/images/story-paypal-2.png">
-            </div>
           </div>
         </div>
       </div>
       <div class="carousel-item">
-        <div class="container-fluid">
+        <div class="container">
           <div class="row">
-            <div class="col-sm-9">
-              <img src="{{site.baseurl}}/assets/images/story-paypal-3.jpg">
-            </div>
-            <div class="col-sm-3">
+            <div class="col-sm-5 align-self-center">
               <h3>COMPILING RESULTS</h3>
               <p>
                 With over 22 interviewees providing answers to all of our questions, there was a ton of data to mine through. As a team,
                 this involved whiteboard sessions to go through and pull out the findings.
               </p>
             </div>
+            <div class="col-sm-7">
+              <img class="sp-slider-image-solo" src="{{site.baseurl}}/assets/images/story-paypal-3.png">
+            </div>
           </div>
         </div>
       </div>
       <div class="carousel-item">
-        <div class="container-fluid">
-          <div class="row">
-            <div class="col-sm-3">
+        <div class="container">
+          <div class="row align-self-center">
+            <div class="col-sm-7">
+
+                    <img class="sp-slider-image-solo" src="{{site.baseurl}}/assets/images/story-paypal-4.png">
+
+            </div>
+            <div class="col-sm-5 align-self-center">
               <h3>ANALYZING RESULTS</h3>
               <p>
                 KIWI
               </p>
             </div>
-            <div class="col-sm-9">
-              <img src="{{site.baseurl}}/assets/images/story-paypal-4.jpg">
-            </div>
           </div>
         </div>
       </div>
       <div class="carousel-item">
-        <div class="container-fluid">
+        <div class="container">
           <div class="row">
-            <div class="col-sm-9">
-              <img src="{{site.baseurl}}/assets/images/story-paypal-5a.png">
-              <img src="{{site.baseurl}}/assets/images/story-paypal-5b.png">
-            </div>
-            <div class="col-sm-3">
+            <div class="col-sm-5 align-self-center">
               <h3>PERSONAS COME ALIVE</h3>
               <p>
                 Finding the patterns out of the interviewees took some brainstorming and discussion but in the end, we were able to find
@@ -121,50 +183,53 @@ comments: false
                 from the analysis in meaningful ways.
               </p>
             </div>
-          </div>
-        </div>
-      </div>
-      <div class="carousel-item">
-        <div class="container-fluid">
-          <div class="row">
-            <div class="col-sm-9">
-              <img src="{{site.baseurl}}/assets/images/story-paypal-6.png">
-            </div>
-            <div class="col-sm-3">
-              <h3>JOURNEY MAPPING</h3>
-              <p>
-                The next step involved identifying the various phases of the journey for each of the personas. With the personas and the
-                data in hand, we started to identify phases of collaboration. This resulted in us needing to validate the
-                findings with the interviewees through follow up sessions.
-              </p>
+            <div class="col-sm-7">
+                <img class="sp-slider-image-solo" src="{{site.baseurl}}/assets/images/story-paypal-5b.png">
             </div>
           </div>
         </div>
       </div>
       <div class="carousel-item">
-        <div class="container-fluid">
-          <div class="row">
-            <div>
-              <h3>DELIVERING A JOURNEY</h3>
-              <p>
-                Translating the ideas into a formal Journey Map took many iterations and reviews but resulted in representing all 5 Personas
-                together to give some context of collaboration at PayPal.
-              </p>
-              <p>
-                <img src="{{site.baseurl}}/assets/images/story-paypal-7.png">
-              </p>
+          <div class="container">
+            <div class="row">
+              <div class="col-sm-7">
+  
+                  <img class="sp-slider-image-solo" src="{{site.baseurl}}/assets/images/story-paypal-6.png">
+  
+              </div>
+              <div class="col-sm-5 align-self-center">
+                <h3>JOURNEY MAPPING</h3>
+                <p>
+                  The next step involved identifying the various phases of the journey for each of the personas. With the personas and the
+                  data in hand, we started to identify phases of collaboration. This resulted in us needing to validate the
+                  findings with the interviewees through follow up sessions.
+                </p>
+              </div>
             </div>
           </div>
         </div>
-      </div>
       <div class="carousel-item">
-        <div class="container-fluid">
-          <div class="row">
-            <div class="col-sm-9">
-              <img src="{{site.baseurl}}/assets/images/story-paypal-8a.png">
-              <img src="{{site.baseurl}}/assets/images/story-paypal-8b.png">
+          <div class="container">
+            <div class="row">
+              <div class="col-sm-5 align-self-center">
+                <h3>DELIVERING A JOURNEY</h3>
+                <p>
+                  Translating the ideas into a formal Journey Map took many iterations and reviews but resulted in representing all 5 Personas
+                  together to give some context of collaboration at PayPal.
+                </p>
+              </div>
+              <div class="col-sm-7">
+  
+                  <img class="sp-slider-image-solo" src="{{site.baseurl}}/assets/images/story-paypal-7.png">
+  
+              </div>
             </div>
-            <div class="col-sm-3">
+          </div>
+        </div>
+      <div class="carousel-item">
+        <div class="container">
+          <div class="row">
+            <div class="col-sm-5 align-self-center">
               <h3>BRAND IDENTITY</h3>
               <p>
                 In order to sell the overall vision of how the personas and journey map could be implemented, it was beneficial to show it
@@ -173,21 +238,29 @@ comments: false
                 email newsletters, and banners.
               </p>
             </div>
+            <div class="col-sm-7">
+
+                <img class="sp-slider-image-solo" src="{{site.baseurl}}/assets/images/story-paypal-8b.png">
+
+            </div>
           </div>
         </div>
       </div>
+
       <div class="carousel-item">
-        <div class="container-fluid">
-          <div class="row">
-            <div class="col-sm-9">
-              <h3>HOW DID IT TURN OUT?</h3>
-              <p>
-                Our team presented the voice of the users to the OCIO. This was done as a joint effort between the Experience Design and
-                Operation Effectiveness teams. The OCIO had previously focused internal efforts on just the tools that users
-                implemented but Slalom’s focus was to help them think more broadly, the people who use those tools. This
-                was done via in-depth interviews across various user profiles. This resulted in personas, journey maps, and
-                an adoption strategy that the OCIO could use to plan for more successful internal initiatives going forward.
-              </p>
+        <div class="container sp-slide-final-apple">
+          <div class="row sp-slider-row">
+            <div class="col">
+              <span class="layout-valign">
+                <h3>HOW DID IT TURN OUT?</h3>
+                <p>
+                  Our team presented the voice of the users to the OCIO. This was done as a joint effort between the Experience Design and
+                  Operation Effectiveness teams. The OCIO had previously focused internal efforts on just the tools that users
+                  implemented but Slalom’s focus was to help them think more broadly, the people who use those tools. This
+                  was done via in-depth interviews across various user profiles. This resulted in personas, journey maps, and
+                  an adoption strategy that the OCIO could use to plan for more successful internal initiatives going forward.
+                </p>
+              </span>
             </div>
           </div>
         </div>

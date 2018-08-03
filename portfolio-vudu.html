@@ -1,70 +1,141 @@
 --- 
 layout: portfolio 
-title: Planning for better Leisure Time 
+title: Bigger Needles, Smaller Haystacks
 comments: false 
 ---
 
 
-<section style="margin-top: 54px">
+<section>
 
   <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel" data-interval="false">
 
-    <div class="portfolio-title d-none d-lg-block">
-        <div class="row">
-          <div class="col-4 justify-content-end">
-          <span>{{ page.title }}</span>
+    <!-- LARGE ONLY -->
+    <div class="row portfolio-indicators align-items-center justify-content-center">
+      <div class="col-4 justify-content-center d-none d-lg-block">
+        <div>
+          <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+          </a>
         </div>
-        <div class="col-4 offset-4">
-          <span class="float-right">Client: Vudu&nbsp;&nbsp;&nbsp;&nbsp;Role: Designer
+        <div>
+          <ol class="carousel-indicators">
+            <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="4"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="5"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="6"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="7"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="8"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="9"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="10"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="11"></li>
+          </ol>
+        </div>
+        <div>
+          <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+          </a>
         </div>
       </div>
     </div>
 
+    <!-- SMALLER THAN LARGE ONLY -->
+    <div class="row justify-content-center portfolio-indicators align-items-center d-lg-none">
+      <div class="col-8 align-items-center">
+        <div>
+          <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+          </a>
+        </div>
+        <div>
+          <ol class="carousel-indicators">
+            <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="4"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="5"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="6"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="7"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="8"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="9"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="10"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="11"></li>
+          </ol>
+        </div>
+        <div>
+          <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+          </a>
+        </div>
+      </div>
+    </div>
+    <div class="portfolio-title d-none d-lg-block">
+        <div class="row">
+          <div class="col-4 justify-content-end">
+            <span>{{ page.title }}</span>
+          </div>
+          <div class="col-4 offset-4">
+            <span class="float-right">Client: FireEye&nbsp;&nbsp;&nbsp;&nbsp;Role: Design Manager
+          </div>
+        </div>
+      </div>
+
+
     <div class="carousel-inner">
 
       <div class="carousel-item active">
-        <div class="container">
-          <div class="row">
-            <div class="col-sm-4 portfolio-img-solo">
-              <img src="{{site.baseurl}}/assets/images/portfolio-vudu-cover.png">
+        <div class="container sp-slide-cover-apple">
+          <div class="row sp-row-cover-apple">
+            <div class="col-sm-4 sp-col-cover-vudu">
+                <img class="portfolio-slide-image" src="{{site.baseurl}}/assets/images/portfolio-vudu-cover.png">
             </div>
-            <div class="col-sm-8">
+            <div class="col-sm-8 align-self-center">
               <h2>{{ page.title }}</h2>
               <p>As a side project while working at Walmart.com, I took a real world user experience that I felt was lacking in the marketplace and presented it as a design solution for Vudu.</p>
-              <p><b>Unfortunately, I have not yet migrated this story over from my previous site. Please revisit soon!</b></p>
+                <button data-target="#carouselExampleIndicators" data-slide-to="1">Start the story</button>
             </div>
           </div>
         </div>
       </div>
       <div class="carousel-item">
           <div class="container">
-            <div class="row">
-            <div class="col-sm-9">
-              <p>
-                Today’s entertainment world is scattered in so many directions that it can be challenging for anyone to keep up with the
-                content that matters to them. Add to the fact that we all have busy schedules and consume media with second
-                screens in our face.
-              </p>
-              <p>
-                This was a problem that I had for myself as I tried to raise a family, maintain a career with emails coming 24/7, and take
-                graduate courses. I grew up in love with my stories as it added cultural relevance and entertainment to my
-                life. On top of this, I would have conversations with others and we would get into talking about movies and
-                TV shows and books and music and it always left me with the desire to catch up intriguing content. It’s not
-                like the old days where everyone consumed content in the same place through their local broadcast network
-                or radio station or library.
-              </p>
-              <p>
-                Life in general is too splintered and there has to be a more interesting way to manage this stuff. Yes, its not critical
-                to one’s life but when you include the arts, doesn’t it make life more fulfilling?
-              </p>
+            <div class="row sp-slider-row">
+              <div class="col align-self-center">
+                <p>
+                  Today’s entertainment world is scattered in so many directions that it can be challenging for anyone to keep up with the
+                  content that matters to them. Add to the fact that we all have busy schedules and consume media with second
+                  screens in our face.
+                </p>
+                <p>
+                  This was a problem that I had for myself as I tried to raise a family, maintain a career with emails coming 24/7, and take
+                  graduate courses. I grew up in love with my stories as it added cultural relevance and entertainment to my
+                  life. On top of this, I would have conversations with others and we would get into talking about movies and
+                  TV shows and books and music and it always left me with the desire to catch up intriguing content. It’s not
+                  like the old days where everyone consumed content in the same place through their local broadcast network
+                  or radio station or library.
+                </p>
+                <p>
+                  Life in general is too splintered and there has to be a more interesting way to manage this stuff. Yes, its not critical
+                  to one’s life but when you include the arts, doesn’t it make life more fulfilling?
+                </p>
+                </div>
             </div>
           </div>
         </div>
-      </div>
       <div class="carousel-item">
-        <div class="container-fluid">
+        <div class="container">
           <div class="row">
-            <div class="col-sm-3">
+            <div class="col-sm-7">
+              <img class="sp-slider-image-solo" src="{{site.baseurl}}/assets/images/story-vudu-2.png">
+            </div>
+            <div class="col-sm-5 align-self-center">
               <p>
                 I consider this a unique problem but went into various app stores to find tools online or on mobile platforms. I largely
                 came up empty as what I basically found was similar to something like GoWatchIt. I did sign up for a couple
@@ -77,19 +148,13 @@ comments: false
                 books and music.
               </p>
             </div>
-            <div class="col-sm-9">
-              <img src="{{site.baseurl}}/assets/images/story-vudu-2.jpg">
-            </div>
           </div>
         </div>
       </div>
       <div class="carousel-item">
-        <div class="container-fluid">
+        <div class="container">
           <div class="row">
-            <div class="col-sm-9">
-              <img src="{{site.baseurl}}/assets/images/story-vudu-3.png">
-            </div>
-            <div class="col-sm-3">
+            <div class="col-sm-5 align-self-center">
               <p>
                 Is there a reason that there isn’t a service that bundles all kinds of media together? I did a search to see if services
                 across platforms provided APIs and for the most part everything I looked up did provide the relevant data
@@ -101,32 +166,30 @@ comments: false
                 into the design.
               </p>
             </div>
+            <div class="col-sm-7">
+              <img class="sp-slider-image-solo" src="{{site.baseurl}}/assets/images/story-vudu-3.png">
+            </div>
           </div>
         </div>
       </div>
       <div class="carousel-item">
-        <div class="container-fluid">
-          <div class="row">
-            <div class="col-sm-9">
+        <div class="container">
+          <div class="row align-self-center">
+            <div class="col">
               <p>
                 So there can be a logical means to build a queue around multiple media types. That’s great and could be a valuable add into
                 the marketplace but it’s not really enough. I mean, how is this different from just keeping a Google Sheet
                 with links? The design problem here needed to be solved with a more advanced solution. Thus I wanted to take
                 into account key factors that limit someone’s ability to make a choice about how to consume media.
-
               </p>
             </div>
           </div>
         </div>
       </div>
       <div class="carousel-item">
-        <div class="container-fluid">
+        <div class="container">
           <div class="row">
-            <div class="col-sm-9">
-              <img src="{{site.baseurl}}/assets/images/story-vudu-4a.png">
-              <img src="{{site.baseurl}}/assets/images/story-vudu-4b.png">
-            </div>
-            <div class="col-sm-3">
+            <div class="col-sm-5 align-self-center">
               <p>
                 I thought through this interactive experience. With the onset of conversational UIs spreading the marketplace, I figured
                 this would be a great way to make finding media less burdensome. I took some of the variables that could
@@ -135,45 +198,43 @@ comments: false
                 leveraged on best practices that already existed.
               </p>
             </div>
+            <div class="col-sm-7">
+                <img class="sp-slider-image-solo" src="{{site.baseurl}}/assets/images/story-vudu-4.png">
+            </div>
           </div>
         </div>
       </div>
       <div class="carousel-item">
-        <div class="container-fluid">
-          <div class="row">
-            <div class="col-sm-9">
-              <img src="{{site.baseurl}}/assets/images/story-vudu-5a.png">
-              <img src="{{site.baseurl}}/assets/images/story-vudu-5b.png">
-            </div>
-            <div class="col-sm-3">
+          <div class="container">
+            <div class="row">
+              <div class="col-sm-7">
+                  <img class="sp-slider-image-solo" src="{{site.baseurl}}/assets/images/story-vudu-5a.png">
+              </div>
               <p>
                 Using my own family as users for this project, I mapped out user flows that would potentially take place. Sketching this
                 by hand gives me immediate feedback and a sense of being actively engaged in my work.
               </p>
+              </div>
             </div>
           </div>
         </div>
-      </div>
       <div class="carousel-item">
-        <div class="container-fluid">
-          <div class="row">
-            <div class="col-sm-9">
-              <p>
-                I needed to take this concept to a traditional wireframe to see if it all worked together. I shared this with a couple of
-                friends to get the feeling of whether it worked or not and got positive feedback, which inspired me to create
-                the mockups.
-              </p>
+          <div class="container">
+            <div class="row">
+              <div class="col">
+                <p>
+                  I needed to take this concept to a traditional wireframe to see if it all worked together. I shared this with a couple of
+                  friends to get the feeling of whether it worked or not and got positive feedback, which inspired me to create
+                  the mockups.
+                </p>
+              </div>
             </div>
           </div>
         </div>
-      </div>
       <div class="carousel-item">
-        <div class="container-fluid">
+        <div class="container">
           <div class="row">
-            <div class="col-sm-9">
-              <img src="{{site.baseurl}}/assets/images/story-vudu-6.png">
-            </div>
-            <div class="col-sm-3">
+            <div class="col-sm-5 align-self-center">
               <p>
                 I ventured into taking the initial wireframe concepts and created visual mockups in Sketch, starting first with the onboarding
                 experience. My expectation was that these screens would serve as a book cover before getting into the app
@@ -186,13 +247,18 @@ comments: false
 
               </p>
             </div>
+            <div class="col-sm-7">
+
+                <img class="sp-slider-image-solo" src="{{site.baseurl}}/assets/images/story-vudu-6.png">
+
+            </div>
           </div>
         </div>
       </div>
       <div class="carousel-item">
-        <div class="container-fluid">
+        <div class="container">
           <div class="row">
-            <div class="col-sm-3">
+            <div class="col-sm-5 align-self-center">
               <p>
                 Empty screens are usually areas for designers to skimp on but is something I always want to consider. I created a few screens
                 with flow directions below of a user who has nothing in their queue and wants to search to add something.
@@ -205,27 +271,31 @@ comments: false
                 use case.
               </p>
             </div>
-            <div class="col-sm-9">
-              <img src="{{site.baseurl}}/assets/images/story-vudu-7.jpg">
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="carousel-item">
-        <div class="container-fluid">
-          <div class="row">
-            <div class="col-sm-9">
-              <h3>WHAT’S NEXT?</h3>
-              <p>
-                Now that I have a concept in place, as time progresses, I’d love to actually use this project to practice building out a
-                mobile application. In the meantime, I will also test with more users to see if the concept overall has some
-                merit. Who knows it may be an app that eventually hits the app store.
-              </p>
+            <div class="col-sm-7">
+
+                <img class="sp-slider-image-solo" src="{{site.baseurl}}/assets/images/story-vudu-7.png">
+
             </div>
           </div>
         </div>
       </div>
 
+      <div class="carousel-item">
+        <div class="container sp-slide-final-apple">
+          <div class="row sp-slider-row">
+            <div class="col">
+              <span class="layout-valign">
+                <h3>HOW DID IT TURN OUT?</h3>
+                <p>
+                  Now that I have a concept in place, as time progresses, I’d love to actually use this project to practice building out a
+                  mobile application. In the meantime, I will also test with more users to see if the concept overall has some
+                  merit. Who knows it may be an app that eventually hits the app store.
+                </p>
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
 
   </div>
