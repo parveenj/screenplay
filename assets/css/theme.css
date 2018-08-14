@@ -1271,6 +1271,20 @@ iframe {
     fill: #FFFFFF;
 }
 
+.sp-carousel {
+    height: 400px;
+    margin: 40px 0px 80px 0px;
+}
+
+.sp-carousel-arrow {
+    width: 32px;
+    margin: auto;
+    height: 50%;
+    opacity: 0.6;;
+    filter: alpha(opacity=60);
+}
+
+
 .carousel-indicators {
     bottom: 0;
     padding: 16px 0px 0px 0px;
@@ -1418,10 +1432,6 @@ h4 {
     .sp-navbar-sitename {
         display: none;
     }
-}
-
-.row-aftercarousel {
-    margin-top: -80px;
 }
 
 .text-overimage{

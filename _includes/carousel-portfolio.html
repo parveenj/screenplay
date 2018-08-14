@@ -1,70 +1,19 @@
 <!--Sourced from here: https://mdbootstrap.com/javascript/carousel/ -->
 
+<div class="container sp-carousel">
 <div class="row">
-
-<div class="col-1 d-flex align-items-center">
-        <a class="btn-floating" href="#multi-item-example" data-slide="prev"><img src="{{ site.baseurl }}/assets/images/arrow-left-black.svg"></a>
-  </div>
-<!--Carousel Wrapper-->
-<div id="multi-item-example" class="carousel slide carousel-multi-item" data-ride="carousel" data-interval="false">
-
-  <div class="carousel-inner" role="listbox">
-
-      <!--First slide-->
-      <div class="carousel-item active">
-
-          <div class="col-md-4">
-              <div class="card mb-2">
-                  <img class="card-img-top" src="{{ site.baseurl }}/assets/images/portfolio-walmart-cover.png" alt="Card image cap">
-              </div>
-          </div>
-
-          <div class="col-md-4 clearfix d-none d-md-block">
-              <div class="card mb-2">
-                  <img class="card-img-top" src="{{ site.baseurl }}/assets/images/portfolio-rune-cover.png" alt="Card image cap">
-              </div>
-          </div>
-
-          <div class="col-md-4 clearfix d-none d-md-block">
-              <div class="card mb-2">
-                  <img class="card-img-top" src="{{ site.baseurl }}/assets/images/portfolio-fireeye-cover.png" alt="Card image cap">
-              </div>
-          </div>
-
-      </div>
-      <!--/.First slide-->
-
-      <!--Second slide-->
-      <div class="carousel-item">
-
-          <div class="col-md-4">
-              <div class="card mb-2">
-                  <img class="card-img-top" src="{{ site.baseurl }}/assets/images/portfolio-paypal-cover.png" alt="Card image cap">
-              </div>
-          </div>
-
-          <div class="col-md-4 clearfix d-none d-md-block">
-              <div class="card mb-2">
-                  <img class="card-img-top" src="{{ site.baseurl }}/assets/images/portfolio-vudu-cover.png" alt="Card image cap">
-              </div>
-          </div>
-
-          <div class="col-md-4 clearfix d-none d-md-block">
-              <div class="card mb-2">
-                  <img class="card-img-top" src="{{ site.baseurl }}/assets/images/portfolio-apple-cover.png" alt="Card image cap">
-              </div>
-          </div>
-
-      </div>
-      <!--/.Second slide-->
-  </div>
-  <!--/.Slides-->
-
-</div>
-
-  <div class="col-1 d-flex align-items-center">
-        <a class="btn-floating" href="#multi-item-example" data-slide="next"><img src="{{ site.baseurl }}/assets/images/arrow-right-black.svg"></a>
-  </div>
-
+        <div class="col-1"><span class="left sp-carousel-arrow"><img class="sp-carousel-arrow" src="{{ site.baseurl }}/assets/images/arrow-left-v2.svg"></span></div>
+        <div class="col-10">
+                <div class="responsive">
+                        <div><img src="{{ site.baseurl }}/assets/images/portfolio-apple-cover.png"></div>
+                        <div><img src="{{ site.baseurl }}/assets/images/portfolio-fireeye-cover.png"></div>
+                        <div><img src="{{ site.baseurl }}/assets/images/portfolio-paypal-cover.png"></div>
+                        <div><img src="{{ site.baseurl }}/assets/images/portfolio-rune-cover.png"></div>
+                        <div><img src="{{ site.baseurl }}/assets/images/portfolio-walmart-cover.png"></div>
+                        <div><img src="{{ site.baseurl }}/assets/images/portfolio-vudu-cover.png"></div>
+                </div>
+        </div>
+        <div class="col-1"><span class="right sp-carousel-arrow"><img class="sp-carousel-arrow" src="{{ site.baseurl }}/assets/images/arrow-right-v2.svg"></span></div>
+    </div>
 </div>
 <!--/.Carousel Wrapper-->
