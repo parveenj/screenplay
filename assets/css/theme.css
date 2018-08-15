@@ -1364,13 +1364,26 @@ button {
     padding: 40px;
 }
 
+.sp-slider-row{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.sp-sider-row > col {
+    margin: auto;
+    max-width: 50%;
+    height: 100%;
+    text-align: center;
+}
+
 .sp-slide-cover-apple {
     margin: 0px !important;
     width: 100% !important;
 }
 
 .sp-slide-final-apple {
-    background-color: #9B9B9B;
+    background-color: #4A4A4A;
     margin: 0px !important;
     width: 100% !important;
 }
@@ -1399,6 +1412,12 @@ h4 {
     height: 100%;
     width: 100%;
     padding: 40px;
+}
+
+.sp-slide-final-fireeye {
+    background-color: #4A4A4A;
+    margin: 0px !important;
+    width: 100% !important;
 }
 
 .sp-slide-cover-apple row {
