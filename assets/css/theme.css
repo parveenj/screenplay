@@ -1414,6 +1414,12 @@ h4 {
     padding: 40px;
 }
 
+.sp-slide-solo {
+    height: 20%;
+    weight: 80%;
+    margin: auto;
+}
+
 .sp-slide-final-fireeye {
     background-color: #4A4A4A;
     margin: 0px !important;
