@@ -426,27 +426,27 @@ span.post-read-more a:hover {
     font-weight: 700;
 }
 
-.intro-side h2 {
+.sp-banner-right h2 {
     margin-top: 2rem;
     color: #FFF;
     line-height: 1.6;
 }
 
-.intro-side p {
+.sp-banner-right p {
     color: #FFF;
     line-height: 1.6;
 }
 
-.intro-side {
+.sp-banner-right {
     background-color: #01244D;
     padding: 4rem;
     height: 600px;
 }
 
-.intro-side img {
+.sp-banner-right img {
     display: block;
     max-width: 50%;
-    margin: auto;
+    margin: -16px auto auto auto;
 }
 
 .wrapintro {
@@ -1416,7 +1416,7 @@ h4 {
 
 .sp-slide-solo {
     height: 20%;
-    weight: 80%;
+    width: 80%;
     margin: auto;
 }
 
