@@ -1459,29 +1459,42 @@ h4 {
     }
 }
 
-.text-overimage{
+.sp-text-overlay{
     background: rgba(255, 255, 255, 0.7);
     padding: 10px 15px;
     margin-bottom: -80px;
     z-index: 1000;
     position: absolute;
     top: 40px;
-    left: 16px;
+    left: 8%;
     width: 300px;
     color: #000000;
 }
 
-.header-about {
-    position: relative;
-    text-align: center;
-    color: white;
-    width: 100%;
+.sp-header-about {
+    width: 106vw;
+    background-image: url("../images/header-about.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    margin: -4% 0px 0% -15%;
 }
 
-.header-about img {
-    height: auto;
-    max-width: 100%;
-    padding: 0px !important;
-    margin-top: -24px;
-    
+
+@media (max-width: 1399px) {
+    .sp-header-about {
+        margin: -3% 0px 0% -14%;
+    }
+}
+
+@media (max-width: 1199px) {
+    .sp-header-about {
+        margin: -3% 0px 0% -12%;
+    }
+}
+
+@media (max-width: 991px) {
+    .sp-header-about {
+        margin: -2% 0px 0% -10%;
+    }
 }
