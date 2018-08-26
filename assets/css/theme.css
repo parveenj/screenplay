@@ -32,11 +32,10 @@ pre {
     line-height: 1.3;
 }
 
-.mediumnavigation {
+.sp-navbar {
     background: #fff;
     transition: top 0.5s ease-in-out;
     /*padding: 1.5rem 1rem;*/
-    box-shadow: 0px 10px 40px 0px rgba( 0, 0, 0, 0.05);
 }
 
 .nav-up {
@@ -167,14 +166,14 @@ section.recent-posts {
     font-size: 0.94em;
 }
 
-.mediumnavigation .dropdown-menu {
+.sp-navbar .dropdown-menu {
     margin: 0 0 15px 0;
     box-shadow: none;
     border: 0;
 }
 
 @media (min-width:992px) {
-    .mediumnavigation .dropdown-menu {
+    .sp-navbar .dropdown-menu {
         border: 0;
         box-shadow: 0px 10px 40px 0px rgba( 0, 0, 0, 0.05);
         margin: 15px 0;
@@ -333,31 +332,31 @@ span.post-read-more a:hover {
     margin-right: 3px;
 }
 
-.mediumnavigation .form-control {
+.sp-navbar .form-control {
     font-size: 0.8rem;
     border-radius: 30px;
     overflow: hidden;
     border: 1px solid rgba(0, 0, 0, 0.04);
 }
 
-.mediumnavigation .form-inline {
+.sp-navbar .form-inline {
     margin-left: 15px;
 }
 
-.mediumnavigation .form-inline .btn {
+.sp-navbar .form-inline .btn {
     margin-left: -50px;
     border: 0;
     border-radius: 30px;
     cursor: pointer;
 }
 
-.mediumnavigation .form-inline .btn:hover,
-.mediumnavigation .form-inline .btn:active {
+.sp-navbar .form-inline .btn:hover,
+.sp-navbar .form-inline .btn:active {
     background: transparent;
     color: green;
 }
 
-.mediumnavigation .navbar-brand {
+.sp-navbar .navbar-brand {
     font-weight: 500;
     padding: 0;
 }
@@ -368,19 +367,19 @@ span.post-read-more a:hover {
     padding: 7px 1.5rem;
 }
 
-.mediumnavigation .nav-item,
+.sp-navbar .nav-item,
 .dropdown-menu {
     font-size: 0.9rem;
 }
 
-.mediumnavigation .search-icon {
+.sp-navbar .search-icon {
     margin-left: -40px;
     display: inline-block;
     margin-top: 3px;
     cursor: pointer;
 }
 
-.mediumnavigation .navbar-brand img {
+.sp-navbar .navbar-brand img {
     margin-right: 7px;
     vertical-align: text-bottom;
     max-width: initial;
@@ -1311,7 +1310,6 @@ iframe {
 .carousel-inner {
     height: 80vh;
     border: 1px solid #d8d8d8;
-    border-radius: 4px;
 }
 
 .carousel-multi-item .carousel-inner {
