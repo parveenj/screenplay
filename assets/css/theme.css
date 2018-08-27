@@ -1282,6 +1282,7 @@ iframe {
     height: 50%;
     opacity: 0.6;;
     filter: alpha(opacity=60);
+    cursor: pointer;
 }
 
 
@@ -1320,6 +1321,10 @@ iframe {
 .carousel-item {
     padding: 16px;
     height: 100%;
+}
+
+.sp-slide--title-row {
+    text-transform: uppercase;
 }
 
 .sp-slide-img-solo {
