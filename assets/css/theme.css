@@ -145,7 +145,7 @@ section.recent-posts {
 }
 
 .navbar-toggleable-md .navbar-nav .nav-link.highlight {
-    background: #4A90E2;
+    background: #FF7E5F;
     color: #fff;
     border-radius: 4px;
     box-shadow: 0 6px 10px 0 rgba(0, 0, 0, 0.1);
@@ -1348,10 +1348,9 @@ iframe {
 }
 
 button {
-    background: #4A90E2;
-    color: #fff;
+    border: solid 1px #FF7E5F;
+    color: #000000;
     border-radius: 4px;
-    box-shadow: 0 6px 10px 0 rgba(0, 0, 0, 0.1);
     padding-left: 1em;
     padding-right: 1em;
 }
