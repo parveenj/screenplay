@@ -1419,6 +1419,27 @@ h4 {
     padding: 40px;
 }
 
+.sp-col-cover-paypal {
+    background-color: #39579A;
+    height: 100%;
+    width: 100%;
+    padding: 40px;
+}
+
+.sp-col-cover-vudu {
+    background-color: #4A90E2;
+    height: 100%;
+    width: 100%;
+    padding: 40px;
+}
+
+.sp-col-cover-walmart {
+    background-color: #002654;
+    height: 100%;
+    width: 100%;
+    padding: 40px;
+}
+
 .sp-slide-solo {
     height: 20%;
     width: 80%;
