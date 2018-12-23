@@ -1,0 +1,178 @@
+/* css for footer icon  */
+
+.footersocial i:nth-child(1) {background: #3a3a3a; color: #fff; transition: all 2s;}
+.footersocial i:nth-child(1):hover {background: #0073af; color: #fff; transform:scale(1.2);}
+.footersocial i:nth-child(2) {background: #3a3a3a; color: #fff; transition: all 2s;}
+.footersocial i:nth-child(2):hover {background: #171515; color: #fff; transform:scale(1.2);}
+.footersocial i:nth-child(3) {background: #3a3a3a; color: #fff; transition: all 2s;}
+.footersocial i:nth-child(3):hover {background: #00a7e6; color: #fff; transform:scale(1.2);}
+.footersocial i:nth-child(4) {background: #3a3a3a; color: #fff; transition: all 2s;}
+.footersocial i:nth-child(4):hover {background: #b5081c; color: #fff; transform:scale(1.2);}
+
+/* new css for all pages */
+
+h5 {line-height: 30px;}
+.sp-z-index-9 {z-index: 99;}
+.sp-xs-text-left {text-align: left;}
+
+/* background color - start */
+
+.sp-bg-dark {background:#1b1b1b;}
+
+/* background color - end */
+
+/* text color -start */
+
+.text-dark {color: #2b2b2b;} 
+.text-theme {color: #42c8f4;}
+.text-secondary {color: #dadada;}
+.text-orange {color: #ff9800;}
+
+/* text color - end */
+
+/* margin - padding - start */
+
+.sp-margin-0 {margin: 0px!important;}
+.sp-margin-auto {margin: 0 auto;}
+.sp-mt-8 {margin-top: 80px!important;}
+.sp-mb-8 {margin-bottom: 80px!important;}
+.sp-padd-0 {padding: 0px!important;}
+.sp-padd-3 {padding:30px;}
+
+/* margin - padding - end */
+
+/* custom css - start */
+
+.sp-line-h-26 {line-height: 26px;}
+.sp-h-5 {height: 50px;}
+.sp-mx-ht-430 {max-height: 430px;}
+.sp-relative {position: relative;}
+.sp-contact-pg {background: #f3f3f3; padding: 25px 25px; border-radius: 5px; box-shadow: 0px 0px 10px #ccc;}
+.sp-blog .card-block {background: #f3f3f3; box-shadow: 0px 0px 10px #ccc;}
+.sp-blog .card-block .card-title a, .sp-blog .card-block .card-text {color: #404040; line-height: 24px;}
+.sp-contact-pg .sp-input {border: 0px; padding: 15px; border-radius: 5px;}
+.portfolio-inner-fb {height: 100%; background: #333; padding: 15px; text-align: center; border: 1px solid #ccc; align-items: center;
+    color: #fff; transition: 2s ease; display: flex; background-image: url('../imgaes/patterns.jpg'); position: relative;}
+.sp-connec-f-logo {display: inline-block;}
+.sp-copyright-box {background: #171717; margin-top: 55px;}
+section .main-content {padding: 70px 0px;}
+.intro img {padding-top: 80px;}
+.sp-project {background: #fff; height: 200px; border-radius: 5px; display: flex; align-items: center; box-shadow: 0px 0px 10px #ccc;
+    cursor: pointer; transition: all 0.5s;}
+.sp-project:hover {transform: scale(1.15);}
+.sp-project img {margin: 0 auto;}
+.sp-carousel .dropdown-item {height: 430px; padding: 0.5rem!important; border: 1px solid #ececec; box-shadow: 0px 0px 10px #ccc;
+    transform: scale(0.9); transition: all 1s;}
+.dropdown-item:hover {transform: scale(0.91); transition: all 1s;}
+.sp-banner-right {background: #252525; padding: 80px 40px; max-height: 600px;}
+.sp-banner-right p {color: #b9b9b9; line-height: 1.6;}
+.sp-banner-right img {display: block; max-width: 150px; margin: -16px auto auto auto;}
+.positon-abs {background-color: #252525e8; position: absolute; left: 0px; right: 0px; bottom: 0px; top: 0px; z-index: 1;}
+
+
+/* css for portfolio pages */
+
+.bg-fb {background: #3f51b5e6; transition: all 1s;}
+.bg-fb:before, .bg-symntc:before, .bg-pypro:before, .bg-sap:before {content: ""; left: -30px; top:45%; position: absolute; border-left: 30px solid #3f51b5e6;
+        transform: rotate(180deg); border-top: 30px solid transparent; border-bottom: 30px solid transparent;}
+.bg-fb:hover, .bg-symntc:hover, .bg-sap:hover {background: #3f51b5cc;}
+.bg-symntc {background: #fdbb2fcc; transition: all 1s;}
+.bg-symntc:before, .bg-pypro:before {left:100%; right: -30px; transform: rotate(0deg); border-left: 30px solid #fdbb2fcc;}
+.bg-symntc:hover {background:#fdbb2fa3;}
+.bg-sap:hover {background: linear-gradient(#4281bc, #1e235c);}
+.bg-sap {background-image: linear-gradient(#4281b7, #1e2352);}
+.bg-sap:before {border-left: 30px solid #2f5082;}
+.bg-pypro:before {border-left: 30px solid #393938;}
+
+/* css for slider - start */
+
+.mySlides {max-height: 390px; overflow-y: hidden;}
+.mySlides img {width: 100%; max-height: 390px; min-height: 200px; object-fit: contain;}
+.prev, .next {cursor: pointer; position: absolute; top: 35%; width: auto; padding: 16px; margin-top: -50px; color: white;
+    font-weight: bold; font-size: 20px; border-radius: 0 3px 3px 0; user-select: none; -webkit-user-select: none;}
+.next {right: 0; border-radius: 3px 0 0 3px;}
+.prev:hover, .next:hover {background-color: rgba(0, 0, 0, 0.8); color: #fff!important;}
+.numbertext {color: #222; font-size: 14px; padding: 2px 10px; position: absolute; top: 28px; background: #fff; left: 5px; border-radius: 2px;}
+.caption-container {text-align: center; padding: 2px 16px; color: white; min-height: 220px; display: flex; align-items: center;
+    border-bottom: 1px solid #4c4c4c;  background-image: url('../imgaes/pattern.jpeg'); position: relative;}
+.caption-container #caption {width: 100%; z-index: 99;}
+.row:after {content: ""; display: table; clear: both;}
+.column {float: left; width: 16.66%; max-height: 120px;}
+.column div {display: none;}
+.column img {width: 100%; height: 100%; object-fit: cover; display: none;}
+.demo {opacity: 0.6;}
+.active, .demo:hover {opacity: 1;}
+.carousel-indicators li {text-indent: unset;}
+
+/* css for slider - end */
+
+/* portolio bottom slider - start */
+
+.row > .column {padding: 0 8px;}
+.row:after {content: ""; display: table; clear: both;}
+.column {float: left; width: 25%;}
+
+/* The Modal (background) */
+.modal {display: none; position: fixed; z-index: 1; padding-top: 100px; left: 0; top: 0; width: 100%; height: 100%;
+  overflow: auto; background-color: black;}
+
+/* Modal Content */
+.modal-content {position: relative; background-color: #fefefe; margin: auto; padding: 0; width: 90%; max-width: 1200px;}
+
+/* The Close Button */
+.close {color: white; position: absolute; top: 10px; right: 25px; font-size: 35px; font-weight: bold;}
+.close:hover, .close:focus {color: #999; text-decoration: none; cursor: pointer;}
+.mySlides {display: none;}
+.cursor {cursor: pointer;}
+
+/* Next & previous buttons */
+.prev, .next {cursor: pointer; position: absolute; top: 50%; width: auto; padding: 16px; margin-top: -50px; color: white;
+  font-weight: bold; font-size: 20px; transition: 0.6s ease; border-radius: 0 3px 3px 0; user-select: none; -webkit-user-select: none;}
+
+/* Position the "next button" to the right */
+.next {right: 0; border-radius: 3px 0 0 3px;}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {background-color: rgba(0, 0, 0, 0.8);}
+
+/* Number text (1/3 etc) */
+.numbertext {color: #f2f2f2; font-size: 12px; padding: 8px 12px; position: absolute; top: 0;}
+img {margin-bottom: -4px;}
+.caption-container {text-align: center; background-color: black; padding: 2px 16px; color: white;}
+.demo {opacity: 0.6;}
+.active, .demo:hover {opacity: 1;}
+img.hover-shadow {transition: 0.3s;}
+.hover-shadow:hover {box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);}
+
+/* portolio bottom slider - end */
+
+
+@media only screen and (max-width: 992px) {
+    .sm-position-absolute {position:absolute; top: 40px;}
+    .hidden-sm {display: none;}
+    .portfolio-title.d-lg-block {margin-top: -30px!important;}
+    .carousel-indicators {bottom: 45px;}
+    .sp-text-overlay {width: 80%; padding: 0px!important;}
+}
+.portfolio-title.d-lg-block {margin-top: -65px!important;}
+
+@media only screen and (max-width: 768px) {
+    .carousel-indicators {bottom: 25px;}
+    .sm-position-absolute {top: 30px;}
+    .portfolio-indicators {height: 55px;}
+    .carousel-indicators li {font-size: 12px; margin: 0px 8px;}
+    body {max-width: 100%;}
+    .xs-pull-left {float: left;}
+    .xs-padd-0 {padding: 0px!important;}
+    .sp-text-overlay {width: 85%; margin-left: 5%;}
+    .sp-header-about {background-position: right;}
+    .copyright {padding-bottom: 10px;}
+    .main-content {padding-top:2rem}
+    .sp-project {height: 160px; margin-bottom: 20px;}
+    .dropdown-item:hover {transform: scale(0.9)}
+    .intro {padding:2rem!important; min-height: 380px;}
+    .bg-fb:before, .bg-symntc:before, .bg-sap:before {top:-45px; left: 50%; right: 50%; bottom: 100%; transform: rotate(270deg);}
+    .bg-symntc:before {bottom:0px; left: 50%; right: 50%; top: 91%; transform: rotate(90deg);}
+    .prev, .next {top: 25%;}
+    .carousel-control-next,.carousel-control-prev {margin:-50px 0 0 0}
+}
