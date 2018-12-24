@@ -1027,12 +1027,12 @@ iframe{
     margin:-67px 0 0 0
 }
 .carousel-control-next-icon{
-    background-image:url(../imgaes/arrow-right.svg);
+    background-image:url(../images/arrow-right.svg);
     bottom:0;
     fill:#fff
 }
 .carousel-control-prev-icon{
-    background-image:url(../imgaes/arrow-left.svg);
+    background-image:url(../images/arrow-left.svg);
     bottom:0;
     fill:#fff
 }

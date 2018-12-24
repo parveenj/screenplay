@@ -98,8 +98,8 @@
     right: auto;
     left: -25px;
 }
-.slick-next {background: url('../imgaes/arrow-right-white.svg'); background-repeat: no-repeat; height: 100px; width: 50px;}
-.slick-prev {background: url('../imgaes/arrow-left-white.svg'); background-repeat: no-repeat; height: 100px; width: 50px;}
+.slick-next {background: url('../images/arrow-right-white.svg'); background-repeat: no-repeat; height: 100px; width: 50px;}
+.slick-prev {background: url('../images/arrow-left-white.svg'); background-repeat: no-repeat; height: 100px; width: 50px;}
 [dir='rtl'] .slick-next:before
 {
     content: '←';
