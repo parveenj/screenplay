@@ -8,7 +8,7 @@ paginate: 12
 baseurl: 
 email: 'parveenj@gmail.com'
 google_analytics: 'UA-46278016-1'
-destination         : ./_site
+destination         : _site
 plugins_dir         : _plugins
 layouts_dir         : _layouts
 data_dir            : _data

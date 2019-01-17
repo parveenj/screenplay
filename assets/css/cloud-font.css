@@ -1228,13 +1228,12 @@ button{
     border-radius: 5px;
 }
 .sp-header-about{
-    width:100vw;
     background-image:url(https://d33wubrfki0l68.cloudfront.net/assets/images/a946a73329a713e78e12020cbd0afec286e2bffa/header-about.jpg);
     background-repeat:no-repeat;
     background-size:cover;
     height:100%;
     margin:-4% 0 0 -15%;
-    width:125%;
+    width:150%;
     background-attachment: fixed;
 }
 @media (max-width:1399px){
