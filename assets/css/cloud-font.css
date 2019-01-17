@@ -1238,17 +1238,21 @@ button{
 }
 @media (max-width:1399px){
     .sp-header-about{
-        margin:-3% 0 0 -14%
+        margin:-3% 0 0 -14%;
+        width:100%;
     }
+
 }
 @media (max-width:1199px){
     .sp-header-about{
-        margin:-3% 0 0 -12%
+        margin:-3% 0 0 -12%;
+        width:100%;
     }
 }
 @media (max-width:991px){
     .sp-header-about{
-        margin:-2% 0 0 -10%
+        margin:-2% 0 0 -10%;
+        width:100%;
     }
 }
 .highlight{
