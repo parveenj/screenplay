@@ -1,8 +1,8 @@
 ---
 layout: post-full
 title:  "Leading Design at Rune"
-author: pj
-categories: [ Jekyll, tutorial ]
+author: Parveen
+categories: [ Career, Design ]
 image: assets/images/header-about.jpg
 featured: false
 ---

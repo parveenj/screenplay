@@ -1,8 +1,8 @@
 ---
 layout: post-full
 title:  "Moving From Wordpress"
-author: pj
-categories: [ Jekyll, tutorial ]
+author: Parveen
+categories: [ Design, Personal]
 image: assets/images/header-about.jpg
 featured: true
 ---

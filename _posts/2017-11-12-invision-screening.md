@@ -1,9 +1,9 @@
 ---
 layout: post-full
 title:  "Invision Screening"
-author: pj
-categories: [ Jekyll, tutorial ]
+author: Parveen
+categories: [ Career ]
 image: assets/images/header-about.jpg
-featured: true
+featured: false
 ---
 I am in the process of migrating my site over to GitHub from Wordpress. Please check back here real soon...
