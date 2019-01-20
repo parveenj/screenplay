@@ -1,52 +1,16 @@
-    <!-- Begin Footer
-    ================================================== -->
-    <footer class="footer">
+<footer class="footer">
 
-        <div class="container">
+	<div class="wrap">
 
-            <div class="row">
+		<p class="footer__text">{{ site.data.settings.footer_settings.footer_tagline }}</p>
 
-                <div class="col-sm-9">
-                <div class="footer-widget">
-                <h5 class="title">Ramblings (coming soon)</h5>
-                <div class="recent-posts row">
-                    {% for post in site.posts %} 
-                        {% unless post.featured == false %}
-                            {% include postbox.html %}
-                        {% endunless %}
-                    {% endfor %}
-                </div>
-                </div>
-                </div>
+		<div class="footer__copyright">
+			<span>© {{ 'now' | date: "%Y" }} {{ site.data.settings.basic_settings.site_title }}</span>
+			<a href="https://jekyllthemes.io" target="_blank">Built by Parveen Jagajeevan using Jekyll, Netlify, GitHub, and Bootstrap</a>
+		</div>
 
-                <div class="col-sm-3">  
-                <div class="footer-widget textwidget">   
-                    <div class="text-right footersocial">
-                        <a href="{{site.baseurl}}/contact">
-                            <img src="{{ site.baseurl }}/assets/images/logo-screenplay.png">
-                        </a> 
-                        <h5>Connections</h5>
-                            <i class="fa fa-linkedin"></i>
-                            <i class="fa fa-github"></i>
-                            <i class="fa fa-twitter"></i>
-                            <i class="fa fa-pinterest"></i>
-                    </div>                    
-                </div>
-                </div>
-            </div>
+		{% include socials.html %}
 
-            <div class="copyright">
-                <p class="pull-left">  
-                Copyright © {{ site.time | date: "%Y" }} {{ site.name }}.
-                </p>
-                <p class="pull-right">
-                Designed & Coded by Parveen Jagajeevan with a little help from his <a target="_blank" href="">friends.</a>
-                </p>
-                <div class="clearfix"></div>
-            </div>
+	</div>
 
-        </div>
-
-    </footer>
-    <!-- End Footer
-    ================================================== -->
+</footer>

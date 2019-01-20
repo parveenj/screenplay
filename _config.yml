@@ -1,48 +1,54 @@
-# Site
-name: Screenplay
-description: Product Design with Stories in Mind
-meta_description: "Product Design with Stories in Mind"
-logo: 'assets/images/logo-screenplay.png'
-favicon: 'assets/images/favicon.ico'
-paginate: 12
-baseurl: 
-email: 'parveenj@gmail.com'
-google_analytics: 'UA-46278016-1'
-destination         : _site
-plugins_dir         : _plugins
-layouts_dir         : _layouts
-data_dir            : _data
-includes_dir        : _includes
+site: Screenplay
+
 collections:
+  pages:
+    output: true
+    permalink: /:name
   posts:
-    output          : true
-# disqus: 'demowebsite'
-# sharethis: '<script type="text/javascript" src="//platform-api.sharethis.com/js/sharethis.js#property=5a6b2fe4fb197a0011c589f6&product=sticky-share-buttons"></script>'
+    output: true
+    permalink: /blog/:slug
+  projects:
+    output: true
+    permalink: /project/:slug
 
-# Authors
-authors:
-  pj:
-    name: Parveen
-    display_name: PJ
-    gravatar: 
-    email: parveenj@gmail.com
-    web: https://www.storyagent.design
-    twitter: https://twitter.com/in/parveenj
-    description: "Product Design Leader in Silicon Valley"
+defaults:
+  -
+    scope:
+      path: ""
+    values:
+      layout: "default"
+  -
+    scope:
+      path: ""
+      type: "pages"
+    values:
+      layout: "page"
+  -
+    scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+  -
+    scope:
+      path: ""
+      type: "projects"
+    values:
+      layout: "project"
 
-# Plugins
-plugins: 
-  - jekyll-paginate
-  - jekyll-archives
-
-# Archives
-jekyll-archives:
-  enabled:
-    - categories
-  layout: archive
-  permalinks:
-    category: '/category/:name/'
-
-# Other
 markdown: kramdown
-highlighter: rouge
+
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge
+  
+sass:
+  style: compressed
+
+plugins:
+  - jekyll-paginate
+  - jekyll-sitemap
+
+paginate: 4
+paginate_path: "/blog/page:num/"
+  
