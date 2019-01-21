@@ -18,15 +18,14 @@ description: Product design with stories in mind
 
 	<div class="wrap">
 
-		<article class="single-post">
+		<div class="single-post">
 
-			<div>
-				Mark your calendars: The only total lunar eclipse of 2019 is set to happen Sunday night, with a little something extra.
+                   <h5>Hello friend! </h5>
+                        <p> 
+                    My name is Parveen and as a child, I dreamt of creating stories to connect my vision to other people. Now as an adult, I am a design leader
+                    who builds experiences that connect people to each other. </p>
 
-				As the full moon passes through the shadow of the Earth, a number of factors will combine to create a so-called “super blood wolf moon.” The eclipse will be visible from anywhere in the U.S. for 62 minutes on Sunday night, as well as South America and parts of Europe and Africa.
-			</div>
-
-		</article>
+		</div>
 
 	</div>
 
