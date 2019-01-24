@@ -25,6 +25,9 @@ description: Product design with stories in mind
                     My name is Parveen and as a child, I dreamt of creating stories to connect my vision to other people. Now as an adult, I am a design leader
                     who builds experiences that connect people to each other. </p>
 
+					<p>I've worked with some of the biggest names in the valley:</p>
+					<img src="images/section-logos.png">
+
 		</div>
 
 	</div>
