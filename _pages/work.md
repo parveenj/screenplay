@@ -5,30 +5,70 @@ description:
 featured_image: /images/demo/about.jpg
 ---
 
-<section class="listing">
 
-	<div class="wrap">
 
-		{% for project in site.projects reversed %}
+### Image carousels
 
-		<article class="post">
+Here's another gallery with only one column, which creates a carousel slide-show instead.
 
-			<div class="post__image-wrap">
-				<div class="post__image" style="background-image: url({{ project.featured_image }})"></div>
-			</div>
+A nice little feature: the carousel only advances when it is in view, so your visitors won't scroll down to find it half way through your images.
 
-			<div class="post__content-wrap">
-				<div class="post__content">
-					<h2 class="post__title"><a href="{{ project.url }}">{{ project.title }}</a></h2>
-					<p class="post__subtitle">{{ project.subtitle }}</p>
-					<p class="post__description">{{ project.description }}</p>
-				</div>
-			</div>
+<div class="gallery" data-columns="1">
+	<img src="/images/portfolio-vudu-cover.png">
+	<img src="/images/portfolio-facebook-cover.png">
+	<img src="/images/portfolio-walmart-cover.png">
+	<img src="/images/portfolio-paypal-cover.png">
+	<img src="/images/portfolio-rune-cover.png">
+	<img src="/images/portfolio-fireeye-cover.png">
+</div>
 
-		</article>
+### Rune
 
-		{% endfor %}
+Videos are an awesome way to show off your work in a more engaging and personal way, and we’ve made sure they work great on our themes. Just paste an embed code from YouTube or Vimeo, and the theme makes sure it displays perfectly:
 
-	</div>
+<div class="gallery" data-columns="4">
+	<img src="/images/story-rune-2.png">
+	<img src="/images/story-rune-3.png">
+	<img src="/images/story-rune-6.png">
+	<img src="/images/story-rune-8.png">
+</div>
 
-</section>
+---
+
+### Symantec
+
+Videos are an awesome way to show off your work in a more engaging and personal way, and we’ve made sure they work great on our themes. Just paste an embed code from YouTube or Vimeo, and the theme makes sure it displays perfectly:
+
+<div class="gallery" data-columns="3">
+	<img src="/images/story-rune-2.png">
+	<img src="/images/story-rune-3.png">
+	<img src="/images/story-rune-6.png">
+	<img src="/images/story-rune-8.png">
+</div>
+
+---
+
+### Lifograph
+
+Videos are an awesome way to show off your work in a more engaging and personal way, and we’ve made sure they work great on our themes. Just paste an embed code from YouTube or Vimeo, and the theme makes sure it displays perfectly:
+
+<div class="gallery" data-columns="4">
+	<img src="/images/story-rune-2.png">
+	<img src="/images/story-rune-3.png">
+	<img src="/images/story-rune-6.png">
+	<img src="/images/story-rune-8.png">
+</div>
+
+---
+
+### T1DE
+
+Videos are an awesome way to show off your work in a more engaging and personal way, and we’ve made sure they work great on our themes. Just paste an embed code from YouTube or Vimeo, and the theme makes sure it displays perfectly:
+
+<div class="gallery" data-columns="4">
+	<img src="/images/story-rune-2.png">
+	<img src="/images/story-rune-3.png">
+	<img src="/images/story-rune-6.png">
+	<img src="/images/story-rune-8.png">
+</div>
+
