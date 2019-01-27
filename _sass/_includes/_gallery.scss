@@ -7,6 +7,7 @@
 .gallery {
 	visibility: hidden;
 	position: relative;
+	width: 40%;
 	margin: 20px auto;
 
 	@include mq(tabletp) {
@@ -86,9 +87,11 @@
 
 
 
-// - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - Grid
+// - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - Grid for Galleries used on projects like Rune and T1DE
 
 .gallery--grid {
+
+	width: 100%;
 
 	.gallery__wrap {
 		margin-left: -$grid-spacing/2;
