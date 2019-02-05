@@ -20,6 +20,8 @@ description: Product design with stories in mind
 
 		<div class="single-post">
 
+		<img class="image-top" src="/images/home-parveen.png">
+
                    <h5>Hello friend! </h5>
                         <p> 
                     My name is Parveen and as a child, I dreamt of creating stories to connect my vision to other people. Now as an adult, I am a design leader
@@ -29,12 +31,12 @@ description: Product design with stories in mind
 					<img src="images/section-logos.png">
 
 					<div class="gallery" data-columns="1">
-						<img src="/images/portfolio-vudu-cover.png">
-						<img src="/images/portfolio-facebook-cover.png">
-						<img src="/images/portfolio-walmart-cover.png">
-						<img src="/images/portfolio-paypal-cover.png">
-						<img src="/images/portfolio-rune-cover.png">
-						<img src="/images/portfolio-fireeye-cover.png">
+						<img src="/images/story-poster-walmart.png">
+						<img src="/images/story-poster-fireeye.png">
+						<img src="/images/story-poster-facebook.png">
+						<img src="/images/story-poster-vudu.png">
+						<img src="/images/story-poster-apple.png">
+						<img src="/images/story-poster-paypal.png">
 					</div>
 
 		</div>

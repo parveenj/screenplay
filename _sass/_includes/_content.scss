@@ -27,6 +27,7 @@
 
 .single-post {
 	position: relative;
+	overflow: hidden;
 	margin-top: -40px;
 	background: $background-color;
 	padding: 16px 20px;
@@ -164,6 +165,11 @@
 	}
 }
 
+.image-top {
+	max-width: 125%;
+	margin: -80px -60px 0px -80px;
+	overflow: hidden;
+}
 .image-wrap,
 .video-wrap {
 	position: relative;
