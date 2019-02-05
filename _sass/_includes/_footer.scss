@@ -53,18 +53,18 @@
 }
 
 .footer__text {
-	color: $text-light-color;
+	color: $text-dark-color;
 }
 
 .footer__copyright {
 	display: block;
 	margin-top: 10px;
 	font-size: 13px;
-	color: $text-light-color;
+	color: $text-dark-color;
 
 	a {
 		margin-left: 10px;
-		color: $text-light-color;
+		color: $text-dark-color;
 		font-weight: $regular-weight;
 
 		&:hover {

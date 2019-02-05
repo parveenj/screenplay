@@ -13,13 +13,13 @@ Here's another gallery with only one column, which creates a carousel slide-show
 
 A nice little feature: the carousel only advances when it is in view, so your visitors won't scroll down to find it half way through your images.
 
-<div class="gallery" data-columns="1">
-	<img src="/images/story-poster-walmart.png">Jump
+<div class="gallery" data-columns="2">
+	<a href=""><img src="/images/story-poster-walmart.png"></a>
 	<img src="/images/story-poster-fireeye.png">
 	<img src="/images/story-poster-facebook.png">
 	<img src="/images/story-poster-vudu.png">
 	<img src="/images/story-poster-apple.png">
-	<img src="/images/story-poster-paypal.png">Poop
+	<img src="/images/story-poster-paypal.png">
 </div>
 
 ### Rune
