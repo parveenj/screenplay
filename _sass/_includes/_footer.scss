@@ -9,6 +9,8 @@
 // - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - Footer
 
 .footer {
+	background: $background-alt-color;
+
 	@include transition(all 0.4s ease-in-out 0.8s);
 	padding: 40px 0;
 
