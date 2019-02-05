@@ -128,7 +128,6 @@
 	}
 
 	table {
-		border: 2px solid $text-dark-color;
 
 		thead {
 			background: $text-dark-color;
@@ -155,19 +154,20 @@
 				font-size: $p-medium;
 			}
 		}
-		
-		tr {
-
-			&:nth-child(2n) {
-				background: $background-alt-color;
-			}
-		}
+// - - - - - - - - - - - - - - - - - -
+//		tr {
+//
+//			&:nth-child(2n) {
+//				background: $background-alt-color;
+//			}
+//		}
+// - - - - - - - - - - - - - - - - - -
 	}
 }
 
 .image-top {
 	max-width: 125%;
-	margin: -80px -60px 0px -80px;
+	margin: -80px -60px 40px -80px;
 	overflow: hidden;
 }
 .image-wrap,

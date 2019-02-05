@@ -5,70 +5,69 @@ description:
 featured_image: /images/demo/about.jpg
 ---
 
+Below are some of my work stories. Scroll down and click on these to view it all. If you want to just view some final screens, scroll to the bottom to see final shots of these stories as well other projects I don't share in more detail.
 
+### Walmart
+<a href="/project/walmart.html"><img src="/images/story-poster-walmart.png"></a>
 
-### Image carousels
+### FireEye
+<a href="/project/fireeye.html"><img src="/images/story-poster-fireeye.png"></a>
 
-Here's another gallery with only one column, which creates a carousel slide-show instead.
+### Facebook
+<a href="/project/facebook.html"><img src="/images/story-poster-facebook.png"></a>
 
-A nice little feature: the carousel only advances when it is in view, so your visitors won't scroll down to find it half way through your images.
+### Vudu
+<a href="/project/vudu.html"><img src="/images/story-poster-vudu.png"></a>
 
-<div class="gallery" data-columns="2">
-	<a href=""><img src="/images/story-poster-walmart.png"></a>
-	<img src="/images/story-poster-fireeye.png">
-	<img src="/images/story-poster-facebook.png">
-	<img src="/images/story-poster-vudu.png">
-	<img src="/images/story-poster-apple.png">
-	<img src="/images/story-poster-paypal.png">
-</div>
+### Apple
+<a href="/project/apple.html"><img src="/images/story-poster-apple.png"></a>
+
+### PayPal
+<a href="/project/paypal.html"><img src="/images/story-poster-paypal.png"></a>
 
 ### Rune
 
-Videos are an awesome way to show off your work in a more engaging and personal way, and we’ve made sure they work great on our themes. Just paste an embed code from YouTube or Vimeo, and the theme makes sure it displays perfectly:
+I led the design efforts at Rune, an early stage startup, whose focus was to help smaller online publishers leverage the social graph. Our aim was to help these publishers push forward real journalism by leveraging social interactions to drive traffic growth.
 
-<div class="gallery" data-columns="4">
+<div class="gallery" data-columns="3">
 	<img src="/images/story-rune-2.png">
 	<img src="/images/story-rune-3.png">
 	<img src="/images/story-rune-6.png">
-	<img src="/images/story-rune-8.png">
 </div>
 
 ---
 
 ### Symantec
 
-Videos are an awesome way to show off your work in a more engaging and personal way, and we’ve made sure they work great on our themes. Just paste an embed code from YouTube or Vimeo, and the theme makes sure it displays perfectly:
+I worked in the Trust department helping to refine tools that customers needed to setup or maintain online certificates for their businesses.
 
 <div class="gallery" data-columns="3">
 	<img src="/images/story-rune-2.png">
 	<img src="/images/story-rune-3.png">
 	<img src="/images/story-rune-6.png">
-	<img src="/images/story-rune-8.png">
 </div>
 
 ---
 
 ### Lifograph
 
-Videos are an awesome way to show off your work in a more engaging and personal way, and we’ve made sure they work great on our themes. Just paste an embed code from YouTube or Vimeo, and the theme makes sure it displays perfectly:
+I consulted with an entreprenuer on taking the company's product to the next level. Lifograph provided a networking experience for investment professionals, focusing on use cases were needed most.
 
-<div class="gallery" data-columns="4">
+<div class="gallery" data-columns="3">
 	<img src="/images/story-rune-2.png">
 	<img src="/images/story-rune-3.png">
 	<img src="/images/story-rune-6.png">
-	<img src="/images/story-rune-8.png">
 </div>
 
 ---
 
 ### T1DE
 
-Videos are an awesome way to show off your work in a more engaging and personal way, and we’ve made sure they work great on our themes. Just paste an embed code from YouTube or Vimeo, and the theme makes sure it displays perfectly:
+I ran a project to build out a next wave portal that helps Type 1 Diabetes patients manage their care and communicate with their healthcare providers.
 
-<div class="gallery" data-columns="4">
+<div class="gallery" data-columns="3">
 	<img src="/images/story-rune-2.png">
 	<img src="/images/story-rune-3.png">
 	<img src="/images/story-rune-6.png">
-	<img src="/images/story-rune-8.png">
 </div>
 
