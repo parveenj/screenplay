@@ -2,7 +2,7 @@
 title: My Work
 subtitle: 
 description: 
-featured_image: /images/demo/about.jpg
+featured_image: /images/header-work.jpg
 ---
 
 Below are some of my work stories. Scroll down and click on these to view it all. If you want to just view some final screens, scroll to the bottom to see final shots of these stories as well other projects I don't share in more detail.
