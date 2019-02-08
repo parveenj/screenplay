@@ -5,7 +5,7 @@ description:
 featured_image: /images/header-work.jpg
 ---
 
-Below are some of my work stories. Scroll down and click on these to view it all. If you want to just view some final screens, scroll to the bottom to see final shots of these stories as well other projects I don't share in more detail.
+Don't forget the following previews of what is currently playing in my portfolio. 
 
 <div class="gallery" data-columns="1">
 	<a href="/project/walmart.html"><img src="/images/story-poster-walmart.png"></a>
@@ -16,15 +16,12 @@ Below are some of my work stories. Scroll down and click on these to view it all
 	<a href="/project/paypal.html"><img src="/images/story-poster-paypal.png"></a>
 </div>
 
-Below are some of my work stories. Scroll down and click on these to view it all. If you want to just view some final screens, scroll to the bottom to see final shots of these stories as well other projects I don't share in more detail.
+If you don't care about spoilers, then view some final deliverables further below.
 
 <hr />
 
-### Walmart
+### Walmart <a href="/project/walmart.html">(read full story)</a>
 <div class="gallery" data-columns="3">
-	<img src="/images/story-rune-2.png">
-	<img src="/images/story-rune-3.png">
-	<img src="/images/story-rune-6.png">
 	<img src="/images/story-rune-2.png">
 	<img src="/images/story-rune-3.png">
 	<img src="/images/story-rune-6.png">
@@ -35,8 +32,11 @@ Below are some of my work stories. Scroll down and click on these to view it all
 
 <hr />
 
-### FireEye
+### PayPal <a href="/project/paypal.html">(read full story)</a>
 <div class="gallery" data-columns="3">
+	<img src="/images/story-rune-2.png">
+	<img src="/images/story-rune-3.png">
+	<img src="/images/story-rune-6.png">
 	<img src="/images/story-rune-2.png">
 	<img src="/images/story-rune-3.png">
 	<img src="/images/story-rune-6.png">
@@ -44,8 +44,11 @@ Below are some of my work stories. Scroll down and click on these to view it all
 
 <hr />
 
-### Facebook
+### Facebook <a href="/project/facebook.html">(read full story)</a>
 <div class="gallery" data-columns="3">
+	<img src="/images/story-rune-2.png">
+	<img src="/images/story-rune-3.png">
+	<img src="/images/story-rune-6.png">
 	<img src="/images/story-rune-2.png">
 	<img src="/images/story-rune-3.png">
 	<img src="/images/story-rune-6.png">
@@ -53,8 +56,11 @@ Below are some of my work stories. Scroll down and click on these to view it all
 
 <hr />
 
-### Vudu
+### FireEye <a href="/project/fireeye.html">(read full story)</a>
 <div class="gallery" data-columns="3">
+	<img src="/images/story-rune-2.png">
+	<img src="/images/story-rune-3.png">
+	<img src="/images/story-rune-6.png">
 	<img src="/images/story-rune-2.png">
 	<img src="/images/story-rune-3.png">
 	<img src="/images/story-rune-6.png">
@@ -62,8 +68,11 @@ Below are some of my work stories. Scroll down and click on these to view it all
 
 <hr />
 
-### Apple
+### Vudu <a href="/project/vudu.html">(read full story)</a>
 <div class="gallery" data-columns="3">
+	<img src="/images/story-rune-2.png">
+	<img src="/images/story-rune-3.png">
+	<img src="/images/story-rune-6.png">
 	<img src="/images/story-rune-2.png">
 	<img src="/images/story-rune-3.png">
 	<img src="/images/story-rune-6.png">
@@ -71,8 +80,11 @@ Below are some of my work stories. Scroll down and click on these to view it all
 
 <hr />
 
-### PayPal
+### Apple <a href="/project/apple.html">(read full story)</a>
 <div class="gallery" data-columns="3">
+	<img src="/images/story-rune-2.png">
+	<img src="/images/story-rune-3.png">
+	<img src="/images/story-rune-6.png">
 	<img src="/images/story-rune-2.png">
 	<img src="/images/story-rune-3.png">
 	<img src="/images/story-rune-6.png">
@@ -82,7 +94,7 @@ Below are some of my work stories. Scroll down and click on these to view it all
 
 ### Rune
 
-I led the design efforts at Rune, an early stage startup, whose focus was to help smaller online publishers leverage the social graph. Our aim was to help these publishers push forward real journalism by leveraging social interactions to drive traffic growth.
+I led the design efforts at Rune, an early stage startup, whose focus was to help smaller online publishers leverage the social graph to drive traffic to their sites.
 
 <div class="gallery" data-columns="3">
 	<img src="/images/story-rune-2.png">
@@ -106,7 +118,19 @@ I worked in the Trust department helping to refine tools that customers needed t
 
 ### Lifograph
 
-I consulted with an entreprenuer on taking the company's product to the next level. Lifograph provided a networking experience for investment professionals, focusing on use cases were needed most.
+I consulted with an entreprenuer on taking the company's product, a networking platform for entreprenuers and investors, to the next level.
+
+<div class="gallery" data-columns="3">
+	<img src="/images/story-rune-2.png">
+	<img src="/images/story-rune-3.png">
+	<img src="/images/story-rune-6.png">
+</div>
+
+---
+
+### PayPros
+
+I consulted with a small tech firm to build a web app focused on providing digital payment processing for small businesses.
 
 <div class="gallery" data-columns="3">
 	<img src="/images/story-rune-2.png">
@@ -118,7 +142,7 @@ I consulted with an entreprenuer on taking the company's product to the next lev
 
 ### T1DE
 
-I ran a project to build out a next wave portal that helps Type 1 Diabetes patients manage their care and communicate with their healthcare providers.
+I ran a project to build out an advanced portal that helps Type 1 Diabetes patients manage their care and communication with healthcare providers.
 
 <div class="gallery" data-columns="3">
 	<img src="/images/story-rune-2.png">
