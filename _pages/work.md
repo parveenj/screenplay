@@ -7,23 +7,78 @@ featured_image: /images/header-work.jpg
 
 Below are some of my work stories. Scroll down and click on these to view it all. If you want to just view some final screens, scroll to the bottom to see final shots of these stories as well other projects I don't share in more detail.
 
+<div class="gallery" data-columns="1">
+	<a href="/project/walmart.html"><img src="/images/story-poster-walmart.png"></a>
+	<a href="/project/fireeye.html"><img src="/images/story-poster-fireeye.png"></a>
+	<a href="/project/facebook.html"><img src="/images/story-poster-facebook.png"></a>
+	<a href="/project/vudu.html"><img src="/images/story-poster-vudu.png"></a>
+	<a href="/project/apple.html"><img src="/images/story-poster-apple.png"></a>
+	<a href="/project/paypal.html"><img src="/images/story-poster-paypal.png"></a>
+</div>
+
+Below are some of my work stories. Scroll down and click on these to view it all. If you want to just view some final screens, scroll to the bottom to see final shots of these stories as well other projects I don't share in more detail.
+
+<hr />
+
 ### Walmart
-<a href="/project/walmart.html"><img src="/images/story-poster-walmart.png"></a>
+<div class="gallery" data-columns="3">
+	<img src="/images/story-rune-2.png">
+	<img src="/images/story-rune-3.png">
+	<img src="/images/story-rune-6.png">
+	<img src="/images/story-rune-2.png">
+	<img src="/images/story-rune-3.png">
+	<img src="/images/story-rune-6.png">
+	<img src="/images/story-rune-2.png">
+	<img src="/images/story-rune-3.png">
+	<img src="/images/story-rune-6.png">
+</div>
+
+<hr />
 
 ### FireEye
-<a href="/project/fireeye.html"><img src="/images/story-poster-fireeye.png"></a>
+<div class="gallery" data-columns="3">
+	<img src="/images/story-rune-2.png">
+	<img src="/images/story-rune-3.png">
+	<img src="/images/story-rune-6.png">
+</div>
+
+<hr />
 
 ### Facebook
-<a href="/project/facebook.html"><img src="/images/story-poster-facebook.png"></a>
+<div class="gallery" data-columns="3">
+	<img src="/images/story-rune-2.png">
+	<img src="/images/story-rune-3.png">
+	<img src="/images/story-rune-6.png">
+</div>
+
+<hr />
 
 ### Vudu
-<a href="/project/vudu.html"><img src="/images/story-poster-vudu.png"></a>
+<div class="gallery" data-columns="3">
+	<img src="/images/story-rune-2.png">
+	<img src="/images/story-rune-3.png">
+	<img src="/images/story-rune-6.png">
+</div>
+
+<hr />
 
 ### Apple
-<a href="/project/apple.html"><img src="/images/story-poster-apple.png"></a>
+<div class="gallery" data-columns="3">
+	<img src="/images/story-rune-2.png">
+	<img src="/images/story-rune-3.png">
+	<img src="/images/story-rune-6.png">
+</div>
+
+<hr />
 
 ### PayPal
-<a href="/project/paypal.html"><img src="/images/story-poster-paypal.png"></a>
+<div class="gallery" data-columns="3">
+	<img src="/images/story-rune-2.png">
+	<img src="/images/story-rune-3.png">
+	<img src="/images/story-rune-6.png">
+</div>
+
+<hr />
 
 ### Rune
 

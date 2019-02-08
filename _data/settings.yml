@@ -8,11 +8,11 @@ header_settings:
 
 menu_settings:
   menu_items:
-    - title: 'About Me'
+    - title: 'About'
       url: '/about'
-    - title: 'My Work'
+    - title: 'Work'
       url: '/work'
-    - title: 'My Thoughts'
+    - title: 'Thoughts'
       url: '/blog/'
     - title: 'Contact'
       url: '/contact'
