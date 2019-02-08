@@ -57,6 +57,8 @@ var i=o(this),n="gallery-"+
 var s=i.attr("data-columns");
 // Set up gallery container
 i.append('<div class="gallery__wrap"></div>'),
+// Add links to container
+i.children("a").each(function(){o(this).appendTo("#"+n+" .gallery__wrap")}),
 // Add images to container
 i.children("img").each(function(){o(this).appendTo("#"+n+" .gallery__wrap")}),
 // Wrap images
