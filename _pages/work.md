@@ -22,10 +22,8 @@ featured_image: /images/header-work.jpg
 
 <p class="text-center">Walmart <a href="/project/walmart.html">(read full story)</a></p>
 <div class="gallery" data-columns="2">
-	<img src="/images/story-rune-2.png">
-	<img src="/images/story-rune-3.png">
-	<img src="/images/story-rune-2.png">
-	<img src="/images/story-rune-2.png">
+	<img src="/images/portfolio-walmart-1.png">
+	<img src="/images/portfolio-walmart-2.png">
 </div>
 
 <hr />

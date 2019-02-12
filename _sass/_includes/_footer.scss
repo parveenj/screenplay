@@ -12,18 +12,18 @@
 	background: $background-alt-color;
 
 	@include transition(all 0.4s ease-in-out 0.8s);
-	padding: 40px 0;
+	padding: 0px 0px 40px 0px;
 
 	@include mq(tabletp) {
-		padding: 50px 0;
+		padding: 0px 0px 40px 0px;
 	}
 
 	@include mq(tabletl) {
-		padding: 60px 0;
+		padding: 0px 0px 40px 0px
 	}
 
 	@include mq(laptop) {
-		padding: 80px 0;
+		padding: 0px 0px 40px 0px
 	}
 }
 

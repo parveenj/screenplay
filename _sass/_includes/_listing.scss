@@ -7,6 +7,8 @@
 
 .listing {
 	margin-top: -40px;
+	background: $background-alt-color;
+	padding: 40px 0px 40px 0px;
 
 	@include mq(tabletp) {
 		margin-top: -60px;
@@ -129,7 +131,8 @@
 	
 	@include mq(tabletl) {
 		margin: 0 0 0 -30px;
-		min-height: 400px;
+		min-height: 200px;
+		text-overflow: ellipsis;
 	}
 }
 
