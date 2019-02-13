@@ -56,7 +56,7 @@ featured_image: /images/header-work.jpg
 
 <hr />
 
-<p class="text-center">Vudu <a href="/project/vudu.html">(read full story)</a></p>
+<p class="text-center">Super Q <a href="/project/vudu.html">(read full story)</a></p>
 
 <div>
 	<img src="/images/portfolio-vudu-1.png">
