@@ -2,19 +2,19 @@
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <url>
 <loc>http://localhost:4000/about</loc>
-<lastmod>2019-02-23T15:34:07-08:00</lastmod>
+<lastmod>2019-02-26T02:32:43-08:00</lastmod>
 </url>
 <url>
 <loc>http://localhost:4000/contact</loc>
-<lastmod>2019-02-23T15:34:07-08:00</lastmod>
+<lastmod>2019-02-26T02:32:43-08:00</lastmod>
 </url>
 <url>
 <loc>http://localhost:4000/thanks</loc>
-<lastmod>2019-02-23T15:34:07-08:00</lastmod>
+<lastmod>2019-02-26T02:32:43-08:00</lastmod>
 </url>
 <url>
 <loc>http://localhost:4000/work</loc>
-<lastmod>2019-02-23T15:34:07-08:00</lastmod>
+<lastmod>2019-02-26T02:32:43-08:00</lastmod>
 </url>
 <url>
 <loc>http://localhost:4000/blog/goodbye-wordpress</loc>
@@ -50,7 +50,7 @@
 </url>
 <url>
 <loc>http://localhost:4000/project/walmart</loc>
-<lastmod>2019-03-29T17:00:00-07:00</lastmod>
+<lastmod>2018-06-29T17:00:00-07:00</lastmod>
 </url>
 <url>
 <loc>http://localhost:4000/blog/</loc>
