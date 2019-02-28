@@ -73,6 +73,8 @@ featured_image: /images/header-work.jpg
 <div class="gallery" data-columns="1">
 	<img src="/images/portfolio-vudu-1.png">
 	<img src="/images/portfolio-vudu-2.png">
+	<img src="/images/portfolio-vudu-3.png">
+	<img src="/images/portfolio-vudu-4.png">
 </div>
 <hr />
 
@@ -98,6 +100,7 @@ I led the design efforts at Rune, an early stage startup, whose focus was to hel
 	<img src="/images/portfolio-rune-2.png">
 	<img src="/images/portfolio-rune-3.png">
 	<img src="/images/portfolio-rune-4.png">
+	<img src="/images/portfolio-rune-5.png">
 </div>
 
 <hr />
