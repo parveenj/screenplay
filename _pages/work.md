@@ -49,8 +49,10 @@ featured_image: /images/header-work.jpg
 <p class="text-center"><a href="/project/facebook.html">Read the story here to learn more</a></p>
 
 <div class="gallery" data-columns="1">
-	<img src="/images/portfolio-facebook-1.png">
-	<img src="/images/portfolio-facebook-2.png">
+	<img src="/images/story-facebook-15a.png">
+	<img src="/images/story-facebook-15b.png">
+	<img src="/images/story-facebook-10a.png">
+	<img src="/images/story-facebook-10b.png">
 </div>
 
 <hr />
