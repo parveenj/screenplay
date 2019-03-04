@@ -9,6 +9,10 @@ You probably are here to see some of my work so I'm even more flattered if you s
 
 I'm a seasoned Internet professional who started in the consumer space and have specialized in the enterprise design space for the past few years.
 
+Let me share some of my life before your reading at this point in time. Like the rest of the site, I'll base it off the theory of the 3 act structure that is commonly applied by screenwriters. What is a 3 act structure? View this infographic:
+
+<img src="images/about-parveen.png">
+
 <table>
 
 <tr>
