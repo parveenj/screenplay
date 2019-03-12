@@ -177,29 +177,30 @@
 
 <div class="spacer">&nbsp;</div>
 
-<p>The Walmart Affiliates posed to me a query on establishing a new experience for its core users. They wanted to build a new product for their users but also wanted to create a scalable platform in house. Walmart.com approached my Slalom team as they had an ongoing partnership with our company. The project started with nothing but ideas from there.</p>
+<p>The Walmart Affiliates team posed to me a query on establishing a new experience for its core audience of developers. They also had the ambition to scale this platform beyond just Affiliates. Walmart’s ultimate goal was to be a place where developers flocked to build their applications like they do for other companies.</p>
 
 <p><img src="../images/story-walmart-1.png" /></p>
 
-<p>Working with my client team, I addressed concerns about building a new platform since it was new to this particular team at Walmart. I felt it was good experience to onboard and educate them on the design process as we did some brainstorming and competitive analysis. I had to explain how this project didn’t require just design but an entire ownership on all process and so that was how it all kicked off.</p>
+<p>The Walmart team that pitched this had no prior experience building product but assumed that design and content were the first work to be addressed. I addressed concerns about how vague the project sounded and wanted to teach Walmart all the skillsets required to build a new application of this scope. With only budget for two resources, they agreed to have me come on board to own the project from scratch and figure it out as I went along.</p>
 
 <p><img src="../images/story-walmart-2.png" /></p>
 
-<p>I recruited a team to begin the entire effort but since budgets were limited, I had initially the option to only add 1 more Slalom resource. I recruited a writer who had deep experience in technical documentation. Although I think of myself as a good writer, I couldn’t make sense of how best to write API specifications that would sing for users. The Walmart Affiliates team had an existing platform that was going to sunset so we reviewed support emails from users and interviewed internal teams about what was working and what was not.</p>
+<p>It was up to me on how to utilize resources available to me. I started by recruting a technical writer who had deep experience in writing technical documentation. Although I think of myself as a good writer, I cannot for the life of me understand the technicalities of API specifications. Together we did competitive analysis and identified the features that seem to tie many similar products together.</p>
 
 <p><img src="../images/story-walmart-3.png" /></p>
 
-<p>I presented a summary of my findings to the VP for Affiliates and he was pleased that I was herding cats. Together with the tech writer, we learned more about the API documentation that Affiliates utilized and what other users might end up overlapping with this product. This was a minefield of discovery with every step forcing a new bomb to my consciousness of the product and I documented our findings on their internal Confluence.</p>
+<p>The Walmart Affiliates team had an existing platform that was going to sunset this project required some discovery on the tools that exist for developers. I presented a summary of my findings to the VP for Affiliates and he was pleased that I was herding cats. Together with the tech writer, we learned more about the implementation steps for the features that we had identified. This was a minefield of discovery with every step setting off a new bomb to my consciousness of what would need to be done. All of this detail was put into their Confluence wiki site.</p>
+
+<blockquote>
+  <h2>Theme for Implementation</h2>
+  <p>In order for a new documentation platform to be beneficial to developers, it had to be a frictionless experience that allows developers to jump in and get started as quickly as possible. This was as true for the external developers who would digest the information as it was for the internal developers who wrote it.</p>
+</blockquote>
 
 <p><img src="../images/story-walmart-4.png" /></p>
 
-<p>Working with an entirely technical audience, nobody asked for personas or user profiles. I thought it was important to use them to set a level set to show what users would be using this platform. This would help engineers empathize with the users when discussing the product requirements. Walmart Affiliates had only been thinking about their external users but during our discovery, it was obvious that internal users were just as critical. How can a documentation site stay fresh if the internal producers dont like using it?</p>
+<p>Since I presenting my work to an entirely technical audience at Walmart, nobody was going to ask for personas or user profiles. I thought it was important to create a shared understanding across the set of stakeholders and help them empathize with the needs of external developers. One type of user we discovered during this process was the role of the internal user was far more important that we would have thought otherwise from the jump.</p>
 
-<p><img src="../images/story-walmart-6.png" /></p>
-
-<p>At this point I was more concerned about how to implement than what to implement. Walmart wasn’t the easiest place to get things done with a lack of process between groups and no documentation on how to do anything. I discovered an internal team that worked with Jekyll to make deployments to the Walmart audience. It didn’t require engineering a new platform so we can have it as a starting point for a V1 experience.</p>
-
-<p>[Insert graphic about Strati deployment]</p>
+<p><img src="../images/story-walmart-5.png" /></p>
 
 <table>
 <tr>
@@ -208,8 +209,7 @@
 <img src="../images/story-walmart-9.png" />
 </td>
 <td>
-<h4>ITERATIONS UPON A DESIGN</h4>
-<p>We pushed an initial build out on a Jekyll platform with the help of my technical writer who luckily had some basic chops to tinker on configuration code. I created a marketing one page template and reviewed this with the team internally. This was for a soft beta launch as we were taking the existing Affiliates site and moving it over to the new experience. It was important to push something out there sooner than later to get it on management radar at Walmart otherwise our work would have gotten lost in the shuffle.</p>
+<p>Walmart wasn’t the easiest place to get things done with a lack of process between groups and no documentation on how to do anything and moving every step in the lifecycle requires discovery and negotiation. I identified an operations team who hosted sites internally so we both performed some quick design and content work and pushed out some initial pages in static HTML like as if it was 1995. It wasn't meant to be excellent but was meant to get stakeholders engaged in the process as we continue to move forward.</p>
 </td>
 
 </tr>
@@ -223,8 +223,7 @@
 <tr>
 
 <td>
-<h4>LEVERAGE WHAT WORKS</h4>
-<p>To implement this login feature, I pushed for leveraging the Walmart.com account experience that exists for consumers. Walmart.com's universal login did not serve any other internal services other than the eCommerce site. This wasn't like Google or Facebook or Apple that had a shared enterprise and consumer experience. I received push back for this at Walmart and consulted with my team at Slalom for validation, which they gave me.</p>
+<p>To implement this login feature, I pushed for leveraging the Walmart.com account experience that exists for consumers. Walmart.com's universal login did not serve any other internal services other than the eCommerce site. This wasn't like Google or Facebook or Apple that had a shared enterprise and consumer experience. I received pushed for this in light of everyone at Walmart wanting to simply create a new login experience instead. I went back to the theme of getting developers onboarded quickly and since many of the developers working or planning to work on the platform had Walmart.com consumer accounts, I used this as arsenal to build this into the conversation internally.</p>
 </td>
 <td class="third">
 <img src="../images/story-walmart-11.png" />
@@ -233,20 +232,16 @@
 </tr>
 </table>
 
-<h4 id="oops">OOPS</h4>
-
-<p>After pushing so hard on this feature, I started to realize that Jekyll was a simple static generator and could not handle making dynamic calls to a backend service and have it smoothly integrated into the UI. Jekyll was not the right choice and we consulted with engineering teams and found that React was used internally and would be more scalabe for other features. I was excited I got a reason to play with React but realized that we would have to redo the entire site in a new build system… one much more complex than before.</p>
+<p>After pushing so hard on this feature, I started to realize that Jekyll was a simple static generator and could not handle making dynamic calls to a backend service. I led the conversation with different engineering teams and found React was starting to get used internally at Walmart and I could potentially leverage the framework. I had built good momentum with my stakeholders and convinced them to help me add more resources to the team. I was able to get consensus to bring on a front-end engineer and a back-end engineer to form out the team that I would manage. I then went to planning the overall migration efforts as it sadly dawned on me that we would have this site all over again.</p>
 
 <p><img src="../images/story-walmart-13.png" /></p>
 
-<h4 id="the-great-rebuilding">THE GREAT REBUILDING</h4>
+<p>When rebuilding the site in React, we also did some rebranding of the Jekyll site that was pushed to production. I wanted to leverage more Walmart.com patterns as I felt that it would be better for the brand as a whole. Nobody asked me to integrate the two but I felt that a proper brand extension made the experience stronger. In addition, we revisited the content architecture to make sure we presented different products in the ways in which develoeprs can find it the fastest.</p>
 
-<p>When rebuilding the site in React, we also did some rebranding of the Jekyll site that was pushed to production. I had complete ownership on the process and I wanted to leverage more Walmart.com patterns as I felt that it would be better for the brand as a whole.</p>
-
-<p>I also wanted to introduce some proper icons into the site to flesh out sections and give users markers on what section they are in.
+<p>I introduced my own iconography, utilizing colors for different sets of documentation. This wasn’t 100% on brand with Walmart but it would help developers quickly identify content based on the theme of the icon.
 <img src="../images/story-walmart-x8.png" /></p>
 
-<p>Utilizing some updated colors and fonts that were published to Walmart.com, I coordinated with the Director of Design to continue to sync up my design with theirs.</p>
+<p>I maintained close connections with the consumer design team and they ahd a UI refresh while we were rebranding so I had consistent conversations to make sure we synchronized where possible.</p>
 
 <div class="gallery" data-columns="1">
 <img src="../images/story-walmart-14a.png" />
@@ -254,19 +249,13 @@
 <img src="../images/story-walmart-14c.png" />
 </div>
 
-<h4 id="soft-launch">SOFT LAUNCH</h4>
-
 <p>After rolling out the new feature set, we saw a major spike of traffic organically visiting the site. We put in a survey form on the site to collect feedback and as users were asking support questions, I would return ask to get some input about the features that we could add.</p>
 
 <p><img src="../images/story-walmart-15.png" /></p>
 
-<h4 id="new-features">NEW FEATURES</h4>
-
 <p>Next phase of the project meant to incorporate additional new features that would be cutting edge for the site. This includes a search engine, sandbox, and content management tools. These features were identified from the discussions I had with internal teams, external users, and competitive analysis. It was a generous mixture of all 3 of these sources to identify a roadmap for future quarters. I made each of these in mockups and interactive prototypes and fleshed them out by reviewing with stakeholders.</p>
 
 <p>[Search, Sandbox, Innersource]</p>
-
-<h4 id="hard-launch">HARD LAUNCH</h4>
 
 <p>We had to migrate the 60,000 enterprise users to the new platform and I crafted materials to onboard the users onto the new platform.</p>
 
