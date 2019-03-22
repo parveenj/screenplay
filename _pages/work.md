@@ -16,17 +16,20 @@ featured_image: /images/header-work.jpg
 	<a href="/project/apple.html"><img src="/images/story-poster-apple.png"></a>
 </div>
 
-<p class="text-center">If you don't care about spoilers, then view some final deliverables further below.</p>
+<p class="text-center">If you don't care about spoilers, then view some final deliverables further below.</p><br/>
 
-<hr />
+<hr /><br/>
 
 <p class="text-center">Walmart</p>
 
 <p class="text-center"><a href="/project/walmart.html">Read the story here to learn more</a></p>
 
 <div class="gallery" data-columns="1">
-	<img src="/images/portfolio-walmart-1.png">
-	<img src="/images/portfolio-walmart-2.png">
+	<img src="/images/story-walmart-14a.jpg">
+	<img src="/images/story-walmart-14b.png">
+	<img src="/images/story-walmart-14c.png">
+	<img src="/images/story-walmart-14d.png">
+	<img src="/images/story-walmart-14e.png">
 </div>
 
 <hr />
@@ -41,7 +44,8 @@ featured_image: /images/header-work.jpg
 </div>
 <div>
 	<img src="/images/portfolio-paypal-3.png">
-</div>
+</div><br/>
+
 <hr />
 
 <p class="text-center">Facebook</p>
@@ -78,6 +82,7 @@ featured_image: /images/header-work.jpg
 	<img src="/images/portfolio-vudu-3.png">
 	<img src="/images/portfolio-vudu-4.png">
 </div>
+
 <hr />
 
 <p class="text-center">Apple </p>
