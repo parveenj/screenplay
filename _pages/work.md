@@ -18,12 +18,10 @@ featured_image: /images/header-work.jpg
 
 <p class="text-center">If you don't care about spoilers, then view some final deliverables further below.</p><br/>
 
-<hr /><br/>
-
-<p class="text-center">Walmart</p>
-
-<p class="text-center"><a href="/project/walmart.html">Read the story here to learn more</a></p>
-
+<hr />
+<div class="work-title">
+<h3 class="text-center">Walmart</h3><a href="/project/walmart.html"><img src="/images/button-read-story.svg"></a> 
+</div>
 <div class="gallery" data-columns="1">
 	<img src="/images/story-walmart-14a.jpg">
 	<img src="/images/story-walmart-14b.png">
@@ -33,11 +31,9 @@ featured_image: /images/header-work.jpg
 </div>
 
 <hr />
-
-<p class="text-center">PayPal</p>
-
-<p class="text-center"><a href="/project/paypal.html">Read the story here to learn more</a></p>
-
+<div class="work-title">
+<h3 class="text-center">PayPal</h3><a href="/project/paypal.html"><img src="/images/button-read-story.svg"></a> 
+</div>
 <div class="gallery" data-columns="2">
 	<img src="/images/portfolio-paypal-1.png">
 	<img src="/images/portfolio-paypal-2.png">
@@ -47,11 +43,9 @@ featured_image: /images/header-work.jpg
 </div><br/>
 
 <hr />
-
-<p class="text-center">Facebook</p>
-
-<p class="text-center"><a href="/project/facebook.html">Read the story here to learn more</a></p>
-
+<div class="work-title">
+<h3 class="text-center">Facebook</h3><a href="/project/facebook.html"><img src="/images/button-read-story.svg"></a> 
+</div>
 <div class="gallery" data-columns="1">
 	<img src="/images/story-facebook-15a.png">
 	<img src="/images/story-facebook-15b.png">
@@ -60,10 +54,9 @@ featured_image: /images/header-work.jpg
 </div>
 
 <hr />
-
-<p class="text-center">FireEye</p>
-
-<p class="text-center"><a href="/project/fireeye.html">Read the story here to learn more</a></p>
+<div class="work-title">
+<h3 class="text-center">FireEye</h3><a href="/project/fireeye.html"><img src="/images/button-read-story.svg"></a> 
+</div>
 
 <div class="gallery" data-columns="1">
 	<img src="/images/portfolio-fireeye-1.png">
@@ -71,10 +64,9 @@ featured_image: /images/header-work.jpg
 </div>
 
 <hr />
-
-<p class="text-center">Super Q</p>
-
-<p class="text-center"><a href="/project/vudu.html">Read the story here to learn more</a></p>
+<div class="work-title">
+<h3 class="text-center">Super Q</h3><a href="/project/vudu.html"><img src="/images/button-read-story.svg"></a> 
+</div>
 
 <div class="gallery" data-columns="1">
 	<img src="/images/portfolio-vudu-1.png">
@@ -84,11 +76,9 @@ featured_image: /images/header-work.jpg
 </div>
 
 <hr />
-
-<p class="text-center">Apple </p>
-
-<p class="text-center"><a href="/project/apple.html">Read the story here to learn more</a></p>
-
+<div class="work-title">
+<h3 class="text-center">Apple</h3><a href="/project/apple.html"><img src="/images/button-read-story.svg"></a> 
+</div>
 <div class="gallery" data-columns="1">
 	<img src="/images/portfolio-apple-1.png">
 	<img src="/images/portfolio-apple-2.png">
@@ -98,7 +88,7 @@ featured_image: /images/header-work.jpg
 
 <hr />
 
-<p class="text-center">Rune</p>
+<h3 class="text-center">Rune</h3>
 
 I led the design efforts at Rune, an early stage startup, whose focus was to help smaller online publishers leverage the social graph to drive traffic to their sites.
 
@@ -112,7 +102,7 @@ I led the design efforts at Rune, an early stage startup, whose focus was to hel
 
 <hr />
 
-<p class="text-center">Symantec</p>
+<h3 class="text-center">Symantec</h3>
 
 I worked in the Trust department helping to refine tools that customers needed to setup or maintain online certificates for their businesses.
 
@@ -124,7 +114,7 @@ I worked in the Trust department helping to refine tools that customers needed t
 
 <hr />
 
-<p class="text-center">Lifograph</p>
+<h3 class="text-center">Lifograph</h3>
 
 I consulted with an entreprenuer on taking the company's product, a networking platform for entreprenuers and investors, to the next level.
 
@@ -136,7 +126,7 @@ I consulted with an entreprenuer on taking the company's product, a networking p
 
 <hr />
 
-<p class="text-center">T1DE</p>
+<h3 class="text-center">Type 1 Diabetes Foundation</h3>
 
 I ran a project to build out an advanced portal that helps Type 1 Diabetes patients manage their care and communication with healthcare providers.
 
