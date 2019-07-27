@@ -402,6 +402,17 @@ section {
 
 .third {
 	width: 33%;
+	vertical-align: top;
+}
+
+.third h4 {
+	padding: 8px;
+	text-align: center;
+}
+
+.third img {
+	padding: 0px 0px 16px 0px;
+	text-align: center;
 }
 
 .quarter {
@@ -434,4 +445,9 @@ hr {
 	width: 100px !important;
 	height: 0 auto;
 	margin: 5%;
+}
+
+td {
+	line-height: 26px;
+	padding: 32px;
 }
