@@ -5,4 +5,18 @@ description: I'm leaving Wordpress forever and moving my site to Jekyll
 featured_image: ''
 ---
 
-Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.
+Oh, this poor portfolio of mine... It has seen more revisions than a Southern California plastic surgeon. Let me explain as I have decided lately to come full circle to how it all started.
+
+So back when I was doing more design management work and had not had to produce a proper portfolio for years, I didn't know exactly where to start, so I made everything in plain HTML and CSS. I would then find me some good old web host and FTP my pages up and then point a domain name to the index and wipe my hands of everything and move on. Then, alas, that was not very scalable, especially for my blog as I hoped to have hundreds of articles (oh, ambition).
+
+I found maintaining this site a bit tedious because I would forget how everything was laid out when I touched it only once or twice a year. I'm not so great at documenting my process when the only benefactor is me. Thus, I moved on to Wordpress because I thought, "Why not? it would be easier to manage!"
+
+I found out the hard way that, although getting a site up and running is a breeze, I couldn't find themes that worked for me and felt I had to customize my own, which turned to be a tedious and time-consuming feat. And managing plugins and their updates was a chore every time I logged in after a while as I had all this bureaucracy to manage before I can even get to my site.
+
+I was not really in the loop regarding new methods to build a website but stumbled across Jekyll when managing the Walmart.com initiative. Their internal teams were using Jekyll with GitHub to publish sites internally. It had been around since 2008 which is a millenia in web development years but I had no real exposure to it before. In fact, I had never even used a static site generator and found it refreshing and convenient. I mean, seriously, the last time I published raw HTML, it was via FTP! I picked up on all the steps necessary and ultimately loved the idea of version controlling my code through GitHub. Look ma, I'm playing developer!
+
+I find working in plain HTML & CSS so much more refreshing. I mean it just feels like its less weight... it just feels easier. Granted, there is more of a learning curve and Jekyll still has some quirks I have to remember. But the power of utilizing GitHub to manage everything is something raw for this budding techno designer.
+
+Best of all, no hosting fees as I can host my site for free on GitHub pages. 
+
+I've done my portfolio over a dozen times now, toggling between hosts, platforms, tools, and services. Raw HTML and CSS will outlive me so I know working with my new framework will be my final stop in making my little place on the Web.
