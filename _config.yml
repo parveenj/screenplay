@@ -1,4 +1,4 @@
-site: Made Jekyll Theme
+site: Screenplay
 
 collections:
   pages:
@@ -54,5 +54,5 @@ sass:
 plugins:
   - jekyll-sitemap
 
-paginate: 7
+paginate: 8
 paginate_path: "/blog/page-:num/"
