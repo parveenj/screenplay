@@ -5,180 +5,166 @@
 // - - - - - - - - - - - - - - - - - -
 
 .gallery {
-	visibility: hidden;
-	position: relative;
-	width: 75%;
-	margin: 20px auto;
+  // visibility: hidden;
+  position: relative;
+  margin: 20px auto;
 
-	@include mq(tabletp) {
-		margin: 30px auto;
-	}
+  @include mq(tabletp) {
+    margin: 30px auto;
+  }
 
-	@include mq(laptop) {
-		margin: 40px auto;
-	}
+  @include mq(laptop) {
+    margin: 40px auto;
+  }
 
-	&:first-child {
-		margin-top: 0;
-	}
+  &:first-child {
+    margin-top: 0;
+  }
 }
 
 .gallery--on {
-	visibility: visible;
+  visibility: visible;
 }
 
 .gallery__item {
-	position: relative;
+  position: relative;
 
-	img {
-		width: 100%;
-	}
+  img {
+    width: 100%;
+  }
 }
-
-
 
 // - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - Carousel
 
 .gallery--carousel {
+  .gallery__wrap {
+  }
 
-	.gallery__wrap {
+  .gallery__item {
+  }
 
+  .gallery__item__link {
+    display: block;
+    pointer-events: none;
+  }
+
+  .gallery__item__image {
 	}
 	
-	.gallery__item {
-
-	}
-
-	.gallery__item__link {
-		display: block;
-		pointer-events: none;
-	}
-
-	.gallery__item__image {
-
-	}
-
-	.owl-nav {
-		display: none;
-	}
-
 	.owl-dots {
-		margin-top: 20px;
+		margin-top: 12px;
 		text-align: center;
-
+	
 		.owl-dot {
-			display: inline-block;
-			margin: 0 3px;
-			width: 12px;
-			height: 12px;
-			border: 0;
-			border-radius: 100%;
-			background: $text-light-color;
-			@include transition(all 0.2s ease-in-out);
+			width: 24px;
+			height: 24px;
+      margin-right: 8px;
+      background-color: white;
 			cursor: pointer;
+			@include transition(all 0.4s cubic-bezier(0.65, 0.05, 0.36, 1) 0s);
 			outline: none;
-
-			&.active {
-				background: $accent-color;
+	
+			&:after {
+				content: "";
+				display: block;
+				width: 100%;
+				height: 4px;
+				background-color: $border-color;
+				border-radius: 8px;
+        @include transition(all 0.4s cubic-bezier(0.65, 0.05, 0.36, 1) 0s);
 			}
+	
+			&.active {
+        width: 48px;
+
+        &:after {
+  				background: $accent-color;
+  			}
+      }
 		}
 	}
 }
 
+.owl-nav {
+  display: none;
+}
 
-
-// - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - Grid for Galleries used on projects like Rune and T1DE
+// - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - Grid
 
 .gallery--grid {
+  .gallery__wrap {
+    margin-left: -$grid-spacing/2;
+    margin-right: -$grid-spacing/2;
+  }
 
-	width: 100%;
+  .gallery__item {
+    float: left;
+    width: 50%;
+    padding: $grid-spacing/2;
+  }
 
-	.gallery__wrap {
-		margin-left: -$grid-spacing/2;
-		margin-right: -$grid-spacing/2;
-	}
-	
-	.gallery__item {
-		float: left;
-		width: 50%;
-		padding: $grid-spacing/2;
-	}
+  .gallery__item__link {
+    display: block;
+    cursor: zoom-in;
+  }
 
-	.gallery__item__link {
-		display: block;
-		cursor: zoom-in;
-	}
+  &[data-columns="3"] {
+    .gallery__item {
+      width: 33.33%;
+    }
+  }
 
-	&[data-columns="3"] {
+  &[data-columns="4"] {
+    .gallery__item {
+      width: 33.33%;
+    }
 
-		.gallery__item {
-			width: 33.33%;
-		}
-	}
+    @include mq(tabletp) {
+      .gallery__item {
+        width: 25%;
+      }
+    }
+  }
 
-	&[data-columns="4"] {
+  &[data-columns="5"] {
+    .gallery__item {
+      width: 33.33%;
+    }
 
-		.gallery__item {
-			width: 33.33%;
-		}
+    @include mq(tabletp) {
+      .gallery__item {
+        width: 25%;
+      }
+    }
 
-		@include mq(tabletp) {
+    @include mq(tabletl) {
+      .gallery__item {
+        width: 20%;
+      }
+    }
+  }
 
-			.gallery__item {
-				width: 25%;
-			}
-		}
-	}
+  &[data-columns="6"] {
+    .gallery__item {
+      width: 33.33%;
+    }
 
-	&[data-columns="5"] {
+    @include mq(tabletp) {
+      .gallery__item {
+        width: 25%;
+      }
+    }
 
-		.gallery__item {
-			width: 33.33%;
-		}
+    @include mq(tabletl) {
+      .gallery__item {
+        width: 20%;
+      }
+    }
 
-		@include mq(tabletp) {
-
-			.gallery__item {
-				width: 25%;
-			}
-		}
-
-		@include mq(tabletl) {
-
-			.gallery__item {
-				width: 20%;
-			}
-		}
-	}
-
-	&[data-columns="6"] {
-
-		.gallery__item {
-			width: 33.33%;
-		}
-
-		@include mq(tabletp) {
-
-			.gallery__item {
-				width: 25%;
-			}
-		}
-
-		@include mq(tabletl) {
-
-			.gallery__item {
-				width: 20%;
-			}
-		}
-
-		@include mq(laptop) {
-
-			.gallery__item {
-				width: 16.66%;
-			}
-		}
-	}
+    @include mq(laptop) {
+      .gallery__item {
+        width: 16.66%;
+      }
+    }
+  }
 }
-
-
-

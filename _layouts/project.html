@@ -2,31 +2,33 @@
 layout: default
 ---
 
-<section class="hero hero--single">
+{% if page.accent_color %}{% capture accent_color %}{{ page.accent_color }}{% endcapture %}{% endif %}
 
-	<div class="hero__image" style="background-image: url({{ page.featured_image }})">
-		<div class="hero__overlay"></div>
-	</div>
+<div class="page-project" style="--accent: {{ accent_color }}">
 
-	<div class="wrap">
+	<header class="post__header header--single">
 
-		<h1>{{ page.title }}</h1>
-		<p>{{ page.subtitle }}</p>
+		<div class="wrap">
+			<h1 class="post__title">{{ page.title }}</h1>
+			<h2 class="post__subtitle subtitle--light">{{ page.subtitle }}</h2>
+		</div>
 
-	</div>
+		<img src="/images/projects/{{ page.featured_image }}" class="post__featured-image">
 
-</section>
+	</header>
 
-<section class="single">
 
-	<div class="wrap">
+	<section class="post-full">
 
-		<article class="single-post">
+		<div class="wrap">
 
-			{{ page.content }}
+			<article class="post__content {% if page.highlight_first %}highlight-first{% endif %}">
+				{{ page.content }}
+			</article>
+			
+		</div>
 
-		</article>
+	</section>
 
-	</div>
-
-</section>
+	{% include section__about.html divider=true %}
+</div>

@@ -1,32 +1,38 @@
 ---
 layout: default
 ---
+<div class="page-post">
 
-<section class="hero hero--single">
+	<header class="post__header header--single">
+		
+		<div class="wrap">
+			<h1 class="post__title">{{ page.title }}</h1>
+			<time class="post__date label">{{ page.date | date_to_long_string }}</time>
+		</div>
 
-	<div class="hero__image" style="background-image: url({{ page.featured_image }})">
-		<div class="hero__overlay"></div>
-	</div>
+		<img src="{{ page.featured_image }}" class="post__featured-image">
 
-	<div class="wrap">
+	</header>
 
-		<h1>{{ page.title }}</h1>
-		<p>{{ page.date | date_to_long_string }}</p>
+	<section class="post-full">
 
-	</div>
+		<div class="wrap">
 
-</section>
+			<article class="post__content {% if page.highlight_first %}highlight-first{% endif %}">
+				{{ page.content }}
+			</article>
 
-<section class="single">
+			<div class="post__more grid">
+				{% if page.previous.url %}
+				<a class="prev-post subtitle" href="{{ page.previous.url }}">{{page.previous.title}}</a>
+				{% endif %}
+				{% if page.next.url %}
+				<a class="next-post subtitle" href="{{ page.next.url }}">{{ page.next.title }}</a>
+				{% endif %}
+			</div>
 
-	<div class="wrap">
+		</div>
 
-		<article class="single-post">
+	</section>
 
-			{{ page.content }}
-
-		</article>
-
-	</div>
-
-</section>
+</div>

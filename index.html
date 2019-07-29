@@ -1,50 +1,77 @@
 ---
 layout: default
-title: Screenplay
-description: Product design with stories in mind
+overtitle: Made is a Jekyll theme
+title: For designers and web developers
+description: Show off your best work with this beautiful, minimal and customizable portfolio theme.
+featured_image: /images/social.jpg
 ---
 
-<section class="hero hero__home">
+<div class="page-home">
 
-	<div class="wrap">
+	{% if site.data.settings.hero_settings.background_image %}
+	<img src="{{ site.data.settings.hero_settings.background_image }}" class="hero__background" draggable="false">
+	{% endif %}
 
-		<h4>&nbsp;</h4>
-		<img src="images/home-hero.png" />
-	</div>
+	<section class="hero">
+		<div class="wrap grid">
+			<div class="title">
+				<p class="subtitle">{{ page.overtitle }}</p>
+				<h1>{{ page.title }}</h1>
+			</div>
 
-</section>
-
-<section class="single">
-
-	<div class="wrap">
-
-		<div class="single-post">
-
-		<p class="spacer1"> 
-			Hello friend! My name is Parveen and as a child, I dreamt of creating stories that would connect my vision to other people. Now as an adult, I am a product design leader who builds enterprise experiences that connects people to each other. 
-
-		</p>
-
-		<img src="/images/home-parveen.png">
-
-		<p class="spacer1">Most of my work has been for the enterprise web, which I have done with some of the biggest names in the valley.</p>
-			<img class="spacer1" src="images/section-logos.png">
-
-		<p>So what's with this movie theme? In my opinion, movies provide the best experience for a good story as it takes most of your senses and provides a full narrative in a concise package. Why not take that as proper inspiration to share my stories with you. If you don't care about the story and just want the spoilers, <a href="work.html">check this page out here.</a></p>
-
-		<div class="gallery spacer1" data-columns="1">
-			<a href="/project/walmart.html"><img src="/images/story-poster-walmart.png"></a>
-			<a href="/project/vudu.html"><img src="/images/story-poster-vudu.png"></a>
-			<a href="/project/paypal.html"><img src="/images/story-poster-paypal.png"></a>
-			<a href="/project/facebook.html"><img src="/images/story-poster-facebook.png"></a>
-			<a href="/project/fireeye.html"><img src="/images/story-poster-fireeye.png"></a>
-			<a href="/project/apple.html"><img src="/images/story-poster-apple.png"></a>
+			<p class="intro subtitle--light">
+				{{ page.description }}
+				<a href="#" class="hero__cta button--fill contact-trigger js-contact">Get In Touch</a>
+			</p>
 		</div>
+	</section>
 
-		<p>Don't see what you need to learn more about me? There is even more I could share so feel free to <a href="contact.html">conatct me</a> to discuss.</p>
+	<section class="listing">
+		<div class="wrap">
 
+			{% for project in site.projects reversed %}
+
+			{% if project.accent_color %}{% capture accent_color %}{{ project.accent_color }}{% endcapture %}{% endif %}
+
+			<article class="project__preview">
+				<h3 class="project__title"><a href="{{ project.url }}" style="--accent: {{ accent_color }}">{{ project.title }}</a></h3>
+
+				<div class="project__images owl-carousel" style="--accent: {{ accent_color }}">
+					{% for image in project.gallery_images %}
+					<a href="{{ project.url }}"><img src="/images/projects/{{ image }}" alt="" class="project__image"></a>
+					{% endfor %}
+				</div>
+
+				<div class="project__content grid" style="border-color: {{ accent_color }}">
+					<p class="project__subtitle subtitle--light">{{ project.subtitle }}</p>
+					<p class="project__description --small">
+						{{ project.description }}
+						<a href="{{ project.url }}" class="project__link button--text --right"
+							style="color: {{ accent_color }}; --color-var: {{ accent_color }}">View Case Study</a>
+					</p>
+				</div>
+			</article>
+
+			{% endfor %}
 		</div>
+	</section>
 
-	</div>
+	{% include section__about.html %}
 
-</section>
+	<section class="recent-posts">
+		<div class="wrap grid">
+			<header class="recent-posts__header">
+				<h4>Recent blog posts</h4>
+				<a href="/blog" class="action button--text--accent --right">All Posts</a>
+			</header>
+
+			<div class="recent-posts__list grid">
+				{% for post in site.posts limit: 3 %}
+				{% include component__post-preview.html %}
+				{% endfor %}
+			</div>
+
+			<a href="/blog" class="action-bottom button--text--accent --right">All Posts</a>
+		</div>
+	</section>
+</div>
