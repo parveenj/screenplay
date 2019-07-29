@@ -8,11 +8,11 @@ header_settings:
 
 menu_settings:
   menu_items:
-    - title: 'Projects'
-      url: '/'
+    - title: 'Showcase'
+      url: '/work'
     - title: 'About'
       url: '/about'
-    - title: 'Blog'
+    - title: 'Writings'
       url: '/blog/'
 
 footer_settings:
