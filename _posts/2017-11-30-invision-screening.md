@@ -2,7 +2,7 @@
 title: 'Invision Screening'
 date: 2018-11-30 00:00:00
 description: I'm hosting a screening of the Invision documentary 'Design Disruptors'
-featured_image: ''
+featured_image: '/images/header-apple.jpg'
 ---
 
 For anyone interested, I'll be hosting a screening of the Invision made documentary "Design Disruptors" on November 13, 2017 in the Slalom Palo Alto office.

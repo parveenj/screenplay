@@ -2,7 +2,7 @@
 title: 'Goodbye Wordpress'
 date: 2018-06-30 00:00:00
 description: I'm leaving Wordpress forever and moving my site to Jekyll
-featured_image: ''
+featured_image: '/images/header-apple.jpg'
 ---
 
 Oh, this poor portfolio of mine... It has seen more revisions than a Southern California plastic surgeon. Let me explain as I have decided lately to come full circle to how it all started.

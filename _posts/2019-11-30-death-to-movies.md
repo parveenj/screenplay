@@ -2,7 +2,7 @@
 title: 'Movies Be Dead'
 date: 2018-06-30 00:00:00
 description: A mini rant about the state of movies in today's cultural landscape
-featured_image: ''
+featured_image: '/images/header-apple.jpg'
 ---
 
 I know what you are thinking: "Whoa whoa whoa, let me get this straight? You theme your site around movies and then turn around and say they are dead? Are you a hypocrite?" Let me unpack my message for you.
