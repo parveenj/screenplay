@@ -39,3 +39,15 @@
 .locked {
   overflow: hidden;
 }
+
+.image-centered {
+  margin: auto;
+}
+
+.work-title {
+  display: grid;
+  grid-template-columns: auto auto;
+  grid-gap: 30px;
+  align-items: baseline;
+  line-height: 50px;
+}

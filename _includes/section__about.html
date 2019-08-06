@@ -1,23 +1,27 @@
+
+<img src="/images/home-banner.png" alt="">
+
 <section class="about">
-  {% if include.divider == true %}
-    <div class="wrap"><hr/></div>
-    {% endif %}
-  <div class="wrap grid">
 
-    <div class="about__image">
-      <img src="/images/home-parveen.png" alt="">
+    {% if include.divider == true %}
+      <div class="wrap"><hr/></div>
+      {% endif %}
+    <div class="wrap grid">
+  
+      <div class="split__section">
+          <p>My skills include product design, interactive design, aesthetic art direction, prototyping, mobile design,
+              branding, front-end development and team leadership. I’m interested in clean aesthetics, minimalism, unusual
+              typography, photography and simplistic UX solutions.</p>
+      </div>
+  
+      <div class="split__section">
+  
+        <p>My skills include product design, interactive design, aesthetic art direction, prototyping, mobile design,
+          branding, front-end development and team leadership. I’m interested in clean aesthetics, minimalism, unusual
+          typography, photography and simplistic UX solutions.</p>
+
+      </div>
     </div>
-
-    <div class="about__content">
-      <h2 class="title">Hello friend!</h2>
-
-      <!--<p class="subtitle subtitle--light">KIWI</p>-->
-      
-      <p>My name is Parveen and as a child, I dreamt of creating stories that would connect my vision to other people. Now as an adult, I am a product design leader who builds enterprise experiences that connects people to each other. </p>
-
-      {% include component-socials.html %}
-    </div>
-  </div>
-</section>
+  </section>
 
 

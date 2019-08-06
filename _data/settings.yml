@@ -8,20 +8,20 @@ header_settings:
 
 menu_settings:
   menu_items:
-    - title: 'Showcase'
+    - title: 'Work'
       url: '/work'
     - title: 'About'
       url: '/about'
-    - title: 'Writings'
+    - title: 'Thoughts'
       url: '/blog/'
 
 footer_settings:
-  logo_image: 
+  logo_image: /images/logo-screenplay.png
   logo_width: 200
   tagline: Product design with stories in minds.
 
 hero_settings:
-  background_image: /images/backgrounds/background-hero.svg
+  background_image: /images/home-hero.png
 
 post_settings:
   grid_spacing: 10
@@ -169,12 +169,12 @@ font_settings:
     letter_spacing: -0.04
     line_height: 12
   blockquote:
-    small_size: 22
-    medium_size: 30
-    large_size: 38
+    small_size: 18
+    medium_size: 24
+    large_size: 30
     weight: 500
     letter_spacing: -0.02
-    line_height: 1.6
+    line_height: 1.5
   buttons:
     weight: 500
     letter_spacing: 0.4

@@ -5,7 +5,11 @@
 // - - - - - - - - - - - - - - - - - -
 
 .about {
-  margin-bottom: 100px;
+  margin-bottom: 80px;
+  color: #FFFFFF;
+  background-color: #000000;
+  padding: 60px;
+  margin-bottom: 0px;
 
   hr {
     margin-bottom: 80px;
@@ -13,7 +17,6 @@
 
   .about__image {
     width: 100%;
-    margin: 0 0 40px 0;
     //--max-width: 420px;--// KIWI take out forcing this to let image flow out
     display: flex;
     flex-direction: column;
@@ -29,11 +32,29 @@
   }
 
   .about__content {
-    max-width: 456px;
+    max-width: 600px;
+
+    padding: 20px;
+    margin: 0 auto;
+    width: 100%;
 
     .title {
       margin-bottom: 16px;
+      color: #FFFFFF;
     }
+
+.grid__split {
+  display: grid;
+  grid-template-columns: auto auto;
+}
+
+.split__section {
+    max-width: 600px;
+    color: #FFFFFF !important;
+    background-color: #000000 !important;
+    padding: 20px;
+    margin: 0 auto;
+}
 
     .subtitle {
       margin-bottom: 16px;
@@ -50,14 +71,15 @@
 	
 
   @include mq(tabletp) {
-    margin-bottom: 160px;
+  
+    // margin-bottom: 80px; KIWI taking this out to rely on padding
     
     hr {
       margin-bottom: 120px;
     }
 		
     .wrap {
-      grid-template-columns: 75% 25%;
+      grid-template-columns: auto auto;
     }
 
     .about__image {
@@ -66,7 +88,6 @@
 		}
 		
 		.about__content {
-			margin-top: 64px;
 
 			.subtitle {
 				margin-bottom: 24px;

@@ -7,7 +7,7 @@ featured_image: /images/header-work.jpg
 
 <p class="text-center">Don't forget the following previews of what is currently playing in my portfolio.</p>
 
-<div class="gallery" data-columns="1">
+<div class="gallery project__images owl-carousel" data-columns="1">
 	<a href="/project/walmart.html"><img src="/images/story-poster-walmart.png"></a>
 	<a href="/project/vudu.html"><img src="/images/story-poster-vudu.png"></a>
 	<a href="/project/paypal.html"><img src="/images/story-poster-paypal.png"></a>
@@ -15,6 +15,7 @@ featured_image: /images/header-work.jpg
 	<a href="/project/fireeye.html"><img src="/images/story-poster-fireeye.png"></a>
 	<a href="/project/apple.html"><img src="/images/story-poster-apple.png"></a>
 </div>
+
 
 <p class="text-center">If you don't care about spoilers, then view some final deliverables further below.</p><br/>
 

@@ -5,17 +5,8 @@ title: Screenplay
 description: Product design with stories in mind.
 featured_image: /images/social.jpg
 ---
-	<header class="post__header header--single">
-
-		<img src="/images/header-apple.jpg" class="post__featured-image">
-
-	</header>
 
 <div class="page-home">
-
-	{% if site.data.settings.hero_settings.background_image %}
-	<img src="{{ site.data.settings.hero_settings.background_image }}" class="hero__background" draggable="false">
-	{% endif %}
 
 	{% include section__about.html %}
 
@@ -35,10 +26,10 @@ featured_image: /images/social.jpg
 	</section>
 -->
 
-<section>
-	<div class="wrap">
-		<p>Most of my work has been for the enterprise web, which I have done with some of the biggest names in the valley.</p>
-		<img class="spacer1" src="images/section-logos.png">
+<section class="recent-posts">
+	<div>
+		<p class="header-centered">Most of my work has been for the enterprise web, which I have done with some of the biggest names in the valley.</p>
+		<img class="image-centered" src="images/section-logos.png">
 	</div>
 </section>
 
@@ -48,22 +39,36 @@ featured_image: /images/social.jpg
 
 			<div class="gallery project__images owl-carousel" data-columns="1"><a href="/project/walmart.html"><img src="/images/story-poster-walmart.png"></a><a href="/project/vudu.html"><img src="/images/story-poster-vudu.png"></a><a href="/project/paypal.html"><img src="/images/story-poster-paypal.png"></a><a href="/project/facebook.html"><img src="/images/story-poster-facebook.png"></a><a href="/project/fireeye.html"><img src="/images/story-poster-fireeye.png"></a><a href="/project/apple.html"><img src="/images/story-poster-apple.png"></a></div>
 		</div>
-	</section>
+</section>
 
-	<section class="recent-posts">
-		<div class="wrap grid">
-			<header class="recent-posts__header">
-				<h4>Recent blog posts</h4>
-				<a href="/blog" class="action button--text--accent --right">All Posts</a>
-			</header>
+<section class="listing">
+	<div class="wrap">
+	<p>Just a bit of my work</p>
+	{% include post-components/gallery.html
+		columns = 4
+		full_width = true
+		images = "/images/portfolio-apple-4.png,/images/portfolio-walmart-2.png,/images/portfolio-vudu-4.png,/images/portfolio-facebook-2.png,images/portfolio-fireeye-2.png
+		"
+	%}
+</div>
+</section>
 
-			<div class="recent-posts__list grid">
-				{% for post in site.posts limit: 3 %}
-				{% include component__post-preview.html %}
-				{% endfor %}
-			</div>
+<section class="recent-posts">
+	<div class="wrap grid">
+		<header class="recent-posts__header">
+			<h4>Recent blog posts</h4>
+			<a href="/blog" class="action button--text--accent --right">All Posts</a>
+		</header>
 
-			<a href="/blog" class="action-bottom button--text--accent --right">All Posts</a>
+		<div class="recent-posts__list grid">
+			{% for post in site.posts limit: 3 %}
+			{% include component__post-preview.html %}
+			{% endfor %}
 		</div>
-	</section>
+
+		<a href="/blog" class="action-bottom button--text--accent --right">All Posts</a>
+	</div>
+</section>
+
+
 </div>

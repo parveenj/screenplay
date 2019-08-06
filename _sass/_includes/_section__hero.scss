@@ -7,7 +7,7 @@
 
 .hero {
 	position: relative;
-	padding: 40px 0 160px;
+	padding: 40px 0 40px;
 
 	.wrap {
 		grid-gap: 0;
@@ -60,7 +60,7 @@
 .hero__background {
 	display: block;
 	position: absolute;
-	top: 0px;
+	top: 200px;
 	left: 50%;
 	transform: translateX(-50%);
 	z-index: -1;

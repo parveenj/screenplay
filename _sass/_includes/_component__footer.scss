@@ -9,7 +9,11 @@
 	padding: 64px 0;
 
 	.footer__logo {
-		justify-self: center;
+	    display: block;
+		align-self: center;
+		width: $logo-width;
+		position: relative;
+		z-index: 10;
 	}
 
 	.footer__title {
