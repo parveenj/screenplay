@@ -4,13 +4,28 @@ layout: default
 
 {% if page.accent_color %}{% capture accent_color %}{{ page.accent_color }}{% endcapture %}{% endif %}
 
+<div class="wrap grid__split">
+		<div class="split__section">
+				<a href="{{ page.link_previous }}"><img src="/images/arrow-left.svg"></a>
+		</div>
+		<div class="split__section">
+				<a href="{{ page.link_next }}"><img src="/images/arrow-right.svg"></a>
+		</div>
+</div>
+
 <div class="page-project" style="--accent: {{ accent_color }}">
 
 	<header class="post__header header--single">
 
-		<div class="wrap">
-			<h1 class="post__title">{{ page.title }}</h1>
-			<h2 class="post__subtitle subtitle--light">{{ page.subtitle }}</h2>
+		<div class="wrap grid__split">
+			<div class="split__section">
+					<img src="{{ page.poster }}" class="">
+			</div>
+			<div class="split__section">
+					<h3 class="post__title">{{ page.title }}</h3>
+					<!--<h2 class="post__subtitle subtitle--light">{{ page.subtitle }}</h2> KIWI taking this out -->
+					<p>{{ page.description }}</p>
+			</div>
 		</div>
 
 		<img src="{{ page.featured_image }}" class="post__featured-image">

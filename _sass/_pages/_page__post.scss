@@ -19,8 +19,11 @@
 
   .post__featured-image {
     width: 100%;
-    max-width: 1440px;
+    //max-width: 1440px; KIWI taking out the max width so images go to edges
     margin: auto;
+    max-height: 300px;
+    overflow: hidden;
+    object-fit: cover;
   }
 
   .post__content.highlight-first p:first-child {

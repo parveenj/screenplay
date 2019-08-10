@@ -71,3 +71,26 @@
 		display: block;
 	}
 }
+
+.grid__split {
+	display: grid;
+	grid-template-columns: auto auto;
+  }
+  
+  .split__section {
+	  max-width: 800px;
+	  padding: 20px;
+	  margin: 0px 0px -80px 0px;
+  }
+
+  .split__section p {
+	background-color: #FFFFFF;
+	padding: 0px 0px 20px 0px;
+}
+
+  .split__section img {
+	  justify-items: end;
+	  margin: 0;
+	  float: right;
+	  width: 200px;
+  }
