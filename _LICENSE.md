@@ -42,4 +42,4 @@ You can only use the theme for lawful purposes.
 
 This license can be terminated if you breach it. If that happens, you must stop making copies of or distributing the End Product until you remove the theme from it.
 
-JekyllThemes.io retains ownership of the theme, but grants you the license on these terms.
+JekyllThemes.io retains ownership of the theme, but grants you the license on these terms
