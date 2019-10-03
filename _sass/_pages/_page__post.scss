@@ -6,7 +6,7 @@
 
 .page-post {
   .post__header {
-    padding-bottom: 48px;
+    padding-bottom: 20px;
   }
 
   .post__title {
@@ -183,7 +183,7 @@
 
   @include mq(tabletp) {
     .post__header {
-      padding-bottom: 80px;
+      padding-bottom: 20px;
     }
 
     .post__title {

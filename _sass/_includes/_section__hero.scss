@@ -74,7 +74,7 @@
 
 .grid__split {
 	display: grid;
-	grid-template-columns: auto auto;
+	grid-template-columns:  100px 400px 100px auto;
   }
   
   .split__section {
@@ -88,9 +88,21 @@
 	padding: 0px 0px 20px 0px;
 }
 
-  .split__section img {
-	  justify-items: end;
-	  margin: 0;
-	  float: right;
-	  width: 200px;
-  }
+//  .split__section img {
+//	  justify-items: end;
+//	  margin: 0;
+//	  float: right;
+//	  width: 200px;
+//  }
+
+  .split__section__arrow {
+	max-width: 50px !important;
+	vertical-align: middle;
+	margin: 200px 0 0 0;
+}
+
+.project__poster {
+	border: 1px solid rgba(0, 0, 0, 0.2);
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}

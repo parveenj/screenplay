@@ -5,28 +5,30 @@ layout: default
 {% if page.accent_color %}{% capture accent_color %}{{ page.accent_color }}{% endcapture %}{% endif %}
 
 <div class="wrap grid__split">
+
 		<div class="split__section">
-				<a href="{{ page.link_previous }}"><img src="/images/arrow-left.svg"></a>
+				<a href="{{ page.link_previous }}"><img class="split__section__arrow" src="/images/arrow-left.svg"></a>
 		</div>
+
+		<div>
+			<img src="{{ page.poster }}" class="project__poster">
+			<table class="post-navigation">
+					<tr>
+					<td><i class="fab fa-readme"></i> &nbsp;Read the story below</td>
+					<td><i class="fas fa-angle-double-down"></i> &nbsp;<a href="#spoilers" target="_self">Jump to spoilers</a> </td>
+					</tr>
+			</table>
+		</div>
+
 		<div class="split__section">
-				<a href="{{ page.link_next }}"><img src="/images/arrow-right.svg"></a>
+				<a href="{{ page.link_next }}"><img class="split__section__arrow" src="/images/arrow-right.svg"></a>
 		</div>
+		<div></div>
 </div>
 
 <div class="page-project" style="--accent: {{ accent_color }}">
 
 	<header class="post__header header--single">
-
-		<div class="wrap grid__split">
-			<div class="split__section">
-					<img src="{{ page.poster }}" class="">
-			</div>
-			<div class="split__section">
-					<h3 class="post__title">{{ page.title }}</h3>
-					<!--<h2 class="post__subtitle subtitle--light">{{ page.subtitle }}</h2> KIWI taking this out -->
-					<p>{{ page.description }}</p>
-			</div>
-		</div>
 
 		<img src="{{ page.featured_image }}" class="post__featured-image">
 
