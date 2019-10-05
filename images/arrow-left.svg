@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="58px" height="31px" viewBox="0 0 58 31" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 58 (84663) - https://sketch.com -->
+    <title>Fill 3060 + Fill 3061</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Icons-Mind---60-Px" transform="translate(-645.000000, -2716.000000)" fill="#0B0B0A">
+            <g id="Fill-3060-+-Fill-3061" transform="translate(645.000000, 2716.000000)">
+                <path d="M11.926,30.422 C11.632,30.422 11.34,30.282 11.142,30.042 L0.216,16.282 C-0.072,15.92 -0.072,15.4 0.216,15.042 L11.142,1.282 C11.484,0.86 12.116,0.782 12.548,1.122 C12.98,1.48 13.052,2.102 12.708,2.542 L2.278,15.66 L12.708,28.782 C13.052,29.22 12.98,29.84 12.548,30.202 C12.364,30.34 12.144,30.422 11.926,30.422" id="Fill-3060"></path>
+                <path d="M57,16.66 L1,16.66 C0.448,16.66 0,16.22 0,15.66 C0,15.102 0.448,14.66 1,14.66 L57,14.66 C57.552,14.66 58,15.102 58,15.66 C58,16.22 57.552,16.66 57,16.66" id="Fill-3061"></path>
+            </g>
+        </g>
+    </g>
+</svg>
