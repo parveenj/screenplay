@@ -11,7 +11,7 @@ featured_image: /images/header-aboutme.jpg
 
 <p>Since I'm such a fan of film and dedicated my site to the theme, I'm going to break down my life thus far along the common story telling tactic of the 3 act structure. Learn more about it in this graphic but also learn more about how I can apply it to my own life below:
 </p>
-<img src="images/about-parveen.png">
+<!--<img src="images/about-parveen.png">-->
 
 <table>
 
