@@ -76,7 +76,7 @@ font_settings:
   font_embed: '<link href="https://fonts.googleapis.com/css?family=Poppins&display=swap" rel="stylesheet"> <link href="https://fonts.googleapis.com/css?family=Merriweather&display=swap" rel="stylesheet">'
   title_font: '"Merriweather", serif'
   body_font: '"Poppins", sans-serif'
-  regular_weight: 300
+  regular_weight: 200
   bold_weight: 600
   site_title:
     small_size: 25
@@ -136,14 +136,14 @@ font_settings:
     small_size: 14
     medium_size: 16
     large_size: 18
-    weight: 300
+    weight: 200
     letter_spacing: 0
     line_height: 1.6
   blockquote:
     small_size: 22
     medium_size: 24
     large_size: 26
-    weight: 300
+    weight: 200
     letter_spacing: -0.02
     line_height: 1.6
   buttons:
