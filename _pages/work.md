@@ -5,7 +5,7 @@ description:
 featured_image: /images/header-work.jpg
 ---
 
-<p class="text-center spacer1">Don't forget the following previews of what is currently playing in my portfolio.</p>
+<p class="text-center">Don't forget the following previews of what is currently playing in my portfolio.</p>
 
 <div class="gallery" data-columns="1">
 	<a href="/project/anomalie.html"><img src="/images/poster-anomalie.png"></a>

@@ -5,7 +5,7 @@ description: Parveen Jagajeevan
 featured_image: /images/header-aboutme.jpg
 ---
 
-<p class="spacer1">You probably at this site to see some of my work so I'm even more flattered if you spend any time learning about me.</p>
+<p>You probably at this site to see some of my work so I'm even more flattered if you spend any time learning about me.</p>
 
 <p>I'm a seasoned design professional who begins every project with an open mind and fierce curiosity about people and process.</p>
 
