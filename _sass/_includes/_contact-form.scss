@@ -5,19 +5,30 @@
 // - - - - - - - - - - - - - - - - - -
 
 .contact-form {
-	margin: 20px auto;
-	width: 100%;
+	display: flex; 
+	align-items: center;   
+	padding: 0px 0px 40px 0px;
 
 	@include mq(tabletp) {
-		margin: 30px auto;
+		margin: 10px;
 	}
 
 	@include mq(laptop) {
-		margin: 40px auto;
+		margin: 20px;
 	}
 
 	&:first-child {
 		margin-top: 0;
+	}
+}
+
+.contact-form img {
+	width: 60px;
+	margin: 20px 40px 20px 0px;
+
+	@include mq(tabletp) {
+		width: 80px;
+		margin: 20px 40px 20px 0px;
 	}
 }
 
