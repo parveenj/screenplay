@@ -15,7 +15,7 @@ menu_settings:
     - title: 'Thoughts'
       url: '/blog/'
     - title: 'Contact'
-      url: '/contact'
+      url: 'https://www.screenplay.design/#contact'
 
 footer_settings:
   footer_tagline: Product design with stories in minds.

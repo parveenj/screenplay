@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Blog
+title: My Thoughts
 description: Personal includes a simple blog with pagination.
 featured_image: /images/header-blog.jpg
 ---
@@ -11,9 +11,9 @@ featured_image: /images/header-blog.jpg
 		<div class="hero__overlay"></div>
 	</div>
 
-	<div class="wrap">
+	<div class="wrap spacer2">
 
-		<h1>My Thoughts</h1>
+		<h1>{{ page.title }}</h1>
 
 	</div>
 
@@ -21,7 +21,7 @@ featured_image: /images/header-blog.jpg
 
 <section class="listing">
 
-	<div class="wrap">
+	<div class="wrap single-post spacer2">
 
 		{% for post in paginator.posts %}
 
@@ -31,30 +31,30 @@ featured_image: /images/header-blog.jpg
 				<p class="post__subtitle">{{ post.subtitle }}</p>
 				<p class="post__description">{{ post.description }}</p>
 			</div>
-
 		</article>
 
 		{% endfor %}
 
+		{% if paginator.total_pages > 1 %}
+
+		<section class="pagination">
+
+			<div class="wrap">
+
+				{% if paginator.previous_page %}
+				<a href="{{ paginator.previous_page_path | prepend: site.baseurl }}" class="button pagination__prev"><i class="fa fa-arrow-left" aria-hidden="true"></i> <span>Newer Posts</span></a>
+				{% endif %}
+				{% if paginator.next_page %}
+				<a href="{{ paginator.next_page_path | prepend: site.baseurl }}" class="button pagination__next"><span>Older Posts</span> <i class="fa fa-arrow-right" aria-hidden="true"></i></a>
+				{% endif %}
+
+			</div>
+
+		</section>
+
+		{% endif %}
+
 	</div>
 
 </section>
 
-{% if paginator.total_pages > 1 %}
-
-<section class="pagination">
-
-	<div class="wrap">
-
-		{% if paginator.previous_page %}
-		<a href="{{ paginator.previous_page_path | prepend: site.baseurl }}" class="button pagination__prev"><i class="fa fa-arrow-left" aria-hidden="true"></i> <span>Newer Posts</span></a>
-		{% endif %}
-		{% if paginator.next_page %}
-		<a href="{{ paginator.next_page_path | prepend: site.baseurl }}" class="button pagination__next"><span>Older Posts</span> <i class="fa fa-arrow-right" aria-hidden="true"></i></a>
-		{% endif %}
-
-	</div>
-
-</section>
-
-{% endif %}
