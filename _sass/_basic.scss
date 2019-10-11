@@ -396,18 +396,25 @@ section {
 	text-align: center;
 }
 
+.project-details-row {
+	background-color: #E5E5E5;
+	margin: 0% -4% 0% -4%;
+}
+
 .project-details {
 	font-size: 14px;
 	display: inline-block;
+	vertical-align: top;
 }
 
 .project-details li {
 	text-align: left;
-	list-style: none;
+	list-style-type: circle;
 }
 
 .half {
 	width: 50%;
+	vertical-align: top;
 }
 
 .two-third {
