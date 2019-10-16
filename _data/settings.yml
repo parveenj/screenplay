@@ -131,10 +131,10 @@ font_settings:
     letter_spacing: 0
     line_height: 1.6
   p:
-    small_size: 14
-    medium_size: 16
-    large_size: 18
-    weight: 200
+    small_size: 12
+    medium_size: 14
+    large_size: 16
+    weight: 100
     letter_spacing: 0
     line_height: 1.6
   blockquote:

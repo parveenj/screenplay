@@ -1,7 +1,7 @@
 ---
-title: 'Movies Be Dead'
-date: 2018-06-30 00:00:00
-description: A mini rant about the state of movies in today's cultural landscape
+title: 'Car Shopping UX'
+date: 2019-11-01 00:00:00
+description: A review of the landscape of shopping for quirky cars
 featured_image: ''
 ---
 
