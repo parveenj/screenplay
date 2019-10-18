@@ -1,15 +1,15 @@
 ---
-title: 'Car Shopping UX'
+title: 'The Movie Experience is Dying'
 date: 2019-11-01 00:00:00
 description: A review of the landscape of shopping for quirky cars
 featured_image: ''
 ---
 
-I know what you are thinking: "Whoa whoa whoa, let me get this straight? You theme your site around movies and then turn around and say they are dead? Are you a hypocrite?" Let me unpack my message for you.
+I know what you are thinking: "Whoa whoa whoa, let me get this straight? You theme your site around movies and then turn around and say they are dying?" Let me unpack the title of this post for you.
 
-Movies were my lifeblood as a kid. Now, I didn't watch them endlessly (in fact, I still don't). I would consume them like a fine wine (well not when I was a kid ha ha). I would watch them as unique special experiences and savor the buildup to watching it as well as the aftermath after it was all said and done.
+Movies were my lifeblood as a kid. Now, I didn't watch them endlessly (in fact, I still don't). I would consume them like a fine wine (well not when I was a kid). I would watch them as unique special experiences and savor the buildup to watching it as well as the aftermath after it was all said and done.
 
-Nowadays? Well it seems like trying to have that cadence is almost nonexistent. I know I am so busy that I have little time to keep up with the latest movies so that has some impact obviously. But do movies even matter to pop culture in any meaningful manner anymore? Yes the occasional movie gets hyped up but its mostly superhero blockbusters or the rare award winning flick because of some Oscar campaign. We rarely have the kind of sticking power with movies as we are always off to the next screen.
+Nowadays? Well it seems like trying to have that cadence is almost nonexistent. I know I am so busy that I have little time to keep up with the latest movies which has some impact. But do movies even matter to pop culture in any meaningful manner anymore? Yes the occasional movie gets hyped up but its mostly superhero blockbusters or the rare award winning flick because of some Oscar campaign. We rarely have the kind of sticking power with movies as we are always off to the next screen.
 
 Which is why I think the medium's impact is dead but not the medium itself. Movies themselves will be around forever but it will be like you stumbling across something on streaming and zipping through it in 2 hours time. There will be no anticipation for it and you will forget it quicker because your streaming platform has 200 new options to dive into. We don't sit back and simmer on anything and even think about what we experienced. 
 
