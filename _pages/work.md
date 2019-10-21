@@ -5,7 +5,7 @@ description:
 featured_image: /images/header-work.jpg
 ---
 
-<p class="text-center">Don't forget the following previews of what is currently playing in my portfolio.</p>
+<h6 class="text-center">Here is what is currently playing in my portfolio:</h6>
 
 <div class="gallery" data-columns="1">
 	<a href="/project/anomalie.html"><img src="/images/poster-anomalie.png"></a>
@@ -135,3 +135,4 @@ I ran a project to build out an advanced portal that helps Type 1 Diabetes patie
 	<img src="/images/portfolio-t1de-3.png">	
 </div>
 
+{% include contact-form.html %}

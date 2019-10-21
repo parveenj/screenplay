@@ -24,11 +24,13 @@
 
 .contact-form img {
 	width: 60px;
-	margin: 20px 40px 20px 0px;
+	margin: 20px 80px 20px 0px;
+	padding: 10px;
 
 	@include mq(tabletp) {
 		width: 80px;
-		margin: 20px 40px 20px 0px;
+		margin: 20px 80px 20px 0px;
+		padding: 10px;
 	}
 }
 

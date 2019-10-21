@@ -1,43 +1,37 @@
 ---
-title: About me
+title: About Me
 subtitle: 
 description: Parveen Jagajeevan
 featured_image: /images/header-aboutme.jpg
 ---
 
-<p>You probably at this site to see some of my work so I'm even more flattered if you spend any time learning about me.</p>
+You probably at this site to see some of my work so I'm even more flattered if you spend any time learning about me.
 
-<p>I'm a seasoned design professional who begins every project with an open mind and fierce curiosity about people and process.</p>
+I'm a design generalist with deep experience working on solving complex creative problems and creating efficient design processes for everything from enterprises to early stage startups.
 
-<table>
+Here is a sense of my process when starting a new initiative:
 
-<tr>
-<td class="third">
-</td>
-<td>
-<p>Here is my resume if you want something to take away from this visit.</p>
-</td>
-</tr>
-</table>
+<div class="contact-form">
+        <a href="/images/Parveen-Jagajeevan-Resume.pdf" download><img src="/images/icon-pdf.svg"></a>
+        <h6>Want to take something from this site? Check out a resume here. Also, check out my <a href="http://www.linkedin.com/in/parveenj">LinkedIn profile</a> for some additional detail.</h6>
+</div>
 
-<p>Since I'm such a fan of film and dedicated my site to the theme, I'm going to break down my life thus far along the common story telling tactic of the 3 act structure. Now this doesn't mean Act 3 means I'm done. Its just what has made me who I am today but I am just like my designs, a constant iteration to perfection.
-</p>
+Since I'm such a fan of film and dedicated my site to the theme, I'm going to break down my life thus far along the common story telling tactic of the 3 act structure. Now this doesn't mean Act 3 means I'm done. Its just what has made me who I am today but I am just like my designs, a constant iteration to perfection.
+
 <!--<img src="images/about-parveen.png">-->
 
-<table>
+<div class="gallery" data-columns="3">
+	<img src="images/about-me-act-1.png">
+	<img src="images/about-me-act-2.png">
+	<img src="images/about-me-act-3.png">
+</div>
 
-<tr>
-<td class="third"><h4>Act 1</h4><img src="images/parveen-act1.png">
-I spent my youth not really knowing what I wanted to do with my life outside telling stories. I didnt have an outlet when I went to college at UC Davis and ended up majoring in the life sciences. I balanced this life with art and film classes to feed my creative urge. 
-</td>
+<hr>
+<h3><a id="contact">Contact</a></h3>
 
-<td class="third"><h4>Act 2</h4><img src="images/parveen-act2.png"> 
-After I finished undergrad, I dabbled in some more art and film classes preparing to work in the movie industry but alas the Internet was roaring and called with it's siren song of what the future can bring. I jumped headfirst into startup life and had a lot of fun along the way. I started with web design and front-end development and took it all the way to management at an award winning design agency.
-</td>
-
-<td class="third"><h4>Act 3</h4><img src="images/parveen-act3.png">
-After my agency role shut down due to the Great Recession, I realized I had strayed too far from hands on design and decided to rekindle my portfolio with user experience work. The fact that this work involves deep empathy and an open mind means that it is the perfect place for where I always wanted to be. It has leveraged my past divergent experiences very well and allows me to fulfill my dream of telling stories with the marriage of design.
-</td>
-</tr>
-
-</table>
+<div class="contact-form">
+<a href="mailto:parveen@screenplay.design">
+        <img src="images/icon-paper-airplane.svg">
+        <p>Just for visiting, I consinder you a friend! Let's see how we can connect further so don't hesitate to reach out to me directly by email or message me through the socials linked below in the footer. Let's see how we can work together!</p>
+        </a>
+</div>
