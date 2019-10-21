@@ -1,6 +1,6 @@
 ---
 title: 'Goodbye Wordpress'
-date: 2018-06-30 00:00:00
+date: 2019-06-30 00:00:00
 description: I'm leaving Wordpress forever and moving my site to Jekyll
 featured_image: ''
 ---
