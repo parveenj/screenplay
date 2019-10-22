@@ -14,10 +14,9 @@ featured_image: /images/header-work.jpg
 	<a href="/project/paypal.html"><img src="/images/poster-paypal.png"></a>
 	<a href="/project/fireeye.html"><img src="/images/poster-fireeye.png"></a>
 </div>
+<br><br>
+<h6 class="text-center">If you don't care about spoilers, then view some final screens of projects:</h6>
 
-<p class="text-center">If you don't care about spoilers, then view some final deliverables further below.</p><br/>
-
-<hr />
 <div class="work-title">
 <h3 class="text-center">Walmart</h3><a href="/project/walmart.html"><img src="/images/button-read-story.svg"></a> 
 </div>
