@@ -84,19 +84,21 @@ featured_image: /images/header-work.jpg
 	<img src="/images/portfolio-apple-4.png">
 </div>
 
-<hr />
+<!--
+	<hr />
 
-<h3 class="text-center">Rune</h3>
+	<h3 class="text-center">Rune</h3>
 
-I led the design efforts at Rune, an early stage startup, whose focus was to help smaller online publishers leverage the social graph to drive traffic to their sites.
+	I led the design efforts at Rune, an early stage startup, whose focus was to help smaller online publishers leverage the social graph to drive traffic to their sites.
 
-<div class="gallery" data-columns="1">
-	<img src="/images/portfolio-rune-1.png">
-	<img src="/images/portfolio-rune-2.png">
-	<img src="/images/portfolio-rune-3.png">
-	<img src="/images/portfolio-rune-4.png">
-	<img src="/images/portfolio-rune-5.png">
-</div>
+	<div class="gallery" data-columns="1">
+		<img src="/images/portfolio-rune-1.png">
+		<img src="/images/portfolio-rune-2.png">
+		<img src="/images/portfolio-rune-3.png">
+		<img src="/images/portfolio-rune-4.png">
+		<img src="/images/portfolio-rune-5.png">
+	</div>
+-->
 
 <hr />
 
@@ -105,7 +107,6 @@ I led the design efforts at Rune, an early stage startup, whose focus was to hel
 I worked in the Trust department helping to refine tools that customers needed to setup or maintain online certificates for their businesses.
 
 <div class="gallery" data-columns="1">
-	<img src="/images/portfolio-symantec-1.png">
 	<img src="/images/portfolio-symantec-2.png">
 	<img src="/images/portfolio-symantec-4.png">
 </div>
@@ -134,4 +135,12 @@ I ran a project to build out an advanced portal that helps Type 1 Diabetes patie
 	<img src="/images/portfolio-t1de-3.png">	
 </div>
 
-{% include contact-form.html %}
+<hr>
+<h3><a id="contact">Contact</a></h3>
+
+<div class="contact-form">
+<a href="mailto:parveen@screenplay.design">
+        <img src="images/icon-paper-airplane.svg">
+        <p>Just for visiting, I consinder you a friend! Let's see how we can connect further so don't hesitate to reach out to me directly by email or message me through the socials linked below in the footer. Let's see how we can work together!</p>
+        </a>
+</div>
