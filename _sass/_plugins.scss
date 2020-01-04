@@ -49,13 +49,13 @@
   .owl-carousel .owl-item {
     position: relative;
     min-height: 1px;
-    float: left;
+    float: left; //KIWI
     -webkit-backface-visibility: hidden;
     -webkit-tap-highlight-color: transparent;
     -webkit-touch-callout: none; }
   .owl-carousel .owl-item img {
     display: block;
-    width: 100%; }
+    width: 100%; } //KIWI
   .owl-carousel .owl-nav.disabled,
   .owl-carousel .owl-dots.disabled {
     display: none; }

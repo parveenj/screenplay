@@ -6,7 +6,6 @@
 
 .about {
   //KIWI margin-bottom: 100px;
-  overflow: hidden;
 
   hr {
     margin-bottom: 80px;
@@ -24,7 +23,7 @@
       width: 300px;
       border-right: #999999 1px solid;
       border-bottom: #999999 1px solid;
-
+      max-height: 300px;
     }
   }
 

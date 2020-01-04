@@ -7,13 +7,12 @@ featured_image: /images/header-work.jpg
 
 <p class="text-center">Here is what is currently playing in my portfolio. You can click on them to read through them.</p>
 
-<div class="gallery" data-columns="1">
-	<img src="images/poster-anomalie.png">
-	<img src="images/poster-walmart.png">
-	<img src="images/poster-vudu.png">
-	<img src="images/poster-paypal.png">
-	<img src="images/poster-fireeye.png">
-</div>
+{% include post-components/gallery.html
+	columns = 3
+	full_width = true
+	images = "images/poster-anomalie.png,/images/poster-walmart.png,/images/poster-vudu.png,images/poster-paypal.png,images/poster-fireeye.png,
+	"
+%}
 
 <hr class="work__hr" />
 <p class="text-center">If you don't care about spoilers, then view some final screens of projects, here are plenty of additional examples here.</p>
@@ -21,9 +20,8 @@ featured_image: /images/header-work.jpg
 <p class="text-center">Still not enough? I have a lot more but give me a ring and I can share some additional projects not captured here.</p>
 <hr class="work__hr" />
 
-<div class="wrap grid__3-col work__divider">
+<div class="wrap grid__2-col work__divider">
 <div><h4 class="text-center">Anomalie</h4></div>
-<div>Sample screens below</div>
 <div><a href="/project/anomalie.html"><img src="/images/button-read-story.svg"></a></div>
 </div>
 <hr class="work__hr" />
@@ -37,9 +35,8 @@ featured_image: /images/header-work.jpg
 </div>
 
 <hr class="work__hr" />
-<div class="wrap grid__3-col work__divider">
+<div class="wrap grid__2-col work__divider">
 <div><h4 class="text-center">Walmart</h4></div>
-<div>Sample screens below</div>
 <div><a href="/project/walmart.html"><img src="/images/button-read-story.svg"></a></div>
 </div>
 <hr class="work__hr" />
@@ -53,9 +50,8 @@ featured_image: /images/header-work.jpg
 </div>
 
 <hr class="work__hr" />
-<div class="wrap grid__3-col work__divider">
+<div class="wrap grid__2-col work__divider">
 <div><h4 class="text-center">PayPal</h4></div>
-<div>Sample screens below</div>
 <div><a href="/project/paypal.html"><img src="/images/button-read-story.svg"></a></div>
 </div>
 <hr class="work__hr" />
@@ -69,9 +65,8 @@ featured_image: /images/header-work.jpg
 </div><br/>
 
 <hr class="work__hr" />
-<div class="wrap grid__3-col work__divider">
+<div class="wrap grid__2-col work__divider">
 <div><h4 class="text-center">Facebook</h4></div>
-<div>Sample screens below</div>
 <div><a href="/project/facebook.html"><img src="/images/button-read-story.svg"></a></div>
 </div>
 <hr class="work__hr" />
@@ -84,9 +79,8 @@ featured_image: /images/header-work.jpg
 </div>
 
 <hr class="work__hr" />
-<div class="wrap grid__3-col work__divider">
+<div class="wrap grid__2-col work__divider">
 <div><h4 class="text-center">FireEye</h4></div>
-<div>Sample screens below</div>
 <div><a href="/project/fireeye.html"><img src="/images/button-read-story.svg"></a></div>
 </div>
 <hr class="work__hr" />
@@ -97,9 +91,8 @@ featured_image: /images/header-work.jpg
 </div>
 
 <hr class="work__hr" />
-<div class="wrap grid__3-col work__divider">
+<div class="wrap grid__2-col work__divider">
 <div><h4 class="text-center">Super Q</h4></div>
-<div>Sample screens below</div>
 <div><a href="/project/vudu.html"><img src="/images/button-read-story.svg"></a></div>
 </div>
 <hr class="work__hr" />
@@ -112,9 +105,8 @@ featured_image: /images/header-work.jpg
 </div>
 
 <hr class="work__hr" />
-<div class="wrap grid__3-col work__divider">
+<div class="wrap grid__2-col work__divider">
 <div><h4 class="text-center">Apple</h4></div>
-<div>Sample screens below</div>
 <div><a href="/project/apple.html"><img src="/images/button-read-story.svg"></a></div>
 </div>
 <hr class="work__hr" />
