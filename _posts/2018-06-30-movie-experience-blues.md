@@ -2,7 +2,7 @@
 title: 'Movie Experience Blues'
 date: 2018-06-30 00:00:00
 description: Watching movies has not been the same lately
-featured_image: ''
+featured_image: '../images/post-movie-experience-blues.jpg'
 ---
 
 I know what you are thinking: "Wait a minute, let me get this straight? You theme your site around how important movies are to you and then turn around and say it's just not the same?" Both statements can be equally valid, so let me unpack some more.

@@ -1,5 +1,8 @@
 site: Screenplay
 
+url: 
+baseurl: 
+
 collections:
   pages:
     output: true
@@ -37,18 +40,22 @@ defaults:
       layout: "project"
 
 markdown: kramdown
+highlighter: rouge
 
 kramdown:
   input: GFM
-  syntax_highlighter: rouge
+  syntax_highlighter_opts:
+    span:
+      line_numbers: false
+    block:
+      line_numbers: true
+      start_line: 1
   
 sass:
   style: compressed
 
 plugins:
-  - jekyll-paginate
   - jekyll-sitemap
 
-paginate: 4
-paginate_path: "/blog/page:num/"
-  
+paginate: 7
+paginate_path: "/blog/page-:num/"

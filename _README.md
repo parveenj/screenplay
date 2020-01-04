@@ -1,4 +1,4 @@
-# Personal by JekyllThemes.io – Instructions
+# Made by JekyllThemes.io – Instructions
 
 If you have any questions or feedback about the theme, don't hesitate to reach out to hello@jekyllthemes.io for 1-to-1 support direct from the developers.
 
@@ -21,7 +21,7 @@ or read up on just the basics of [front matter](https://jekyllrb.com/docs/frontm
 
 ## Customizing the theme
 
-Personal comes packed with lots of options to let you customize the theme.
+Made comes packed with lots of options to let you customize the theme.
 
 ---
 
@@ -29,7 +29,13 @@ Personal comes packed with lots of options to let you customize the theme.
 
 The main things you might need to change here are:
 
-`site: Personal Jekyll Theme` – change this to your website's name
+`site: Made Jekyll Theme` – change this to your website's name
+
+`url:` – the full URL that your site will be hosted at, e.g. https://your-domain.com
+
+`baseurl:` – add a base URL here if you will be publishing the site inside a folder, e.g. https://your-domain.com/project/ – or if you're hosting it as a 'project page' on GitHub Pages. Example: `baseurl: /project`
+
+When using baseurl, you should reference images in your post/project Frontmatter **without** the baseurl, e.g. `/images/image.jpg` but images inside the Markdown content **should include** the baseurl snippet, e.g. `{{site.baseurl}}/images/image.jpg`
 
 `paginate: 6` – change this to set the number of blog posts on each page
 
@@ -56,12 +62,13 @@ You'll find this inside the `_data` folder – this is where you can set all of 
 This allows you to set the links inside your menu. Add each one as a list item with a `title` and `url`. When hosting on GitHub Pages, make sure you leave a trailing `/` at the end of links to category pages (e.g. `/blog/` or `/projects/`).
 
 **Footer settings**
-
+`logo_image` – if you'd like to use a logo instead of plain text title in your footer, enter the link to it here.
+`logo_width` – set the width (in pixels) that your logo should appear at. This is useful for adding retina display support – for example if your original image is 400px wide, you could set this value to `200` to display a retina-ready image.
 `footer_tagline` – sets the text that dispays underneath the site title/logo in the footer.
 
 **Hero settings**
 
-`overlay_opacity` – this sets the opacity of the overlay when you hover over grid items (portfolio and blog posts). Use a decimal value here, e.g. `0.8` will give you 80% opacity on hover.
+`background_image` – this option lets you choose the background image for the home page hero section.
 
 **Post settings**
 
@@ -69,18 +76,16 @@ This allows you to set the links inside your menu. Add each one as a list item w
 
 **Contact settings**
 
-The theme comes with a pre-made contact form that you can use with [Formspree](https://formspree.io/), which is free for up to 50 submissions per month. Please read through their website for instructions on how to set up your contact form. You could also easily adapt it to use another contact form service.
+The theme comes with a pre-made contact form that you can use with [Formspree](https://formspree.io/create/jekyllthemes), which is free for up to 50 submissions per month. They also have two great paid plans that offer advanced features. Use the link above to set up your account and then paste the 'endpoint' integration code into the theme settings:
 
-`form_action` – this is the action attribute that you get from FormSpree, for example `https://formspree.io/your@email.com`
-`confirmation_url` – by default the user is shown a default Formspree thank you page. You can use this setting to provide an alternative URL for that page, for example `/thanks` – we have included a basic thank you page with the theme.
+`form_action` – this is the form endpoint attribute that you get from FormSpree, for example `https://formspree.io/abcdefgh`
+`confirmation_url` – by default the user is shown a default Formspree thank you page. If you have a premium plan, you can use this setting to provide an alternative URL for that page, for example `/thanks` – we have included a basic thank you page with the theme.
 `email_subject` – choose the subject of the email you receive from Formspree.
 `send_button_text` – change the text used on the form submit button.
 
-Hint: you can add the contact form to any page of your site using the include – `{% include contact-form.html %}` – for example if you wanted to have the contact form on your About page.
-
 **Social settings**
 
-Here you can add links to your profiles on social networks, and they'll be shown in the footer. Simply add your URL next to the ones you want to show.
+Here you can add links to your profiles on social networks, and they'll be shown in the 'about' section. Simply add your URL next to the ones you want to show.
 
 **Color settings**
 
@@ -132,10 +137,10 @@ The theme comes with some pages set up ready for your content.
 ### The home page – `/index.html`
 
 This is your website home page. You can edit some details in the Front Matter at the top of the page:
-
-`title` – this sets the page title, which shows up in the browser's title bar and on search engine results, social shares etc.
-`description` – this sets the page meta description, which shows up on search engine results, social shares etc.
-`featured_image` – this sets the header image for the page, as well as the meta image, which shows up on social shares.
+`overtitle` – this sets the small intro text above the main page title.
+`title` – this sets the main page title, which also shows up in the browser's title bar and on search engine results, social shares etc.
+`description` – this sets the intro text that displays next to the main page title, and also the page meta description, which shows up on search engine results, social shares etc.
+`featured_image` – this sets the meta image for the page, which shows up on social shares.
 
 Below the Front Matter is the code for the page. You should edit this to set your title and intro text. Hint - the main <h1> tag respects line breaks on tablet size screens and larger. This is useful if you want to prevent typographic widows.
 

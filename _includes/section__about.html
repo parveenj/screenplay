@@ -1,0 +1,25 @@
+<section class="about">
+  {% if include.divider == true %}
+    <div class="wrap"><hr/></div>
+    {% endif %}
+  <div class="wrap grid__2-col">
+
+    <div class="about__image">
+      <img src="{{ '/images/about-me.png' | relative_url }}" alt="">
+    </div>
+
+    <div class="about__content">
+      <p>
+        Hello friend! This website is about my recent design work but also inspired by my pre-digital inspirations, a fusion of my past and present that makes me whole. Reach out to talk to me about either as I would love to chat with you so we can work together or just meld ideas on great stories.
+      </p>
+
+      {% include component-socials.html %}
+
+      <div>
+        <a href="#" class="cta button--fill contact-trigger js-contact">Get in Touch</a>
+      </div>
+
+    </div>
+  </div>
+
+</section>

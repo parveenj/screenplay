@@ -4,20 +4,27 @@ title: Page Not Found
 description: Sorry – the page your looking for doesn't exist.
 featured_image: /images/demo/about.jpg
 ---
+<div class="page-post">
 
-<section class="hero">
+	<header class="post__header header--single">
+		
+		<div class="wrap">
+			<h1 class="post__title">Page not found</h1>
+		</div>
 
-	<div class="hero__image" style="background-image: url({{ page.featured_image }})">
-		<div class="hero__overlay"></div>
-	</div>
+	</header>
 
-	<div class="wrap">
+	<section class="post-full">
 
-		<h3>Page not found.</h3>
-		<p class="hero__text editable">Sorry – the page your looking for doesn't exist.</p>
-		<p class="hero__text editable">Perhaps you typed the URL incorrectly, or it may have moved.</p>
-		<p><a href="/" class="button button--large">Back To Home</a></p>
+		<div class="wrap">
 
-	</div>
+			<article class="post__content {% if page.highlight_first %}highlight-first{% endif %}">
+				<p class="hero__text">Sorry – the page you're looking for doesn't exist. Perhaps you typed the URL incorrectly, or it may have moved.</p>
+				<p><a href="/" class="button--fill">Back To Home</a></p>
+			</article>
 
-</section>
+		</div>
+
+	</section>
+
+</div>

@@ -2,7 +2,7 @@
 title: 'Invision Screening'
 date: 2017-10-30 00:00:00
 description: I'm hosting a screening of the Invision documentary 'Design Disruptors'
-featured_image: ''
+featured_image: '../images/post-invision-screening.jpg'
 ---
 
 Join us for an exclusive screening of Design Disruptors!
