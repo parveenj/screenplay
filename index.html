@@ -16,7 +16,6 @@ featured_image: /images/social.jpg
 	</section>
 
 	<section class="about">
-
 		<div class="wrap grid home-aboutme">
 	  
 		  <div class="about__image">
@@ -36,14 +35,14 @@ featured_image: /images/social.jpg
 		  </div>
 
 		</div>
-	  </section>
+	</section>
 
 	<section class="full-width-grey">
 		<h6 class="text-center">Here is a smattering of companies I have helped:</h6>
 		<img class="spacer1" src="images/section-logos.png">
 	</section>
 
-	<div class="wrap home-stories"  style="padding-bottom: 40px">
+	<div class="wrap home-stories" style="padding-bottom: 40px">
 		<h3 class="project__title"><a href="/work.html">Stories</a></h3>
 		<p class="project__description">
 			<p>Movies have inspired me a ton and I want to inspire my users in similar ways. Obviously, thats a high bar to pass but its always good to have ambition, dont you think? <a href="work.html">Here are some of the case studies playing in my portfolio for you to read in more detail displayed below using movies as a motif.</a> I have other screens there as well so please visit and lend me your thoughts. 
@@ -52,21 +51,29 @@ featured_image: /images/social.jpg
 
 	<section class="listing" style="margin-left: -18%">
 		<div class="wrap" style="width: 40%">
-
 			<article class="project__preview">
-				<div class="project__images owl-carousel" style="--accent: #000000">
+				<div class="project__images owl-carousel" style="--accent: #FFFFFF">
 					<a href="/project/anomalie.html"><img src="/images/poster-anomalie.png" alt="" class="project__image"></a>
 					<a href="/project/walmart.html"><img src="/images/poster-walmart.png" alt="" class="project__image"></a>
 					<a href="/project/vudu.html"><img src="/images/poster-vudu.png" alt="" class="project__image"></a>
 					<a href="/project/paypal.html"><img src="/images/poster-paypal.png" alt="" class="project__image"></a>
 					<a href="/project/fireeye.html"><img src="/images/poster-fireeye.png" alt="" class="project__image"></a>
 				</div>
-
 			</article>
-
 		</div>
 	</section>
 
+	<div class="wrap home-stories" style="padding-bottom: 40px">
+		<h3 class="project__title"><a href="/work.html">Trailers</a></h3>
+		<p class="project__description">
+			<p>Here are a few trailers of the work I have to share. Trailers are tidbits to tease you to learn more so please check out my work.</p>	
+	</div>
+
+	{% include post-components/gallery.html
+		columns = 3
+		full_width = false
+		images = "/images/000-made.jpg,/images/000-made.jpg,/images/000-made.jpg,/images/000-made.jpg,/images/000-made.jpg"
+	%}
 
 	<section class="recent-posts">
 		<div class="wrap grid">

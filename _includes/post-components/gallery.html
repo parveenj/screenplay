@@ -8,7 +8,7 @@
 
 {% assign images = include.images | split: "," %}
 
-<div class="gallery {% if include.full_width == true %}full-width{% endif %}" data-columns="{{ columns }}">
+<div class="gallery gallery--grid gallery--on {% if include.full_width == true %}full-width{% endif %}" data-columns="{{ columns }}">
 	{%- for image in images -%}
 		<img src="{{ image }}">
 	{%- endfor -%}
