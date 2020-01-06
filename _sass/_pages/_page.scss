@@ -25,10 +25,12 @@
 .work__divider {
 	background-color: rgba($color: #eeeeee, $alpha: 1.0);
 	padding: 40px 0px 40px 0px;
-	margin: 0px !important;
+	margin: 0px 0px 20px 0px !important;
+	width: calc(100vw - 60px);
   }
 
 .work__hr {
 	margin: 0px !important;
 	padding: 0px !important;
+	width: calc(100vw - 60px);
 }
