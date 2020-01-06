@@ -20,10 +20,8 @@
 
     img {
       //KIWI margin-bottom: 24px;
-      width: 300px;
-      border-right: #999999 1px solid;
-      border-bottom: #999999 1px solid;
-      max-height: 300px;
+      width: 240px;
+      max-height: 240px;
     }
   }
 
@@ -33,7 +31,8 @@
 
   .about__content {
     // KIWI max-width: 456px;
-    padding: 20px;
+    padding: 20px 20px 0px 0px;
+    line-height: 20px;
 
     .title {
       margin-bottom: 16px;
@@ -81,10 +80,10 @@
 // KIWI
 .home-aboutme {
   background-color: #FFFFFF;
-  //border: #999999 1px solid;
+  border: #C14600 1px solid;
   padding: 0px !important;
   grid-template-columns: 1fr 3fr !important;
-
+  align-items: center;
 }
 
 // - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - Social Icons
