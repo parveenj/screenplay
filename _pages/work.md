@@ -96,10 +96,8 @@ featured_image: /images/header-work.jpg
 	"
 %}
 
-<div class="wrap grid__3-col work__divider">
+<div class="wrap grid work__divider">
 <div><h4 class="text-center">Facebook</h4></div>
-<div></div>
-<div></div>
 </div>
 <p>I led a project to build a brand new internal marketing tool that allows the SMB team to manage relationships with their customers.</p>
 
