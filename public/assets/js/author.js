@@ -41,8 +41,8 @@
   }
 
   function header() {
-    $("#site-header").innerHTML = `<div class="bar wrap"><a class="brand" href="index.html">${site.name || "Author"}</a>
-      <nav aria-label="Main"><a href="index.html">Home</a><a href="blog.html">Blog</a></nav></div>`;
+    $("#site-header").innerHTML = `<div class="bar wrap"><a class="brand" href="index.html">screenplay.design</a>
+      <nav aria-label="Main"><a href="case-studies.html">Case studies</a><a href="blog.html">Blog</a></nav></div>`;
     $("#site-footer").innerHTML = `<div class="wrap">Author tools · ${live ? "local writing server" : "preview only"}</div>`;
   }
 

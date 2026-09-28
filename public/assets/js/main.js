@@ -10,8 +10,8 @@
   /* Header, footer, search */
   const page = document.body.dataset.nav || "";
   const link = (href, label, key) => `<a href="${href}"${page === key ? ' aria-current="page"' : ""}>${label}</a>`;
-  $("#site-header").innerHTML = `<div class="bar wrap"><a class="brand" href="index.html">${S.name}</a>
-    <nav aria-label="Main">${link("index.html", "Home", "home")}${link("case-studies.html", "Case studies", "cases")}${link("blog.html", "Blog", "blog")}</nav>
+  $("#site-header").innerHTML = `<div class="bar wrap"><a class="brand" href="index.html"${page === "home" ? ' aria-current="page"' : ""}>screenplay.design</a>
+    <nav aria-label="Main">${link("case-studies.html", "Case studies", "cases")}${link("blog.html", "Blog", "blog")}</nav>
     <div class="search"><input id="q" type="search" placeholder="Search" aria-label="Search case studies and posts" autocomplete="off"><div id="results" hidden></div></div></div>`;
   $("#site-footer").innerHTML = `<div class="wrap">&copy; ${new Date().getFullYear()} ${S.name}</div>`;
   const q = $("#q"), res = $("#results");
