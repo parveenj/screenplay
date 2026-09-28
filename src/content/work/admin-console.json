@@ -1,0 +1,14 @@
+{
+  "title": "Redesigning an enterprise admin console",
+  "tag": "Enterprise",
+  "year": 2023,
+  "h": 28,
+  "summary": "Simplified permissions and settings for administrators managing thousands of users.",
+  "draft": false,
+  "order": 2,
+  "body": [
+    { "heading": "Challenge", "text": "Administrators struggled to find and understand settings." },
+    { "heading": "Approach", "text": "Interviews, task analysis, and a new navigation model tested with real admins." },
+    { "heading": "Outcome", "text": "Describe the results: fewer support tickets, faster task completion." }
+  ]
+}

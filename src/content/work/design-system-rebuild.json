@@ -1,0 +1,14 @@
+{
+  "title": "Rebuilding a design system for 40 product teams",
+  "tag": "Design systems",
+  "year": 2025,
+  "h": 228,
+  "summary": "Consolidated three component libraries into one, cutting duplicate UI work across teams.",
+  "draft": false,
+  "order": 0,
+  "body": [
+    { "heading": "Challenge", "text": "Three overlapping component libraries meant inconsistent products and slow delivery. Replace this with your own story." },
+    { "heading": "Approach", "text": "Audited every component, agreed on shared tokens, and shipped the new library in stages alongside existing work." },
+    { "heading": "Outcome", "text": "Add your measurable results here: adoption, time saved, satisfaction." }
+  ]
+}

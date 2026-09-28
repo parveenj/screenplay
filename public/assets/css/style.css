@@ -69,4 +69,30 @@ nav a:hover,nav a[aria-current]{border-color:var(--blue)}
 .back{display:inline-block;margin-bottom:20px;color:var(--mute)}
 #detail h2{margin-top:1.6em}
 #site-footer{margin-top:2rem;border-top:1px solid var(--line);padding:24px 0;color:var(--mute);font-size:.9rem}
+
+/* writing studio */
+.studio{display:grid;grid-template-columns:240px 1fr;gap:28px;padding:28px 0 64px;align-items:start}
+.studio-list{background:#fff;border:1px solid var(--line);border-radius:var(--r);padding:12px;position:sticky;top:calc(var(--hdr) + 12px)}
+.studio-list h2{font-size:1rem;margin:8px 10px 12px}
+.studio-list button,.studio-form button,.studio-form select,.studio-form input,.studio-form textarea{font:inherit}
+.studio-item,.studio-new{display:block;width:100%;text-align:left;padding:10px 12px;border:0;background:none;border-radius:10px;cursor:pointer}
+.studio-item:hover,.studio-new:hover{background:var(--bg)}
+.studio-item[aria-current=true]{background:var(--ink);color:#fff}
+.studio-item small{display:block;color:var(--mute);font-size:.8rem}
+.studio-item[aria-current=true] small{color:#c5ccd3}
+.studio-new{color:var(--blue);font-weight:650;margin-top:6px}
+.studio-form{background:#fff;border:1px solid var(--line);border-radius:var(--r);padding:22px 24px 28px}
+.studio-form h1{font-size:1.6rem}
+.studio-meta{display:grid;grid-template-columns:1fr 1fr;gap:14px}
+.studio-form label{display:flex;flex-direction:column;gap:6px;font-size:.85rem;font-weight:650;margin:0 0 14px}
+.studio-form input,.studio-form select,.studio-form textarea{font-weight:400;padding:10px 12px;border:1px solid var(--line);border-radius:10px;background:var(--bg)}
+.studio-form textarea{min-height:110px;resize:vertical;line-height:1.5}
+.studio-section{border:1px dashed var(--line);border-radius:12px;padding:14px;margin:0 0 12px;background:var(--bg)}
+.studio-section header{display:flex;justify-content:space-between;align-items:center;margin-bottom:8px}
+.studio-actions{display:flex;flex-wrap:wrap;gap:10px;margin-top:18px}
+.studio-actions button,.studio-form .ghost{padding:10px 16px;border-radius:999px;border:1px solid var(--line);background:#fff;cursor:pointer}
+.studio-actions .primary{background:var(--ink);color:#fff;border-color:var(--ink)}
+.studio-note{color:var(--mute);font-size:.95rem;margin:0 0 18px}
+.studio-site{margin-bottom:28px;padding-bottom:8px;border-bottom:1px solid var(--line)}
+@media(max-width:800px){.studio{grid-template-columns:1fr}.studio-list{position:static}.studio-meta{grid-template-columns:1fr}}
 @media(prefers-reduced-motion:reduce){*{transition:none!important;scroll-behavior:auto!important}}

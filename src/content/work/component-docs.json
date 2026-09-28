@@ -1,0 +1,14 @@
+{
+  "title": "A documentation site people actually use",
+  "tag": "Design systems",
+  "year": 2022,
+  "h": 300,
+  "summary": "Live examples, usage guidance, and accessibility notes in one place.",
+  "draft": false,
+  "order": 3,
+  "body": [
+    { "heading": "Challenge", "text": "Guidelines lived in slide decks nobody could find." },
+    { "heading": "Approach", "text": "Built a searchable docs site with code and design specs side by side." },
+    { "heading": "Outcome", "text": "Describe adoption and contribution numbers." }
+  ]
+}

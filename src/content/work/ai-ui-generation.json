@@ -1,0 +1,14 @@
+{
+  "title": "Making AI-generated interfaces consistent",
+  "tag": "AI interfaces",
+  "year": 2026,
+  "h": 162,
+  "summary": "Tooling and guardrails so generated screens follow the design system every time.",
+  "draft": false,
+  "order": 1,
+  "body": [
+    { "heading": "Challenge", "text": "Generated UI drifted from brand and component rules." },
+    { "heading": "Approach", "text": "Encoded design rules as structured guidance the generator could follow, then tested outputs against them." },
+    { "heading": "Outcome", "text": "Describe the improvement in consistency and review time." }
+  ]
+}

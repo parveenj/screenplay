@@ -1,0 +1,13 @@
+{
+  "title": "What changes when AI drafts the first screen",
+  "tag": "Writing",
+  "year": 2026,
+  "h": 12,
+  "summary": "Notes on reviewing, correcting, and steering generated interfaces.",
+  "draft": false,
+  "order": 5,
+  "body": [
+    { "heading": "", "text": "Write your post here." },
+    { "heading": "Review, then refine", "text": "Treat generated screens as a first draft with a checklist." }
+  ]
+}

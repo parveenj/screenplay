@@ -1,6 +1,14 @@
-# Personal site (GitHub Pages)
+# Personal site
 
-1. Upload everything in this folder to the root of your repo (keep `assets/`).
-2. Repo Settings > Pages > Deploy from a branch > `main` / root.
-3. Edit your name, intro, case studies, and posts in `assets/js/data.js`. Each entry gets its own detail page automatically.
-4. To use real images, add an `img` field to items and swap the `art()` function in `assets/js/main.js`.
+Existing Home, Case studies, and Blog pages keep their current layout. Stories live as JSON in `src/content/work/` and `src/content/blog/`. Astro builds a standalone page for each one at `work/<slug>/` and `blog/<slug>/`.
+
+## Write
+
+```bash
+npm install
+npm run dev
+```
+
+Open `/author/` (Save Draft and Publish write files on that local server). Then commit and push; GitHub Actions publishes the built site.
+
+Drafts stay out of the public listings until you Publish.

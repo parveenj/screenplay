@@ -1,0 +1,14 @@
+{
+  "name": "screenplay",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "dev": "astro dev",
+    "build": "astro build",
+    "preview": "astro preview",
+    "sync": "node src/lib/sync-data.mjs"
+  },
+  "dependencies": {
+    "astro": "^5.14.1"
+  }
+}

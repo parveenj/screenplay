@@ -1,8 +1,10 @@
 (function () {
   const S = window.SITE, $ = (s, r = document) => r.querySelector(s);
-  const url = i => (i.type === "case" ? "case-study.html" : "post.html") + "?slug=" + i.slug;
+  const esc = s => String(s).replace(/[&<>"]/g, c => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" }[c]));
+  const paras = s => String(s).split(/\n\s*\n/).map(p => p.trim()).filter(Boolean).map(p => `<p>${esc(p).replace(/\n/g, "<br>")}</p>`).join("");
+  const url = i => (i.type === "case" ? "work/" : "blog/") + i.slug + "/";
   const art = i => `<div class="art" style="--h:${i.h}" aria-hidden="true"><i class="a"></i><i class="b"></i><i class="c"></i><i class="d"></i></div>`;
-  const card = i => `<a class="card" href="${url(i)}">${art(i)}<div class="pad"><span class="tag">${i.tag}</span><h3>${i.title}</h3><p>${i.summary}</p></div></a>`;
+  const card = i => `<a class="card" href="${url(i)}">${art(i)}<div class="pad"><span class="tag">${esc(i.tag)}</span><h3>${esc(i.title)}</h3><p>${esc(i.summary)}</p></div></a>`;
   const cases = S.items.filter(i => i.type === "case"), posts = S.items.filter(i => i.type === "post");
 
   /* Header, footer, search */
@@ -57,19 +59,19 @@
   }
 
   /* Listings */
-  if (page === "cases") $("#list").innerHTML = cases.map(card).join("");
-  if (page === "blog") $("#list").innerHTML = posts.map(card).join("");
+  if (page === "cases" && $("#list")) $("#list").innerHTML = cases.map(card).join("");
+  if (page === "blog" && $("#list")) $("#list").innerHTML = posts.map(card).join("");
 
   /* Detail pages */
   const d = $("#detail");
-  if (d) {
+  if (d && !d.dataset.astro) {
     const slug = new URLSearchParams(location.search).get("slug"), i = S.items.find(x => x.slug === slug);
     const back = d.dataset.back;
     if (!i) { d.innerHTML = `<h1>Not found</h1><p>That page doesn't exist. <a href="${back}">Go back to the list.</a></p>`; }
     else {
       document.title = i.title + " | " + S.name;
-      d.innerHTML = `<a class="back" href="${back}">Back to list</a><span class="tag">${i.tag}, ${i.year}</span><h1>${i.title}</h1><p class="lede">${i.summary}</p>${art(i)}` +
-        i.body.map(b => (b[0] ? `<h2>${b[0]}</h2>` : "") + `<p>${b[1]}</p>`).join("");
+      d.innerHTML = `<a class="back" href="${back}">Back to list</a><span class="tag">${esc(i.tag)}, ${esc(i.year)}</span><h1>${esc(i.title)}</h1><p class="lede">${esc(i.summary)}</p>${art(i)}` +
+        i.body.map(b => (b[0] ? `<h2>${esc(b[0])}</h2>` : "") + paras(b[1])).join("");
     }
   }
 })();

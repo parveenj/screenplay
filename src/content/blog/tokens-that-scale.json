@@ -1,0 +1,13 @@
+{
+  "title": "Design tokens that survive a reorg",
+  "tag": "Writing",
+  "year": 2026,
+  "h": 195,
+  "summary": "How to name tokens so they still make sense when teams and brands change.",
+  "draft": false,
+  "order": 4,
+  "body": [
+    { "heading": "", "text": "Write your post here. Each entry in the body array becomes a section with an optional heading." },
+    { "heading": "Naming by purpose", "text": "Name tokens for what they do, not how they look." }
+  ]
+}

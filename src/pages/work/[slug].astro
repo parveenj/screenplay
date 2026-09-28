@@ -1,0 +1,17 @@
+---
+import { getCollection } from "astro:content";
+import Article from "../../layouts/Article.astro";
+import site from "../../data/site.json";
+
+export async function getStaticPaths() {
+  const stories = await getCollection("work", ({ data }) => !data.draft);
+  return stories.map((entry) => ({
+    params: { slug: entry.id.replace(/\.json$/, "") },
+    props: { entry }
+  }));
+}
+
+const { entry } = Astro.props;
+const item = { ...entry.data, slug: entry.id.replace(/\.json$/, "") };
+---
+<Article item={item} back="case-studies.html" nav="cases" siteName={site.name} />

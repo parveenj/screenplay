@@ -1,0 +1,62 @@
+---
+import site from "../data/site.json";
+const base = import.meta.env.BASE_URL;
+---
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="robots" content="noindex">
+  <title>Author</title>
+  <base href={base}>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,400;12..96,650;12..96,800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body data-nav="">
+<header id="site-header"></header>
+<main class="wrap studio">
+<aside class="studio-list" aria-label="Entries">
+  <h2>Writing</h2>
+  <div id="entry-list"></div>
+  <button class="studio-new" type="button" id="new-post">New post</button>
+  <button class="studio-new" type="button" id="new-case">New case study</button>
+</aside>
+<section class="studio-form">
+  <p class="studio-note" id="author-note">Stories are stored as JSON in <code>src/content/</code>. Save Draft writes a hidden file. Publish includes it on Home, Case studies, and Blog.</p>
+  <p class="studio-note" id="save-status" role="status"></p>
+  <div class="studio-site">
+    <h1>Site</h1>
+    <label>Name <input id="site-name" value={site.name}></label>
+    <label>Role <input id="site-role" value={site.role}></label>
+    <label>Intro <textarea id="site-intro">{site.intro}</textarea></label>
+  </div>
+  <div id="editor" hidden>
+    <h1 id="editor-title">Entry</h1>
+    <div class="studio-meta">
+      <label>Type <select id="f-type"><option value="post">Post</option><option value="case">Case study</option></select></label>
+      <label>Year <input id="f-year" type="number"></label>
+      <label>Tag <input id="f-tag" placeholder="Writing"></label>
+      <label>Color hue (0–360) <input id="f-h" type="number" min="0" max="360"></label>
+    </div>
+    <label>Title <input id="f-title"></label>
+    <label>URL slug <input id="f-slug"></label>
+    <label>Summary <textarea id="f-summary"></textarea></label>
+    <h2>Sections</h2>
+    <div id="sections"></div>
+    <button class="ghost" type="button" id="add-section">Add section</button>
+    <button class="ghost" type="button" id="delete-entry">Delete this entry</button>
+  </div>
+  <p id="empty-editor" class="studio-note">Pick an entry, or start a new post.</p>
+  <div class="studio-actions">
+    <button type="button" id="save-draft">Save Draft</button>
+    <button class="primary" type="button" id="publish">Publish</button>
+  </div>
+</section>
+</main>
+<footer id="site-footer"></footer>
+<script is:inline src="assets/js/data.js"></script>
+<script is:inline src="assets/js/author.js"></script>
+</body>
+</html>
