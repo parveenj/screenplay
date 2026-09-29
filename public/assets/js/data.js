@@ -9,6 +9,7 @@ window.SITE = {
       "title": "Rebuilding a design system for 40 product teams",
       "tag": "Design systems",
       "year": 2025,
+      "date": "",
       "h": 228,
       "summary": "Consolidated three component libraries into one, cutting duplicate UI work across teams.",
       "body": [
@@ -32,6 +33,7 @@ window.SITE = {
       "title": "Making AI-generated interfaces consistent",
       "tag": "AI interfaces",
       "year": 2026,
+      "date": "",
       "h": 162,
       "summary": "Tooling and guardrails so generated screens follow the design system every time.",
       "body": [
@@ -55,6 +57,7 @@ window.SITE = {
       "title": "Redesigning an enterprise admin console",
       "tag": "Enterprise",
       "year": 2023,
+      "date": "",
       "h": 28,
       "summary": "Simplified permissions and settings for administrators managing thousands of users.",
       "body": [
@@ -78,6 +81,7 @@ window.SITE = {
       "title": "A documentation site people actually use",
       "tag": "Design systems",
       "year": 2022,
+      "date": "",
       "h": 300,
       "summary": "Live examples, usage guidance, and accessibility notes in one place.",
       "body": [
@@ -101,6 +105,7 @@ window.SITE = {
       "title": "Design tokens that survive a reorg",
       "tag": "Writing",
       "year": 2026,
+      "date": "",
       "h": 195,
       "summary": "How to name tokens so they still make sense when teams and brands change.",
       "body": [
@@ -120,6 +125,7 @@ window.SITE = {
       "title": "What changes when AI drafts the first screen",
       "tag": "Writing",
       "year": 2026,
+      "date": "",
       "h": 12,
       "summary": "Notes on reviewing, correcting, and steering generated interfaces.",
       "body": [
@@ -139,6 +145,7 @@ window.SITE = {
       "title": "Twenty years in UX: what stayed true",
       "tag": "Writing",
       "year": 2025,
+      "date": "",
       "h": 262,
       "summary": "Lessons that outlasted every tool and trend.",
       "body": [

@@ -12,3 +12,7 @@ npm run dev
 Open `/author/` (Save Draft and Publish write files on that local server). Then commit and push; GitHub Actions publishes the built site.
 
 Drafts stay out of the public listings until you Publish.
+
+## Fonts
+
+`public/assets/css/style.css` loads Fraunces (headings) and DM Sans (body) and sets them through `--font-head` and `--font-body`. Any new page or template gets both fonts as long as it links `assets/css/style.css`; don't add separate font links.

@@ -16,6 +16,7 @@ function loadDir(dir, type) {
         title: data.title || "",
         tag: data.tag || "",
         year: data.year || new Date().getFullYear(),
+        date: data.date || "",
         h: data.h ?? 200,
         summary: data.summary || "",
         draft: !!data.draft,
@@ -40,3 +41,5 @@ export function syncData() {
   writeFileSync(out, js);
   return items;
 }
+
+if (process.argv[1] === fileURLToPath(import.meta.url)) syncData();

@@ -35,6 +35,7 @@ function writeArticle(article) {
     title: article.title || "",
     tag: article.tag || (type === "case" ? "Design systems" : "Writing"),
     year: Number(article.year) || new Date().getFullYear(),
+    date: /^\d{4}-\d{2}-\d{2}$/.test(article.date || "") ? article.date : (article.draft ? "" : new Date().toISOString().slice(0, 10)),
     h: Math.max(0, Math.min(360, Number(article.h) || 200)),
     summary: article.summary || "",
     draft: !!article.draft,
@@ -52,7 +53,7 @@ function writeArticle(article) {
     const old = articlePath(article.previousType, slug);
     if (existsSync(old) && old !== file) unlinkSync(old);
   }
-  return { type, slug, url: type === "case" ? `work/${slug}/` : `blog/${slug}/` };
+  return { type, slug, date: data.date, url: type === "case" ? `work/${slug}/` : `blog/${slug}/` };
 }
 
 function readBody(req) {

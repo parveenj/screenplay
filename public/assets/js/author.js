@@ -42,7 +42,7 @@
 
   function header() {
     $("#site-header").innerHTML = `<div class="bar wrap"><a class="brand" href="index.html">screenplay.design</a>
-      <nav aria-label="Main"><a href="case-studies.html">Case studies</a><a href="blog.html">Blog</a></nav></div>`;
+      <nav aria-label="Main"><a href="blog.html">Blog</a><a href="about.html">About</a></nav></div>`;
     $("#site-footer").innerHTML = `<div class="wrap">Author tools · ${live ? "local writing server" : "preview only"}</div>`;
   }
 
@@ -72,6 +72,7 @@
     item.previousSlug = item.previousSlug || item.slug;
     item.type = $("#f-type").value;
     item.year = +$("#f-year").value || new Date().getFullYear();
+    item.date = $("#f-date").value;
     item.tag = $("#f-tag").value.trim();
     item.h = Math.max(0, Math.min(360, +$("#f-h").value || 200));
     item.title = $("#f-title").value.trim();
@@ -94,6 +95,7 @@
     $("#editor-title").textContent = (item.type === "case" ? "Case study" : "Post") + (item.draft ? " · draft" : "");
     $("#f-type").value = item.type;
     $("#f-year").value = item.year;
+    $("#f-date").value = item.date || "";
     $("#f-tag").value = item.tag || "";
     $("#f-h").value = item.h;
     $("#f-title").value = item.title || "";
@@ -127,6 +129,7 @@
       title: item.title,
       tag: item.tag,
       year: item.year,
+      date: item.date,
       h: item.h,
       summary: item.summary,
       order: item.order,
@@ -161,6 +164,8 @@
     items[current].previousSlug = data.slug;
     items[current].previousType = data.type;
     $("#f-slug").value = data.slug;
+    items[current].date = data.date || "";
+    $("#f-date").value = items[current].date;
     list();
     status(draft ? "Draft saved in src/content/." : "Published. Cards on Home, Case studies, and Blog will link here after the next build.");
   }

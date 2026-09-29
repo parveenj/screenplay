@@ -5,6 +5,7 @@ const story = z.object({
   title: z.string(),
   tag: z.string(),
   year: z.number(),
+  date: z.string().optional(),
   h: z.number(),
   summary: z.string(),
   draft: z.boolean().default(false),

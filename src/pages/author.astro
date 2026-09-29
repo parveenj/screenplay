@@ -11,7 +11,6 @@ const base = import.meta.env.BASE_URL;
   <title>Author</title>
   <base href={base}>
   <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,400;12..96,650;12..96,800&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="assets/css/style.css">
 </head>
 <body data-nav="">
@@ -37,6 +36,7 @@ const base = import.meta.env.BASE_URL;
     <div class="studio-meta">
       <label>Type <select id="f-type"><option value="post">Post</option><option value="case">Case study</option></select></label>
       <label>Year <input id="f-year" type="number"></label>
+      <label>Published date <input id="f-date" type="date"></label>
       <label>Tag <input id="f-tag" placeholder="Writing"></label>
       <label>Color hue (0–360) <input id="f-h" type="number" min="0" max="360"></label>
     </div>

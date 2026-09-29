@@ -14,15 +14,14 @@ function paras(s) {
   <meta name="description" content={item.summary}>
   <base href={base}>
   <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,400;12..96,650;12..96,800&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="assets/css/style.css">
 </head>
 <body data-nav={nav}>
 <header id="site-header"></header>
 <main>
 <article id="detail" data-back={back} data-astro="1">
-  <a class="back" href={back}>Back to list</a>
-  <span class="tag">{item.tag}, {item.year}</span>
+  <a class="back" href={back}>← Back</a>
+  <span class="tag" data-tag={item.tag}>{item.tag}</span>
   <h1>{item.title}</h1>
   <p class="lede">{item.summary}</p>
   <div class="art" style={`--h:${item.h}`} aria-hidden="true"><i class="a"></i><i class="b"></i><i class="c"></i><i class="d"></i></div>
